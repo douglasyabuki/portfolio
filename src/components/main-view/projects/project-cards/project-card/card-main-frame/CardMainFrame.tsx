@@ -29,7 +29,7 @@ export default function CardMainFrame({
         </h2>
         <div className="flex h-5 w-auto justify-center gap-2 lg:h-6 lg:gap-3 2xl:h-9">
           {technologies.map((filteredSkill) => (
-            <a href={filteredSkill.skillUrl} key={filteredSkill.id}>
+            <a href={filteredSkill.skillUrl} key={filteredSkill.skillName}>
               {filteredSkill.skillImg ? (
                 <img
                   className="cover h-5 w-5 translate-y-1 opacity-80 hover:opacity-100 lg:h-6 lg:w-6 2xl:h-9 2xl:w-9"
