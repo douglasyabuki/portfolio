@@ -46,7 +46,7 @@ export default function CardMainFrame({
         </div>
       </div>
       <div className="flex h-full w-full justify-center opacity-60 lg:px-4 xl:py-3">
-        <h3 className="xs:text-lg md:text-xl lg:max-w-[400px] lg:text-lg xl:text-xl 2xl:text-3xl">
+        <h3 className="xs:text-lg md:text-xl lg:max-w-[400px] lg:text-lg xl:text-xl 2xl:text-2xl">
           {projectDescription}
         </h3>
       </div>

@@ -18,8 +18,8 @@ export default function ProjectCards({ list }: Props) {
         </h3>
       </div>
       <div className='flex-col space-y-20 items-center justify-center'>
-        {list.map((item) => (
-          <ProjectCard key={item.id} item={item}></ProjectCard>
+        {list.map((item, id) => (
+          <ProjectCard key={id} id={id} item={item}></ProjectCard>
         ))}
       </div>
     </div>

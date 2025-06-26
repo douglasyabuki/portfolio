@@ -4,10 +4,17 @@ import { IProject } from '../../../../../interfaces/IProject';
 // Exports the list of projects to Projects.tsx
 export const projectList: IProject[] = [
   {
-    id: 0,
+    name: 'Brevly',
+    description: 'A full-stack URL shortener app with a PostgreSQL database hosted on Render. The backend uses Node.js, Drizzle, and Fastify, and is deployed on Render. The frontend is built with Vite, React, and TypeScript, and is deployed on Vercel.',
+    imageSrc: '/proj-brevly.jpg',
+    imageAlt: 'Screenshot of my brevly project',
+    url: 'https://douglas-yabuki-brevly.vercel.app/',
+    gitUrl: 'https://github.com/douglasyabuki/brevly/',
+    techs: ['HTML5', 'Tailwind', 'TypeScript', 'React', 'Vite', 'NodeJS', 'PostgreSQL', 'Docker'],
+  },
+  {
     name: '3D Tic-Tac-Toe',
-    description:
-      'A 3D tic-tac-toe game created with Solid.js.',
+    description: 'A 3D tic-tac-toe game created with Solid.js.',
     imageSrc: '/proj-3d-tic-tac-toe.jpg',
     imageAlt: 'Screenshot of my 3D tic-tac-toe project',
     url: 'https://solid-3d-tic-tac-toe.vercel.app/',
@@ -15,7 +22,6 @@ export const projectList: IProject[] = [
     techs: ['HTML5', 'Tailwind', 'TypeScript', 'Solidjs', 'Vite'],
   },
   {
-    id: 1,
     name: 'YujInsights',
     description:
       'A learning hub still under development. Vite (React + TypeScript) and Vercel PostgreSQL as database.',
@@ -26,7 +32,6 @@ export const projectList: IProject[] = [
     techs: ['HTML5', 'Tailwind', 'TypeScript', 'React', 'Vite', 'PostgreSQL'],
   },
   {
-    id: 2,
     name: 'Rest Countries API',
     description:
       'Front End Mentor challenge built in Next (AppRouter) and deployed on Vercel. Includes mock API response. There is a hidden game in this project.',
@@ -37,7 +42,6 @@ export const projectList: IProject[] = [
     techs: ['HTML5', 'Tailwind', 'TypeScript', 'React', 'NextJS'],
   },
   {
-    id: 3,
     name: 'Portfolio',
     description:
       'A portfolio website made with React + TypeScript + Tailwind made with Vite and deployed on Vercel',
@@ -48,7 +52,6 @@ export const projectList: IProject[] = [
     techs: ['HTML5', 'Tailwind', 'TypeScript', 'React', 'Vite'],
   },
   {
-    id: 4,
     name: 'Netflix Clone',
     description:
       "Legally cloning Netflix's website with React + TypeScript + Tailwind on Vite. Consuming API from themoviedb.org.",
@@ -59,7 +62,6 @@ export const projectList: IProject[] = [
     techs: ['HTML5', 'Tailwind', 'TypeScript', 'React', 'Vite'],
   },
   {
-    id: 5,
     name: 'Sudoku Solver',
     description: 'React + TypeScript sudoku solver app using Next.js. Fetches data from own API.',
     imageSrc: '/proj-sudoku.jpg',
@@ -69,7 +71,6 @@ export const projectList: IProject[] = [
     techs: ['HTML5', 'CSS3', 'TypeScript', 'React', 'NextJS'],
   },
   {
-    id: 6,
     name: 'Memory Game',
     description: 'A React + TypeScript memory game using Vite.',
     imageSrc: '/proj-memory.jpg',
@@ -79,7 +80,6 @@ export const projectList: IProject[] = [
     techs: ['HTML5', 'CSS3', 'TypeScript', 'React', 'Vite'],
   },
   {
-    id: 7,
     name: 'Tic tac toe',
     description: 'A simple React + TypeScript Tic-Tac-Toe game using Vite.',
     imageSrc: '/proj-tic.jpg',
@@ -89,7 +89,6 @@ export const projectList: IProject[] = [
     techs: ['HTML5', 'CSS3', 'TypeScript', 'React', 'Vite'],
   },
   {
-    id: 8,
     name: 'Todo list',
     description: 'The classic todo list using React + TypeScript and Vite.',
     imageSrc: '/proj-todo.jpg',
@@ -99,7 +98,6 @@ export const projectList: IProject[] = [
     techs: ['HTML5', 'CSS3', 'TypeScript', 'React', 'Vite'],
   },
   {
-    id: 9,
     name: 'Rock Paper Scissors Lizard & Spock',
     description: 'Game suggested by Sheldon (Big Bang Theory) built in Angular.',
     imageSrc: '/proj-rock.jpg',

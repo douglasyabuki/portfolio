@@ -15,16 +15,17 @@ import { useState } from 'react';
 // Props destructuring
 interface Props {
   item: IProject;
+  id: number;
 }
 
 // Project Card main function
-export default function ProjectCard({ item }: Props) {
+export default function ProjectCard({ item, id }: Props) {
   // Setting initial state to extensible card
   const [isExtended, setIsExtended] = useState<boolean>(false);
 
   // Conditional styling based on id being even or odd to avoid nesting ternary operations
-  let backgroundChoose = item.id % 2 === 0 ? `custom-bg-1` : `custom-bg-2`;
-  let shouldTranslate = item.id % 2 === 0 ? `lg:-translate-x-20` : `lg:translate-x-20`;
+  let backgroundChoose = id % 2 === 0 ? `custom-bg-1` : `custom-bg-2`;
+  let shouldTranslate = id % 2 === 0 ? `lg:-translate-x-20` : `lg:translate-x-20`;
   let translateAndBackground = isExtended
     ? `cursor-default hover:shadow-outer ${backgroundChoose}`
     : `bg-background-div1 hover:-translate-y-5 hover:shadow-lg hover:shadow-translucid-black ${shouldTranslate}`;
