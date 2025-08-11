@@ -4,8 +4,19 @@ import { IProject } from '../../../../../interfaces/IProject';
 // Exports the list of projects to Projects.tsx
 export const projectList: IProject[] = [
   {
+    name: 'Sudoku Solver',
+    description:
+      'Vite + React + TypeScript sudoku solver app. Has a step by step option that allows you to see the brute-force solution in action.',
+    imageSrc: '/proj-sudoku.jpg',
+    imageAlt: 'Screenshot of my sudoku-solver project',
+    url: 'https://douglas-yabuki-sudoku-solver.vercel.app/',
+    gitUrl: 'https://github.com/douglasyabuki/sudoku-solver',
+    techs: ['HTML5', 'Tailwind', 'TypeScript', 'React', 'Vite'],
+  },
+  {
     name: 'Brevly',
-    description: 'A full-stack URL shortener app with a PostgreSQL database hosted on Render. The backend uses Node.js, Drizzle, and Fastify, and is deployed on Render. The frontend is built with Vite, React, and TypeScript, and is deployed on Vercel.',
+    description:
+      'A full-stack URL shortener app with a PostgreSQL database hosted on Render. The backend uses Node.js, Drizzle, and Fastify, and is deployed on Render. The frontend is built with Vite, React, and TypeScript, and is deployed on Vercel.',
     imageSrc: '/proj-brevly.jpg',
     imageAlt: 'Screenshot of my brevly project',
     url: 'https://douglas-yabuki-brevly.vercel.app/',
@@ -60,15 +71,6 @@ export const projectList: IProject[] = [
     url: 'https://netflix-clone-pq9zd92oa-douglasyabuki.vercel.app/',
     gitUrl: 'https://github.com/douglasyabuki/netflix-clone',
     techs: ['HTML5', 'Tailwind', 'TypeScript', 'React', 'Vite'],
-  },
-  {
-    name: 'Sudoku Solver',
-    description: 'React + TypeScript sudoku solver app using Next.js. Fetches data from own API.',
-    imageSrc: '/proj-sudoku.jpg',
-    imageAlt: 'Screenshot of my sudoku-solver project',
-    url: 'https://my-sudoku-solver-douglasyabuki.vercel.app/',
-    gitUrl: 'https://github.com/douglasyabuki/my-sudoku-solver',
-    techs: ['HTML5', 'CSS3', 'TypeScript', 'React', 'NextJS'],
   },
   {
     name: 'Memory Game',
