@@ -1,3 +1,3 @@
 export const App = () => {
-  return <></>;
+  return <main className="page text-white"></main>;
 };

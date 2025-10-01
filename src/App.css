@@ -1,6 +1,105 @@
-@import "tailwindcss";
+@import 'tailwindcss';
+
+@theme {
+  --font-display: 'Sansita', sans-serif;
+
+  /* Breakpoints */
+  --breakpoint-xs: 30rem;
+  --breakpoint-2xl: 100rem;
+  --breakpoint-3xl: 120rem;
+  --breakpoint-4xl: 150rem;
+
+  /* Font-sizes */
+  --text-xxs: 0.6rem;
+  --text-xxs--line-height: 0.9rem;
+  --text-xxser: 0.45rem;
+  --text-xxser--line-height: 0.62rem;
+  --text-xxsest: 0.3rem;
+  --text-xxsest--line-height: 0.45rem;
+
+  --color-primary-background: #23202a;
+  --color-secondary-background: #1e1b24;
+  --color-primary-black: #19181f;
+  --color-translucid-black: #0000005e;
+}
+
+@layer components {
+  .page {
+    @apply relative flex h-dvh w-screen flex-col;
+  }
+
+  .shaped-ruppee {
+    -webkit-clip-path: polygon(25% 0, 100% 0, 100% 75%, 75% 100%, 0 100%, 0% 25%);
+    clip-path: polygon(25% 0, 100% 0, 100% 75%, 75% 100%, 0 100%, 0% 25%);
+  }
+
+  .shaped-message {
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+  }
+
+  .shaped-right {
+    -webkit-clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+  }
+
+  .shaped-left {
+    -webkit-clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+    clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+  }
+  .custom-bg-primary {
+    background: linear-gradient(110deg, #23202a 60%, #1e1b24 60%);
+  }
+
+  .custom-bg-secondary {
+    background: linear-gradient(110deg, #1e1b24 60%, #23202a 60%);
+  }
+
+  .custom-bg-divider-primary {
+    background: linear-gradient(176.5deg, #19181f 50%, #1e1b24 50%);
+  }
+
+  .custom-bg-divider-secondary {
+    background: linear-gradient(4.5deg, #19181f 50%, #1e1b24 50%);
+  }
+
+  /* For Webkit-based browsers (Chrome, Safari and Opera) */
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* For IE, Edge and Firefox */
+  .scrollbar-hide {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+
+  .grid-parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+  }
+
+  .grid-div1 {
+    grid-area: 1 / 1 / 3 / 2;
+  }
+
+  .grid-div2 {
+    grid-area: 1 / 2 / 2 / 3;
+  }
+
+  .grid-div3 {
+    grid-area: 2 / 2 / 3 / 3;
+  }
+}
 
 #root {
-  font-family: system-ui, Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
   margin: 0 auto;
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
