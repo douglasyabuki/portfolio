@@ -2,7 +2,6 @@
 
 @theme {
   --font-display: 'Sansita', sans-serif;
-
   /* Breakpoints */
   --breakpoint-xs: 30rem;
   --breakpoint-2xl: 100rem;
@@ -17,15 +16,16 @@
   --text-xxsest: 0.3rem;
   --text-xxsest--line-height: 0.45rem;
 
-  --color-primary-background: #23202a;
-  --color-secondary-background: #1e1b24;
-  --color-primary-black: #19181f;
+  --color-background-primary: #23202a;
+  --color-background-secondary: #1e1b24;
+  --color-black-primary: #19181f;
   --color-translucid-black: #0000005e;
+  --color-white-primary: #fafafa;
 }
 
 @layer components {
   .page {
-    @apply relative flex h-dvh w-screen flex-col;
+    @apply relative flex h-dvh w-screen flex-col overflow-x-hidden overflow-y-auto;
   }
 
   .shaped-ruppee {
@@ -47,20 +47,39 @@
     -webkit-clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
     clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
   }
-  .custom-bg-primary {
-    background: linear-gradient(110deg, #23202a 60%, #1e1b24 60%);
+
+  .bg-primary {
+    background: linear-gradient(
+      110deg,
+      var(--color-background-primary) 60%,
+      var(--color-background-secondary) 60%
+    );
   }
 
-  .custom-bg-secondary {
-    background: linear-gradient(110deg, #1e1b24 60%, #23202a 60%);
+  .bg-secondary {
+    background: linear-gradient(
+      110deg,
+      var(--color-background-secondary) 60%,
+      var(--color-background-primary) 60%
+    );
   }
 
-  .custom-bg-divider-primary {
-    background: linear-gradient(176.5deg, #19181f 50%, #1e1b24 50%);
+  .bg-divider-primary {
+    background: linear-gradient(
+      176.5deg,
+      var(--color-black-primary) 50%,
+      var(--color-background-secondary) 50%
+    );
+    @apply h-32 w-screen;
   }
 
-  .custom-bg-divider-secondary {
-    background: linear-gradient(4.5deg, #19181f 50%, #1e1b24 50%);
+  .bg-divider-secondary {
+    background: linear-gradient(
+      4.5deg,
+      var(--color-black-primary) 50%,
+      var(--color-background-secondary) 50%
+    );
+    @apply h-32 w-screen;
   }
 
   /* For Webkit-based browsers (Chrome, Safari and Opera) */
