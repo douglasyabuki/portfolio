@@ -1,5 +1,5 @@
+import { scrollToId } from '@/utils/dom-utils';
 import { navigationList } from '@/utils/navigation-list';
-import { scrollOnClick } from '@/utils/scroll-on-click';
 
 export const Navigation = () => {
   return (
@@ -12,7 +12,7 @@ export const Navigation = () => {
           >
             <a
               href={link}
-              onClick={() => scrollOnClick(link)}
+              onClick={() => scrollToId(link)}
               className="flex w-24 items-center justify-center gap-1"
             >
               <span className="size-5">{Icon}</span>
