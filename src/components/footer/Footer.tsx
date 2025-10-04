@@ -5,7 +5,7 @@ import { Platforms } from './platforms/Platforms';
 
 export const Footer = () => {
   return (
-    <footer className="bg-black-primary relative flex h-auto min-w-full flex-col gap-4 px-8 py-4 sm:px-14 md:px-16 lg:px-20 xl:px-32">
+    <footer className="bg-black-primary px-corners relative flex h-auto w-screen flex-col gap-4 py-4 duration-150">
       <Platforms />
       <div className="flex flex-col gap-4 py-2">
         <Navigation />
