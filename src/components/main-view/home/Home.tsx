@@ -1,7 +1,7 @@
 export const Home = () => {
   return (
     <section
-      id="#home"
+      id="home"
       className="bg-section-primary section"
     >
       Home

@@ -12,7 +12,13 @@ export const Navigation = () => {
           key={name}
           className="text-white-primary/50 hover:text-white-primary/80 flex justify-start text-left text-sm transition-all duration-150 hover:underline lg:text-lg"
         >
-          <a href={link} onClick={() => scrollToId(link)}>
+          <a
+            href={link}
+            onClick={(e) => {
+              e.preventDefault();
+              scrollToId(link);
+            }}
+          >
             {name}
           </a>
         </div>

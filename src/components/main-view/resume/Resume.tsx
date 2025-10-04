@@ -1,7 +1,7 @@
 export const Resume = () => {
   return (
     <section
-      id="#resume"
+      id="resume"
       className="bg-section-primary section"
     >
       Resume

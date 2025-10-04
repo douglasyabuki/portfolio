@@ -1,7 +1,7 @@
 export const About = () => {
   return (
     <section
-      id="#about"
+      id="about"
       className="bg-section-secondary section"
     >
       About

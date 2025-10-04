@@ -1,7 +1,7 @@
 export const Contact = () => {
   return (
     <section
-      id="#contact"
+      id="contact"
       className="bg-section-primary section"
     >
       Contact

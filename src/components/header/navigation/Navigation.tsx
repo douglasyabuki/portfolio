@@ -12,7 +12,10 @@ export const Navigation = () => {
           >
             <a
               href={link}
-              onClick={() => scrollToId(link)}
+              onClick={(e) => {
+                e.preventDefault();
+                scrollToId(link);
+              }}
               className="flex w-24 items-center justify-center gap-1"
             >
               <span className="size-5">{Icon}</span>
