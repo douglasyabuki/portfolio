@@ -1,3 +1,4 @@
+import { scrollToId } from '@/utils/dom-utils';
 import { navigationList } from '@/utils/navigation-list';
 
 export const Navigation = () => {
@@ -11,7 +12,7 @@ export const Navigation = () => {
           key={name}
           className="text-white-primary/50 hover:text-white-primary/80 flex justify-start text-left text-sm transition-all duration-150 hover:underline lg:text-lg"
         >
-          <a href={link} onClick={() => {}}>
+          <a href={link} onClick={() => scrollToId(link)}>
             {name}
           </a>
         </div>
