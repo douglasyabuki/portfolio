@@ -5,7 +5,30 @@ interface Icon extends SVGProps<SVGSVGElement> {
   className?: string;
 }
 
-export const Icons = {
+type IconComponent = (props: Icon) => React.ReactElement;
+
+export type IconOption =
+  | 'Bars'
+  | 'Book'
+  | 'CircleInfo'
+  | 'CircleUser'
+  | 'Envelope'
+  | 'Exclamation'
+  | 'File'
+  | 'Gamepad'
+  | 'Github'
+  | 'House'
+  | 'Lightbulb'
+  | 'LinkedIn'
+  | 'Map'
+  | 'MartiniGlass'
+  | 'PaperPlane'
+  | 'Rocket'
+  | 'User'
+  | 'VCard'
+  | 'Whatsapp';
+
+export const Icons: Record<IconOption, IconComponent> = {
   Bars: ({ className, ...props }: Icon) => (
     <svg
       xmlns="http://www.w3.org/2000/svg"
