@@ -26,7 +26,7 @@ export const MainView = () => {
   );
 
   return (
-    <div className="flex h-full w-screen flex-col items-center" data-active={activeId ?? ''}>
+    <div className="flex h-full w-screen flex-col items-center py-12" data-active={activeId ?? ''}>
       <Home />
       <div className="bg-section-divider-primary" />
       <About />
