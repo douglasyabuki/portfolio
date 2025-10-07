@@ -94,6 +94,10 @@
     @apply relative flex h-auto min-h-dvh w-screen flex-col overflow-x-hidden overflow-y-auto;
   }
 
+  .p-containers {
+    @apply p-2 sm:p-7 md:p-8 lg:p-10;
+  }
+
   .px-corners {
     @apply px-8 sm:px-14 md:px-16 lg:px-20 xl:px-32;
   }
@@ -110,7 +114,7 @@
   }
 
   .section {
-    @apply flex h-full w-screen flex-col px-4 py-32 sm:px-7 md:px-8 lg:px-10;
+    @apply flex h-full w-screen flex-col px-4 py-20 sm:px-7 md:px-8 lg:px-10 lg:py-32 xl:px-16;
   }
 
   .subsection {
