@@ -53,7 +53,7 @@ export const ZoomOutButton = ({
       <div
         className={twMerge(
           'ease-in-primary absolute right-0 bottom-[0.6058rem] left-0 z-[2] flex translate-y-4 flex-col items-center justify-center gap-0 text-center leading-0 opacity-0 transition-all duration-[400ms] md:bottom-[0.875rem] md:gap-[0.125rem] md:leading-[1.3]',
-          'group-hover:translate-y-1 group-hover:opacity-100 md:group-hover:translate-y-[0.1875rem] select-none',
+          'select-none group-hover:translate-y-1 group-hover:opacity-100 md:group-hover:translate-y-[0.1875rem]',
         )}
       >
         <span

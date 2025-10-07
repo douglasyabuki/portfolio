@@ -1,4 +1,4 @@
-import { useEffect, useRef } from "react";
+import { useEffect, useRef } from 'react';
 
 export const useOnMount = (fn: () => void) => {
   const callBack = useRef(fn);

@@ -35,7 +35,7 @@ export const useSectionsObserver = (
         threshold: options?.threshold ?? defaultThresholds,
         root: options?.root ?? null,
         rootMargin: options?.rootMargin ?? '0px',
-      }
+      },
     );
 
     elements.forEach((el) => obs.observe(el));
