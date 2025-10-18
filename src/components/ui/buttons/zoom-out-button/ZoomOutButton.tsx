@@ -7,7 +7,6 @@ interface ZoomOutButton {
   description?: string;
   isToggled?: boolean;
   onClick: () => void;
-  buttonSize?: number;
   className?: string;
   iconName?: IconOption;
 }
@@ -29,6 +28,7 @@ export const ZoomOutButton = ({
         'hover:before:[transform:translateX(-50%)_scale(1)]',
         'hover:-translate-x-[0.25rem] hover:-translate-y-[0.25rem] hover:shadow-lg',
         'active:translate-x-[0.125rem] active:translate-y-[0.125rem] active:shadow-sm',
+        isToggled ? 'bg-[#316b58]' : 'bg-[var(--color-background-primary)]',
         className,
       )}
       onClick={onClick}
@@ -45,7 +45,7 @@ export const ZoomOutButton = ({
         <DynamicIcon
           iconName={iconName}
           className={twMerge(
-            'ease-in-primary openai-icon size-[1.8173rem] transition-all duration-[400ms] md:size-[3.375rem]',
+            'ease-in-primary size-[1.8173rem] transition-all duration-[400ms] md:size-[3.375rem]',
             hasTitleAndDescription ? 'group-hover:scale-[60%]' : 'group-hover:scale-[80%]',
           )}
         />

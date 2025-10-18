@@ -25,6 +25,11 @@
   --ease-in-primary: cubic-bezier(0.68, -0.55, 0.265, 1.55);
   --ease-in-secondary: cubic-bezier(0.175, 0.885, 0.32, 1.275);
   --ease-in-tertiary: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+  --inset-shadow-weak-green: inset 0 5px 10px 0 rgba(0, 255, 0, 0.5);
+  --inset-shadow-strong-green: inset 0px 10px 20px 2px rgba(0, 255, 0, 0.5);
+  --inset-shadow-weak-red: inset 0 5px 10px 0 rgba(255, 0, 0, 0.5);
+  --inset-shadow-strong-red: inset 0px 10px 20px 2px rgba(255, 0, 0, 0.5);
 }
 
 @layer components {
@@ -114,11 +119,11 @@
   }
 
   .section {
-    @apply flex h-full w-screen flex-col px-4 py-20 sm:px-7 md:px-8 lg:px-10 lg:py-32 xl:px-16;
+    @apply flex h-full w-screen flex-col gap-10 px-4 py-20 sm:px-7 md:px-8 lg:gap-16 lg:px-10 lg:py-32 xl:px-16;
   }
 
   .subsection {
-    @apply flex flex-col px-4 py-20 sm:px-7 md:px-8 lg:px-10;
+    @apply flex flex-col px-4 py-20 sm:px-7 md:px-8 lg:px-10 xl:px-16;
   }
 
   .section-title {
