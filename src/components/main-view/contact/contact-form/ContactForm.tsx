@@ -1,12 +1,20 @@
+import { TextButton } from '@/components/ui/buttons/text-button/TextButton';
+import { Collapsible } from '@/components/ui/collapsible/Collapsible';
 import { TextArea } from '@/components/ui/input/text-area/TextArea';
 import { TextInput } from '@/components/ui/input/text-input/TextInput';
 import { Label } from '@/components/ui/label/Label';
 import { useForm } from '@/hooks/use-form';
+import { Icons } from '@/icons/Icons';
 import { sendEmail } from '@/libs/emailjs/emailjs';
 import { validateEmail, validateFullName, validateMessage } from '@/utils/form-validators';
+import { useState } from 'react';
+import { twMerge } from 'tailwind-merge';
 import { SubmitButton } from './submit-button/SubmitButton';
 
+type MessageStatus = 'not sent' | 'sending' | 'sent' | 'error';
+
 export const ContactForm = () => {
+  const [messageStatus, setMessageStatus] = useState<MessageStatus>('not sent');
   const { values, errors, handleChange, handleSubmit, onValidate } = useForm({
     initialValues: {
       name: '',
@@ -19,7 +27,17 @@ export const ContactForm = () => {
       message: validateMessage,
     },
     onSubmit: () => {
-      sendEmail({ user_name: values.name, user_email: values.email, message: values.message });
+      setMessageStatus('sending');
+      sendEmail({
+        values: { user_name: values.name, user_email: values.email, message: values.message },
+        onSuccess: () => {
+          setMessageStatus('sent');
+        },
+        onError: (err) => {
+          console.log({ err });
+          setMessageStatus('error');
+        },
+      });
     },
   });
 
@@ -28,13 +46,45 @@ export const ContactForm = () => {
       <h1 className="text-center! text-3xl font-bold duration-150 md:text-4xl lg:text-left xl:text-5xl 2xl:text-6xl">
         Leave a message
       </h1>
-      <div className="flex w-full items-center justify-center py-20 lg:py-32">
+      <div className="relative flex w-full max-w-screen items-start justify-center overflow-hidden py-20 lg:py-32">
+        {/* Error message */}
+        <Collapsible isCollapsed={messageStatus !== 'error'} className="absolute duration-300">
+          <span className="flex w-[18.75rem] flex-col items-center gap-8 rounded-lg border-2 border-dashed border-red-600/50 px-4 py-12 text-center duration-300 ease-out">
+            <h3 className="text-semibold text-3xl xl:text-4xl">Error sending message</h3>
+            <span className="size-24 text-red-600">
+              <Icons.CircleExclamation />
+            </span>
+            <TextButton onClick={() => setMessageStatus('not sent')} variant="secondary">
+              Try again later
+            </TextButton>
+          </span>
+        </Collapsible>
+
+        {/* Success message */}
+        <Collapsible isCollapsed={messageStatus !== 'sent'} className="absolute duration-300">
+          <span className="flex w-[18.75rem] flex-col items-center gap-8 rounded-lg border-2 border-dashed border-green-600/50 px-4 py-12 text-center duration-300 ease-out">
+            <h3 className="text-semibold text-3xl xl:text-4xl">Message sent!</h3>
+            <span className="size-24 text-green-600">
+              <Icons.CircleCheck />
+            </span>
+            <TextButton onClick={() => setMessageStatus('not sent')} variant="secondary">
+              Send another message
+            </TextButton>
+          </span>
+        </Collapsible>
+
+        {/* emailjs form */}
         <form
           onSubmit={(e: React.FormEvent<HTMLFormElement>) => {
             e.preventDefault();
             handleSubmit();
           }}
-          className="bg-background-primary flex w-min min-w-[18.75rem] flex-col gap-4 rounded-xl px-4 py-6 shadow-md shadow-black/10 duration-150 hover:shadow-xl"
+          className={twMerge(
+            'bg-background-primary flex w-[18.75rem] flex-col gap-4 rounded-xl px-4 py-6 shadow-md shadow-black/10 duration-300 ease-out hover:shadow-xl',
+            ['not sent', 'sending'].includes(messageStatus)
+              ? 'opacity-100'
+              : 'translate-x-[200vw] opacity-0',
+          )}
         >
           <Label label="Full name" error={errors.name}>
             <TextInput
@@ -69,7 +119,9 @@ export const ContactForm = () => {
               handleSubmit();
             }}
             disabled={
-              Object.values(values).some((v) => !v.length) || Object.values(errors).some(Boolean)
+              Object.values(values).some((v) => !v.length) ||
+              Object.values(errors).some(Boolean) ||
+              messageStatus !== 'not sent'
             }
           />
         </form>

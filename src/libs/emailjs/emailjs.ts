@@ -7,11 +7,13 @@ interface SendEmailValues {
   message: string;
 }
 
-export const sendEmail = async (
-  values: SendEmailValues,
-  onSuccess?: (result: EmailJSResponseStatus) => void,
-  onError?: (error: unknown) => void,
-) => {
+interface SendEmailParams {
+  values: SendEmailValues;
+  onSuccess?: (result: EmailJSResponseStatus) => void;
+  onError?: (error: unknown) => void;
+}
+
+export const sendEmail = async ({ values, onSuccess, onError }: SendEmailParams) => {
   try {
     const result = await emailjs.send(
       envs.serviceId,
