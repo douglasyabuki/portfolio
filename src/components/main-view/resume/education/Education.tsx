@@ -22,7 +22,7 @@ export const Education = () => {
       <h1 className="w-auto text-center text-3xl font-bold md:text-4xl lg:text-left xl:text-5xl 2xl:text-6xl">
         Education
       </h1>
-      <div className="flex w-full flex-col items-center justify-between py-20 lg:grid lg:grid-cols-2 lg:gap-20 lg:py-32">
+      <div className="flex w-full flex-col items-center justify-between gap-12 py-20 lg:grid lg:grid-cols-2 lg:gap-20 lg:py-32">
         <div className="flex flex-col gap-8">
           {educationList.map(({ degree, iconName, href, institution, status }) => (
             <EducationCard

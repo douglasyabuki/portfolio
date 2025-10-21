@@ -16,7 +16,7 @@ export const EducationCard = ({ content, iconName, status, title, href }: Educat
   return (
     <div
       className={twMerge(
-        'bg-background-primary group/card text-white-primary flex h-auto max-h-[10.625rem] min-h-[8.75rem] min-w-fit origin-left scale-95 items-start justify-start gap-2 rounded-xl p-4 shadow-md shadow-black/10 duration-150',
+        'bg-background-primary group/card text-white-primary flex h-auto max-h-[10.625rem] min-h-[8.75rem] min-w-fit scale-95 items-start justify-start gap-2 rounded-xl p-4 shadow-md shadow-black/10 duration-150 lg:origin-left',
         'sm:gap-4 sm:even:translate-x-10',
         'lg:min-h-[6.875rem]',
         'xl:p-4',
