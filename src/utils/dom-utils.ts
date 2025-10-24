@@ -13,7 +13,7 @@ export const getCurrentLocationId = () => {
   return typeof window !== 'undefined' ? normalizeId(window.location.hash) : '';
 };
 
-export const scrollToId = (idOrHash: string, updateHash = true, offsetPx = -64) => {
+export const scrollToId = (idOrHash: string, updateHash = true, offsetPx = -32) => {
   const id = normalizeId(idOrHash);
   if (!id || typeof document === 'undefined') return;
   const el = document.getElementById(id);
