@@ -1,0 +1,2314 @@
+{
+    "aarch64": {
+        "name": "AArch64",
+        "url": "https://developer.arm.com/architectures/a-profile"
+    },
+    "adonisjs": {
+        "name": "AdonisJS",
+        "url": "https://adonisjs.com"
+    },
+    "aerospike": {
+        "name": "Aerospike",
+        "url": "https://aerospike.com"
+    },
+    "aframe": {
+        "name": "AFrame",
+        "url": "https://aframe.io"
+    },
+    "aftereffects": {
+        "name": "AfterEffects",
+        "url": "https://www.adobe.com/products/aftereffects.html"
+    },
+    "akka": {
+        "name": "Akka",
+        "url": "https://akka.io"
+    },
+    "algolia": {
+        "name": "Algolia",
+        "url": "https://www.algolia.com"
+    },
+    "almalinux": {
+        "name": "AlmaLinux",
+        "url": "https://almalinux.org"
+    },
+    "alpinejs": {
+        "name": "AlpineJS",
+        "url": "https://alpinejs.dev"
+    },
+    "amazonwebservices": {
+        "name": "",
+        "url": "https://aws.amazon.com"
+    },
+    "anaconda": {
+        "name": "Anaconda",
+        "url": "https://www.anaconda.com"
+    },
+    "android": {
+        "name": "Android",
+        "url": "https://www.android.com"
+    },
+    "androidstudio": {
+        "name": "AndroidStudio",
+        "url": "https://developer.android.com/studio"
+    },
+    "angular": {
+        "name": "Angular",
+        "url": "https://angular.io"
+    },
+    "angularjs": {
+        "name": "AngularJS",
+        "url": "https://angularjs.org"
+    },
+    "angularmaterial": {
+        "name": "AngularMaterial",
+        "url": "https://material.angular.io"
+    },
+    "ansible": {
+        "name": "Ansible",
+        "url": "https://www.ansible.com"
+    },
+    "ansys": {
+        "name": "Ansys",
+        "url": "https://www.ansys.com"
+    },
+    "antdesign": {
+        "name": "AntDesign",
+        "url": "https://ant.design"
+    },
+    "apache": {
+        "name": "Apache",
+        "url": "https://www.apache.org"
+    },
+    "apacheairflow": {
+        "name": "ApacheAirflow",
+        "url": "https://airflow.apache.org"
+    },
+    "apachekafka": {
+        "name": "ApacheKafka",
+        "url": "https://kafka.apache.org"
+    },
+    "apachespark": {
+        "name": "ApacheSpark",
+        "url": "https://spark.apache.org"
+    },
+    "apex": {
+        "name": "Apex",
+        "url": "https://developer.salesforce.com/docs/platform/apex"
+    },
+    "apl": {
+        "name": "APL",
+        "url": "https://www.dyalog.com"
+    },
+    "apollographql": {
+        "name": "ApolloGraphQL",
+        "url": "https://www.apollographql.com"
+    },
+    "appcelerator": {
+        "name": "Appcelerator",
+        "url": "https://www.axway.com/en/products/amplify-app-development"
+    },
+    "apple": {
+        "name": "Apple",
+        "url": "https://www.apple.com"
+    },
+    "appwrite": {
+        "name": "Appwrite",
+        "url": "https://appwrite.io"
+    },
+    "archlinux": {
+        "name": "ArchLinux",
+        "url": "https://archlinux.org"
+    },
+    "arduino": {
+        "name": "Arduino",
+        "url": "https://www.arduino.cc"
+    },
+    "argocd": {
+        "name": "ArgoCD",
+        "url": "https://argo-cd.readthedocs.io"
+    },
+    "artixlinux": {
+        "name": "ArtixLinux",
+        "url": "https://artixlinux.org"
+    },
+    "astro": {
+        "name": "Astro",
+        "url": "https://astro.build"
+    },
+    "atom": {
+        "name": "Atom",
+        "url": "https://github.blog/2022-06-08-sunsetting-atom/"
+    },
+    "awk": {
+        "name": "AWK",
+        "url": "https://www.gnu.org/software/gawk/"
+    },
+    "axios": {
+        "name": "",
+        "url": "https://axios-http.com"
+    },
+    "azure": {
+        "name": "Azure",
+        "url": "https://azure.microsoft.com"
+    },
+    "azuredevops": {
+        "name": "AzureDevOps",
+        "url": "https://azure.microsoft.com/services/devops/"
+    },
+    "azuresqldatabase": {
+        "name": "AzureSQLDatabase",
+        "url": "https://azure.microsoft.com/services/sql-database/"
+    },
+    "babel": {
+        "name": "Babel",
+        "url": "https://babeljs.io"
+    },
+    "babylonjs": {
+        "name": "BabylonJS",
+        "url": "https://www.babylonjs.com"
+    },
+    "backbonejs": {
+        "name": "BackboneJS",
+        "url": "https://backbonejs.org"
+    },
+    "ballerina": {
+        "name": "Ballerina",
+        "url": "https://ballerina.io"
+    },
+    "bamboo": {
+        "name": "Bamboo",
+        "url": "https://www.atlassian.com/software/bamboo"
+    },
+    "bash": {
+        "name": "Bash",
+        "url": "https://www.gnu.org/software/bash/"
+    },
+    "bazel": {
+        "name": "Bazel",
+        "url": "https://bazel.build"
+    },
+    "beats": {
+        "name": "Beats",
+        "url": "https://www.elastic.co/beats"
+    },
+    "behance": {
+        "name": "Behance",
+        "url": "https://www.behance.net"
+    },
+    "bevyengine": {
+        "name": "BevyEngine",
+        "url": "https://bevyengine.org"
+    },
+    "biome": {
+        "name": "Biome",
+        "url": "https://biomejs.dev"
+    },
+    "bitbucket": {
+        "name": "Bitbucket",
+        "url": "https://bitbucket.org"
+    },
+    "blazor": {
+        "name": "Blazor",
+        "url": "https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor"
+    },
+    "blender": {
+        "name": "Blender",
+        "url": "https://www.blender.org"
+    },
+    "bootstrap": {
+        "name": "Bootstrap",
+        "url": "https://getbootstrap.com"
+    },
+    "bower": {
+        "name": "Bower",
+        "url": "https://bower.io"
+    },
+    "browserstack": {
+        "name": "BrowserStack",
+        "url": "https://www.browserstack.com"
+    },
+    "bulma": {
+        "name": "",
+        "url": "https://bulma.io"
+    },
+    "bun": {
+        "name": "Bun",
+        "url": "https://bun.sh"
+    },
+    "c": {
+        "name": "C",
+        "url": "https://www.open-std.org/jtc1/sc22/wg14/"
+    },
+    "cairo": {
+        "name": "Cairo",
+        "url": "https://www.cairographics.org"
+    },
+    "cakephp": {
+        "name": "CakePHP",
+        "url": "https://cakephp.org"
+    },
+    "canva": {
+        "name": "Canva",
+        "url": "https://www.canva.com"
+    },
+    "capacitor": {
+        "name": "Capacitor",
+        "url": "https://capacitorjs.com"
+    },
+    "carbon": {
+        "name": "Carbon",
+        "url": "https://carbondesignsystem.com"
+    },
+    "cassandra": {
+        "name": "Cassandra",
+        "url": "https://cassandra.apache.org"
+    },
+    "centos": {
+        "name": "CentOS",
+        "url": "https://www.centos.org"
+    },
+    "ceylon": {
+        "name": "Ceylon",
+        "url": "https://www.eclipse.org/ceylon/"
+    },
+    "chakraui": {
+        "name": "ChakraUI",
+        "url": "https://chakra-ui.com"
+    },
+    "chartjs": {
+        "name": "ChartJS",
+        "url": "https://www.chartjs.org"
+    },
+    "chrome": {
+        "name": "Chrome",
+        "url": "https://www.google.com/chrome/"
+    },
+    "circleci": {
+        "name": "",
+        "url": "https://circleci.com"
+    },
+    "clarity": {
+        "name": "Clarity",
+        "url": "https://clarity.design"
+    },
+    "clickhouse": {
+        "name": "ClickHouse",
+        "url": "https://clickhouse.com"
+    },
+    "clion": {
+        "name": "CLion",
+        "url": "https://www.jetbrains.com/clion/"
+    },
+    "clojure": {
+        "name": "Clojure",
+        "url": "https://clojure.org"
+    },
+    "clojurescript": {
+        "name": "ClojureScript",
+        "url": "https://clojurescript.org"
+    },
+    "cloudflare": {
+        "name": "Cloudflare",
+        "url": "https://www.cloudflare.com"
+    },
+    "cloudflareworkers": {
+        "name": "CloudflareWorkers",
+        "url": "https://developers.cloudflare.com/workers/"
+    },
+    "cloudrun": {
+        "name": "CloudRun",
+        "url": "https://cloud.google.com/run"
+    },
+    "cmake": {
+        "name": "CMake",
+        "url": "https://cmake.org"
+    },
+    "cobol": {
+        "name": "COBOL",
+        "url": "https://gnucobol.sourceforge.io"
+    },
+    "codeac": {
+        "name": "Codeac",
+        "url": "https://www.codeac.io"
+    },
+    "codecov": {
+        "name": "",
+        "url": "https://about.codecov.io"
+    },
+    "codeigniter": {
+        "name": "",
+        "url": "https://codeigniter.com"
+    },
+    "codepen": {
+        "name": "CodePen",
+        "url": "https://codepen.io"
+    },
+    "coffeescript": {
+        "name": "CoffeeScript",
+        "url": "https://coffeescript.org"
+    },
+    "composer": {
+        "name": "Composer",
+        "url": "https://getcomposer.org"
+    },
+    "confluence": {
+        "name": "Confluence",
+        "url": "https://www.atlassian.com/software/confluence"
+    },
+    "consul": {
+        "name": "Consul",
+        "url": "https://www.consul.io"
+    },
+    "contao": {
+        "name": "Contao",
+        "url": "https://contao.org"
+    },
+    "corejs": {
+        "name": "CoreJS",
+        "url": "https://core-js.github.io"
+    },
+    "cosmosdb": {
+        "name": "CosmosDB",
+        "url": "https://azure.microsoft.com/services/cosmos-db/"
+    },
+    "couchbase": {
+        "name": "Couchbase",
+        "url": "https://www.couchbase.com"
+    },
+    "couchdb": {
+        "name": "CouchDB",
+        "url": "https://couchdb.apache.org"
+    },
+    "cpanel": {
+        "name": "CPanel",
+        "url": "https://cpanel.net"
+    },
+    "cplusplus": {
+        "name": "CPlusPlus",
+        "url": "https://isocpp.org"
+    },
+    "crystal": {
+        "name": "Crystal",
+        "url": "https://crystal-lang.org"
+    },
+    "csharp": {
+        "name": "CSharp",
+        "url": "https://learn.microsoft.com/dotnet/csharp/"
+    },
+    "css3": {
+        "name": "CSS3",
+        "url": "https://developer.mozilla.org/docs/Web/CSS"
+    },
+    "cucumber": {
+        "name": "",
+        "url": "https://cucumber.io"
+    },
+    "cypressio": {
+        "name": "CypressIO",
+        "url": "https://www.cypress.io"
+    },
+    "d3js": {
+        "name": "D3JS",
+        "url": "https://d3js.org"
+    },
+    "dart": {
+        "name": "Dart",
+        "url": "https://dart.dev"
+    },
+    "datadog": {
+        "name": "Datadog",
+        "url": "https://www.datadoghq.com"
+    },
+    "datagrip": {
+        "name": "DataGrip",
+        "url": "https://www.jetbrains.com/datagrip/"
+    },
+    "dataspell": {
+        "name": "DataSpell",
+        "url": "https://www.jetbrains.com/dataspell/"
+    },
+    "datatables": {
+        "name": "DataTables",
+        "url": "https://datatables.net"
+    },
+    "dbeaver": {
+        "name": "DBeaver",
+        "url": "https://dbeaver.io"
+    },
+    "debian": {
+        "name": "Debian",
+        "url": "https://www.debian.org"
+    },
+    "delphi": {
+        "name": "Delphi",
+        "url": "https://www.embarcadero.com/products/delphi"
+    },
+    "denojs": {
+        "name": "DenoJS",
+        "url": "https://deno.com"
+    },
+    "detaspace": {
+        "name": "Detaspace",
+        "url": "https://www.detaspace.com"
+    },
+    "devicon": {
+        "name": "Devicon",
+        "url": "https://devicon.dev"
+    },
+    "digitalocean": {
+        "name": "DigitalOcean",
+        "url": "https://www.digitalocean.com"
+    },
+    "discloud": {
+        "name": "Discloud",
+        "url": "https://discloudbot.com"
+    },
+    "discordjs": {
+        "name": "DiscordJS",
+        "url": "https://discord.js.org"
+    },
+    "django": {
+        "name": "",
+        "url": "https://www.djangoproject.com"
+    },
+    "djangorest": {
+        "name": "DjangoREST",
+        "url": "https://www.django-rest-framework.org"
+    },
+    "docker": {
+        "name": "Docker",
+        "url": "https://www.docker.com"
+    },
+    "doctrine": {
+        "name": "Doctrine",
+        "url": "https://www.doctrine-project.org"
+    },
+    "dot-net": {
+        "name": "",
+        "url": "https://dotnet.microsoft.com"
+    },
+    "dotnetcore": {
+        "name": "DotNETCore",
+        "url": "https://dotnet.microsoft.com"
+    },
+    "dovecot": {
+        "name": "Dovecot",
+        "url": "https://www.dovecot.org"
+    },
+    "dreamweaver": {
+        "name": "Dreamweaver",
+        "url": "https://www.adobe.com/products/dreamweaver.html"
+    },
+    "dropwizard": {
+        "name": "Dropwizard",
+        "url": "https://www.dropwizard.io"
+    },
+    "drupal": {
+        "name": "Drupal",
+        "url": "https://www.drupal.org"
+    },
+    "duckdb": {
+        "name": "DuckDB",
+        "url": "https://duckdb.org"
+    },
+    "dyalog": {
+        "name": "Dyalog",
+        "url": "https://www.dyalog.com"
+    },
+    "dynamodb": {
+        "name": "DynamoDB",
+        "url": "https://aws.amazon.com/dynamodb/"
+    },
+    "dynatrace": {
+        "name": "Dynatrace",
+        "url": "https://www.dynatrace.com"
+    },
+    "eclipse": {
+        "name": "Eclipse",
+        "url": "https://www.eclipse.org"
+    },
+    "ecto": {
+        "name": "Ecto",
+        "url": "https://hexdocs.pm/ecto/"
+    },
+    "elasticsearch": {
+        "name": "Elasticsearch",
+        "url": "https://www.elastic.co/elasticsearch"
+    },
+    "electron": {
+        "name": "Electron",
+        "url": "https://www.electronjs.org"
+    },
+    "eleventy": {
+        "name": "Eleventy",
+        "url": "https://www.11ty.dev"
+    },
+    "elixir": {
+        "name": "Elixir",
+        "url": "https://elixir-lang.org"
+    },
+    "elm": {
+        "name": "Elm",
+        "url": "https://elm-lang.org"
+    },
+    "emacs": {
+        "name": "Emacs",
+        "url": "https://www.gnu.org/software/emacs/"
+    },
+    "embeddedc": {
+        "name": "EmbeddedC",
+        "url": "https://www.open-std.org/jtc1/sc22/wg14/"
+    },
+    "ember": {
+        "name": "Ember",
+        "url": "https://emberjs.com"
+    },
+    "entityframeworkcore": {
+        "name": "EntityFrameworkCore",
+        "url": "https://learn.microsoft.com/ef/core/"
+    },
+    "envoy": {
+        "name": "Envoy",
+        "url": "https://www.envoyproxy.io"
+    },
+    "erlang": {
+        "name": "Erlang",
+        "url": "https://www.erlang.org"
+    },
+    "eslint": {
+        "name": "ESLint",
+        "url": "https://eslint.org"
+    },
+    "expo": {
+        "name": "Expo",
+        "url": "https://expo.dev"
+    },
+    "express": {
+        "name": "Express",
+        "url": "https://expressjs.com"
+    },
+    "facebook": {
+        "name": "Facebook",
+        "url": "https://www.facebook.com"
+    },
+    "fastapi": {
+        "name": "FastAPI",
+        "url": "https://fastapi.tiangolo.com"
+    },
+    "fastify": {
+        "name": "Fastify",
+        "url": "https://fastify.dev"
+    },
+    "faunadb": {
+        "name": "FaunaDB",
+        "url": "https://fauna.com"
+    },
+    "feathersjs": {
+        "name": "FeathersJS",
+        "url": "https://feathersjs.com"
+    },
+    "fedora": {
+        "name": "Fedora",
+        "url": "https://getfedora.org"
+    },
+    "fiber": {
+        "name": "Fiber",
+        "url": "https://gofiber.io"
+    },
+    "figma": {
+        "name": "Figma",
+        "url": "https://www.figma.com"
+    },
+    "filamentphp": {
+        "name": "FilamentPHP",
+        "url": "https://filamentphp.com"
+    },
+    "filezilla": {
+        "name": "FileZilla",
+        "url": "https://filezilla-project.org"
+    },
+    "firebase": {
+        "name": "Firebase",
+        "url": "https://firebase.google.com"
+    },
+    "firebird": {
+        "name": "Firebird",
+        "url": "https://firebirdsql.org"
+    },
+    "firefox": {
+        "name": "Firefox",
+        "url": "https://www.mozilla.org/firefox/"
+    },
+    "flask": {
+        "name": "Flask",
+        "url": "https://flask.palletsprojects.com"
+    },
+    "flutter": {
+        "name": "Flutter",
+        "url": "https://flutter.dev"
+    },
+    "forgejo": {
+        "name": "Forgejo",
+        "url": "https://forgejo.org"
+    },
+    "fortran": {
+        "name": "Fortran",
+        "url": "https://fortran-lang.org"
+    },
+    "foundation": {
+        "name": "Foundation",
+        "url": "https://get.foundation"
+    },
+    "framermotion": {
+        "name": "FramerMotion",
+        "url": "https://www.framer.com/motion/"
+    },
+    "framework7": {
+        "name": "Framework7",
+        "url": "https://framework7.io"
+    },
+    "fsharp": {
+        "name": "FSharp",
+        "url": "https://fsharp.org"
+    },
+    "fusion": {
+        "name": "Fusion",
+        "url": "https://www.autodesk.com/products/fusion/overview"
+    },
+    "gardener": {
+        "name": "Gardener",
+        "url": "https://gardener.cloud"
+    },
+    "gatling": {
+        "name": "Gatling",
+        "url": "https://gatling.io"
+    },
+    "gatsby": {
+        "name": "Gatsby",
+        "url": "https://www.gatsbyjs.com"
+    },
+    "gazebo": {
+        "name": "Gazebo",
+        "url": "https://gazebosim.org"
+    },
+    "gcc": {
+        "name": "GCC",
+        "url": "https://gcc.gnu.org"
+    },
+    "gentoo": {
+        "name": "Gentoo",
+        "url": "https://www.gentoo.org"
+    },
+    "ghost": {
+        "name": "Ghost",
+        "url": "https://ghost.org"
+    },
+    "gimp": {
+        "name": "GIMP",
+        "url": "https://www.gimp.org"
+    },
+    "git": {
+        "name": "Git",
+        "url": "https://git-scm.com"
+    },
+    "gitbook": {
+        "name": "GitBook",
+        "url": "https://www.gitbook.com"
+    },
+    "github": {
+        "name": "GitHub",
+        "url": "https://github.com"
+    },
+    "githubactions": {
+        "name": "GitHubActions",
+        "url": "https://github.com/features/actions"
+    },
+    "githubcodespaces": {
+        "name": "GitHubCodespaces",
+        "url": "https://github.com/features/codespaces"
+    },
+    "gitkraken": {
+        "name": "GitKraken",
+        "url": "https://www.gitkraken.com"
+    },
+    "gitlab": {
+        "name": "GitLab",
+        "url": "https://about.gitlab.com"
+    },
+    "gitpod": {
+        "name": "Gitpod",
+        "url": "https://www.gitpod.io"
+    },
+    "gitter": {
+        "name": "",
+        "url": "https://gitter.im"
+    },
+    "gleam": {
+        "name": "Gleam",
+        "url": "https://gleam.run"
+    },
+    "glitch": {
+        "name": "Glitch",
+        "url": "https://glitch.com"
+    },
+    "go": {
+        "name": "Go",
+        "url": "https://go.dev"
+    },
+    "godot": {
+        "name": "Godot",
+        "url": "https://godotengine.org"
+    },
+    "goland": {
+        "name": "GoLand",
+        "url": "https://www.jetbrains.com/go/"
+    },
+    "google": {
+        "name": "Google",
+        "url": "https://www.google.com"
+    },
+    "googlecloud": {
+        "name": "GoogleCloud",
+        "url": "https://cloud.google.com"
+    },
+    "googlecolab": {
+        "name": "GoogleColab",
+        "url": "https://colab.research.google.com"
+    },
+    "gradle": {
+        "name": "Gradle",
+        "url": "https://gradle.org"
+    },
+    "grafana": {
+        "name": "Grafana",
+        "url": "https://grafana.com"
+    },
+    "grails": {
+        "name": "Grails",
+        "url": "https://grails.org"
+    },
+    "graphql": {
+        "name": "",
+        "url": "https://graphql.org"
+    },
+    "groovy": {
+        "name": "Groovy",
+        "url": "https://groovy-lang.org"
+    },
+    "grpc": {
+        "name": "GRPC",
+        "url": "https://grpc.io"
+    },
+    "grunt": {
+        "name": "Grunt",
+        "url": "https://gruntjs.com"
+    },
+    "gulp": {
+        "name": "",
+        "url": "https://gulpjs.com"
+    },
+    "hadoop": {
+        "name": "Hadoop",
+        "url": "https://hadoop.apache.org"
+    },
+    "handlebars": {
+        "name": "Handlebars",
+        "url": "https://handlebarsjs.com"
+    },
+    "harbor": {
+        "name": "Harbor",
+        "url": "https://goharbor.io"
+    },
+    "hardhat": {
+        "name": "Hardhat",
+        "url": "https://hardhat.org"
+    },
+    "harvester": {
+        "name": "",
+        "url": "https://harvesterhci.io"
+    },
+    "haskell": {
+        "name": "Haskell",
+        "url": "https://www.haskell.org"
+    },
+    "haxe": {
+        "name": "",
+        "url": "https://haxe.org"
+    },
+    "helm": {
+        "name": "Helm",
+        "url": "https://helm.sh"
+    },
+    "heroku": {
+        "name": "Heroku",
+        "url": "https://www.heroku.com"
+    },
+    "hibernate": {
+        "name": "Hibernate",
+        "url": "https://hibernate.org"
+    },
+    "homebrew": {
+        "name": "Homebrew",
+        "url": "https://brew.sh"
+    },
+    "hoppscotch": {
+        "name": "Hoppscotch",
+        "url": "https://hoppscotch.io"
+    },
+    "html5": {
+        "name": "HTML5",
+        "url": "https://developer.mozilla.org/docs/Web/Guide/HTML/HTML5"
+    },
+    "htmx": {
+        "name": "HTMX",
+        "url": "https://htmx.org"
+    },
+    "hugo": {
+        "name": "Hugo",
+        "url": "https://gohugo.io"
+    },
+    "hyperv": {
+        "name": "HyperV",
+        "url": "https://learn.microsoft.com/windows-server/virtualization/hyper-v/hyper-v-on-windows-server"
+    },
+    "ie10": {
+        "name": "IE10",
+        "url": "https://learn.microsoft.com/lifecycle/products/internet-explorer-10"
+    },
+    "ifttt": {
+        "name": "IFTTT",
+        "url": "https://ifttt.com"
+    },
+    "illustrator": {
+        "name": "Illustrator",
+        "url": "https://www.adobe.com/products/illustrator.html"
+    },
+    "inertiajs": {
+        "name": "InertiaJS",
+        "url": "https://inertiajs.com"
+    },
+    "influxdb": {
+        "name": "InfluxDB",
+        "url": "https://www.influxdata.com/products/influxdb/"
+    },
+    "inkscape": {
+        "name": "Inkscape",
+        "url": "https://inkscape.org"
+    },
+    "insomnia": {
+        "name": "Insomnia",
+        "url": "https://insomnia.rest"
+    },
+    "intellij": {
+        "name": "IntelliJ",
+        "url": "https://www.jetbrains.com/idea/"
+    },
+    "ionic": {
+        "name": "Ionic",
+        "url": "https://ionicframework.com"
+    },
+    "jaegertracing": {
+        "name": "JaegerTracing",
+        "url": "https://www.jaegertracing.io"
+    },
+    "jamstack": {
+        "name": "Jamstack",
+        "url": "https://jamstack.org"
+    },
+    "jasmine": {
+        "name": "Jasmine",
+        "url": "https://jasmine.github.io"
+    },
+    "java": {
+        "name": "Java",
+        "url": "https://www.java.com"
+    },
+    "javascript": {
+        "name": "JavaScript",
+        "url": "https://developer.mozilla.org/docs/Web/JavaScript"
+    },
+    "jeet": {
+        "name": "",
+        "url": "http://jeet.gs"
+    },
+    "jekyll": {
+        "name": "Jekyll",
+        "url": "https://jekyllrb.com"
+    },
+    "jenkins": {
+        "name": "Jenkins",
+        "url": "https://www.jenkins.io"
+    },
+    "jest": {
+        "name": "",
+        "url": "https://jestjs.io"
+    },
+    "jetbrains": {
+        "name": "JetBrains",
+        "url": "https://www.jetbrains.com"
+    },
+    "jetpackcompose": {
+        "name": "JetpackCompose",
+        "url": "https://developer.android.com/jetpack/compose"
+    },
+    "jhipster": {
+        "name": "JHipster",
+        "url": "https://www.jhipster.tech"
+    },
+    "jira": {
+        "name": "Jira",
+        "url": "https://www.atlassian.com/software/jira"
+    },
+    "jiraalign": {
+        "name": "",
+        "url": "https://www.atlassian.com/software/jira/align"
+    },
+    "jquery": {
+        "name": "JQuery",
+        "url": "https://jquery.com"
+    },
+    "json": {
+        "name": "JSON",
+        "url": "https://www.json.org"
+    },
+    "jule": {
+        "name": "",
+        "url": "https://julelang.org"
+    },
+    "julia": {
+        "name": "Julia",
+        "url": "https://julialang.org"
+    },
+    "junit": {
+        "name": "JUnit",
+        "url": "https://junit.org"
+    },
+    "jupyter": {
+        "name": "Jupyter",
+        "url": "https://jupyter.org"
+    },
+    "k3os": {
+        "name": "K3OS",
+        "url": "https://k3os.io"
+    },
+    "k3s": {
+        "name": "K3S",
+        "url": "https://k3s.io"
+    },
+    "k6": {
+        "name": "K6",
+        "url": "https://k6.io"
+    },
+    "kaggle": {
+        "name": "Kaggle",
+        "url": "https://www.kaggle.com"
+    },
+    "kaldi": {
+        "name": "",
+        "url": "https://kaldi-asr.org"
+    },
+    "kalilinux": {
+        "name": "KaliLinux",
+        "url": "https://www.kali.org"
+    },
+    "karatelabs": {
+        "name": "",
+        "url": "https://karatelabs.io"
+    },
+    "karma": {
+        "name": "Karma",
+        "url": "https://karma-runner.github.io"
+    },
+    "kdeneon": {
+        "name": "",
+        "url": "https://neon.kde.org"
+    },
+    "keras": {
+        "name": "Keras",
+        "url": "https://keras.io"
+    },
+    "kibana": {
+        "name": "Kibana",
+        "url": "https://www.elastic.co/kibana"
+    },
+    "knexjs": {
+        "name": "",
+        "url": "https://knexjs.org"
+    },
+    "knockout": {
+        "name": "",
+        "url": "https://knockoutjs.com"
+    },
+    "kotlin": {
+        "name": "Kotlin",
+        "url": "https://kotlinlang.org"
+    },
+    "krakenjs": {
+        "name": "",
+        "url": "https://krakenjs.com"
+    },
+    "ktor": {
+        "name": "",
+        "url": "https://ktor.io"
+    },
+    "kubeflow": {
+        "name": "",
+        "url": "https://kubeflow.org"
+    },
+    "kubernetes": {
+        "name": "Kubernetes",
+        "url": "https://kubernetes.io"
+    },
+    "labview": {
+        "name": "",
+        "url": "https://www.ni.com/labview"
+    },
+    "laminas": {
+        "name": "",
+        "url": "https://getlaminas.org"
+    },
+    "laravel": {
+        "name": "Laravel",
+        "url": "https://laravel.com"
+    },
+    "laraveljetstream": {
+        "name": "",
+        "url": "https://jetstream.laravel.com"
+    },
+    "latex": {
+        "name": "LaTeX",
+        "url": "https://www.latex-project.org"
+    },
+    "leetcode": {
+        "name": "LeetCode",
+        "url": "https://leetcode.com"
+    },
+    "less": {
+        "name": "",
+        "url": "https://lesscss.org"
+    },
+    "libgdx": {
+        "name": "LibGDX",
+        "url": "https://libgdx.com"
+    },
+    "linkedin": {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com"
+    },
+    "linux": {
+        "name": "Linux",
+        "url": "https://www.kernel.org"
+    },
+    "linuxmint": {
+        "name": "LinuxMint",
+        "url": "https://linuxmint.com"
+    },
+    "liquibase": {
+        "name": "",
+        "url": "https://www.liquibase.com"
+    },
+    "livewire": {
+        "name": "",
+        "url": "https://livewire.laravel.com"
+    },
+    "llvm": {
+        "name": "",
+        "url": "https://llvm.org"
+    },
+    "lodash": {
+        "name": "Lodash",
+        "url": "https://lodash.com"
+    },
+    "logstash": {
+        "name": "Logstash",
+        "url": "https://www.elastic.co/logstash"
+    },
+    "love2d": {
+        "name": "",
+        "url": "https://love2d.org"
+    },
+    "lua": {
+        "name": "Lua",
+        "url": "https://www.lua.org"
+    },
+    "lumen": {
+        "name": "",
+        "url": "https://lumen.laravel.com"
+    },
+    "magento": {
+        "name": "Magento",
+        "url": "https://magento.com"
+    },
+    "mapbox": {
+        "name": "Mapbox",
+        "url": "https://www.mapbox.com"
+    },
+    "mariadb": {
+        "name": "MariaDB",
+        "url": "https://mariadb.org"
+    },
+    "markdown": {
+        "name": "Markdown",
+        "url": "https://daringfireball.net/projects/markdown/"
+    },
+    "materializecss": {
+        "name": "",
+        "url": "https://materializecss.com"
+    },
+    "materialui": {
+        "name": "MaterialUI",
+        "url": "https://mui.com"
+    },
+    "matlab": {
+        "name": "MATLAB",
+        "url": "https://www.mathworks.com/products/matlab.html"
+    },
+    "matplotlib": {
+        "name": "Matplotlib",
+        "url": "https://matplotlib.org"
+    },
+    "mattermost": {
+        "name": "",
+        "url": "https://mattermost.com"
+    },
+    "maven": {
+        "name": "Maven",
+        "url": "https://maven.apache.org"
+    },
+    "maya": {
+        "name": "",
+        "url": "https://www.autodesk.com/products/maya/overview"
+    },
+    "memcached": {
+        "name": "",
+        "url": "https://memcached.org"
+    },
+    "mercurial": {
+        "name": "",
+        "url": "https://www.mercurial-scm.org"
+    },
+    "meteor": {
+        "name": "",
+        "url": "https://www.meteor.com"
+    },
+    "microsoftsqlserver": {
+        "name": "MicrosoftSQLServer",
+        "url": "https://www.microsoft.com/sql-server"
+    },
+    "minitab": {
+        "name": "",
+        "url": "https://www.minitab.com"
+    },
+    "mithril": {
+        "name": "",
+        "url": "https://mithril.js.org"
+    },
+    "mobx": {
+        "name": "MobX",
+        "url": "https://mobx.js.org"
+    },
+    "mocha": {
+        "name": "",
+        "url": "https://mochajs.org"
+    },
+    "modx": {
+        "name": "",
+        "url": "https://modx.com"
+    },
+    "moleculer": {
+        "name": "",
+        "url": "https://moleculer.services"
+    },
+    "mongodb": {
+        "name": "MongoDB",
+        "url": "https://www.mongodb.com"
+    },
+    "mongoose": {
+        "name": "Mongoose",
+        "url": "https://mongoosejs.com"
+    },
+    "monogame": {
+        "name": "",
+        "url": "https://www.monogame.net"
+    },
+    "moodle": {
+        "name": "",
+        "url": "https://moodle.org"
+    },
+    "msdos": {
+        "name": "",
+        "url": "https://learn.microsoft.com/en-us/shows/the-history-of-windows/ms-dos/"
+    },
+    "mysql": {
+        "name": "MySQL",
+        "url": "https://www.mysql.com"
+    },
+    "nano": {
+        "name": "",
+        "url": "https://www.nano-editor.org"
+    },
+    "nats": {
+        "name": "",
+        "url": "https://nats.io"
+    },
+    "neo4j": {
+        "name": "",
+        "url": "https://neo4j.com"
+    },
+    "neovim": {
+        "name": "",
+        "url": "https://neovim.io"
+    },
+    "nestjs": {
+        "name": "NestJS",
+        "url": "https://nestjs.com"
+    },
+    "netbeans": {
+        "name": "NetBeans",
+        "url": "https://netbeans.apache.org/"
+    },
+    "netbox": {
+        "name": "",
+        "url": "https://netbox.dev/"
+    },
+    "netlify": {
+        "name": "Netlify",
+        "url": "https://www.netlify.com/"
+    },
+    "networkx": {
+        "name": "",
+        "url": "https://networkx.org/"
+    },
+    "newrelic": {
+        "name": "",
+        "url": "https://newrelic.com/"
+    },
+    "nextjs": {
+        "name": "NextJS",
+        "url": "https://nextjs.org/"
+    },
+    "nginx": {
+        "name": "NGINX",
+        "url": "https://nginx.org/"
+    },
+    "ngrok": {
+        "name": "",
+        "url": "https://ngrok.com/"
+    },
+    "ngrx": {
+        "name": "",
+        "url": "https://ngrx.io/"
+    },
+    "nhibernate": {
+        "name": "",
+        "url": "https://nhibernate.info/"
+    },
+    "nim": {
+        "name": "",
+        "url": "https://nim-lang.org/"
+    },
+    "nimble": {
+        "name": "",
+        "url": "https://nimble.directory/"
+    },
+    "nixos": {
+        "name": "",
+        "url": "https://nixos.org/"
+    },
+    "nodejs": {
+        "name": "NodeJS",
+        "url": "https://nodejs.org/"
+    },
+    "nodemon": {
+        "name": "",
+        "url": "https://nodemon.io/"
+    },
+    "nodered": {
+        "name": "",
+        "url": "https://nodered.org/"
+    },
+    "nodewebkit": {
+        "name": "",
+        "url": "https://github.com/nwjs/nw.js"
+    },
+    "nomad": {
+        "name": "",
+        "url": "https://www.nomadproject.io/"
+    },
+    "norg": {
+        "name": "",
+        "url": "https://norg.dev/"
+    },
+    "notion": {
+        "name": "Notion",
+        "url": "https://www.notion.so/"
+    },
+    "npm": {
+        "name": "NPM",
+        "url": "https://www.npmjs.com/"
+    },
+    "npss": {
+        "name": "",
+        "url": "https://www.nasa.gov/software/npss/"
+    },
+    "nuget": {
+        "name": "",
+        "url": "https://www.nuget.org/"
+    },
+    "numpy": {
+        "name": "NumPy",
+        "url": "https://numpy.org/"
+    },
+    "nuxt": {
+        "name": "",
+        "url": "https://nuxt.com/"
+    },
+    "nuxtjs": {
+        "name": "NuxtJS",
+        "url": "https://nuxt.com/"
+    },
+    "oauth": {
+        "name": "",
+        "url": "https://oauth.net/"
+    },
+    "objectivec": {
+        "name": "",
+        "url": "https://developer.apple.com/documentation/objectivec"
+    },
+    "ocaml": {
+        "name": "OCaml",
+        "url": "https://ocaml.org/"
+    },
+    "ohmyzsh": {
+        "name": "",
+        "url": "https://ohmyz.sh/"
+    },
+    "okta": {
+        "name": "",
+        "url": "https://developer.okta.com/"
+    },
+    "openal": {
+        "name": "",
+        "url": "https://www.openal.org/"
+    },
+    "openapi": {
+        "name": "OpenAPI",
+        "url": "https://www.openapis.org/"
+    },
+    "opencl": {
+        "name": "",
+        "url": "https://www.khronos.org/opencl/"
+    },
+    "opencv": {
+        "name": "OpenCV",
+        "url": "https://opencv.org/"
+    },
+    "opengl": {
+        "name": "OpenGL",
+        "url": "https://www.khronos.org/opengl/"
+    },
+    "openstack": {
+        "name": "OpenStack",
+        "url": "https://www.openstack.org/"
+    },
+    "opensuse": {
+        "name": "OpenSUSE",
+        "url": "https://www.opensuse.org/"
+    },
+    "opentelemetry": {
+        "name": "",
+        "url": "https://opentelemetry.io/"
+    },
+    "opera": {
+        "name": "",
+        "url": "https://www.opera.com/"
+    },
+    "oracle": {
+        "name": "Oracle",
+        "url": "https://www.oracle.com/"
+    },
+    "ory": {
+        "name": "",
+        "url": "https://www.ory.sh/"
+    },
+    "p5js": {
+        "name": "",
+        "url": "https://p5js.org/"
+    },
+    "packer": {
+        "name": "",
+        "url": "https://www.packer.io/"
+    },
+    "pandas": {
+        "name": "Pandas",
+        "url": "https://pandas.pydata.org/"
+    },
+    "passport": {
+        "name": "",
+        "url": "http://www.passportjs.org/"
+    },
+    "perl": {
+        "name": "Perl",
+        "url": "https://www.perl.org/"
+    },
+    "pfsense": {
+        "name": "",
+        "url": "https://www.pfsense.org/"
+    },
+    "phalcon": {
+        "name": "",
+        "url": "https://phalcon.io/"
+    },
+    "phoenix": {
+        "name": "",
+        "url": "https://www.phoenixframework.org/"
+    },
+    "photonengine": {
+        "name": "",
+        "url": "https://www.photonengine.com/"
+    },
+    "photoshop": {
+        "name": "Photoshop",
+        "url": "https://www.adobe.com/products/photoshop.html"
+    },
+    "php": {
+        "name": "PHP",
+        "url": "https://www.php.net/"
+    },
+    "phpstorm": {
+        "name": "PhpStorm",
+        "url": "https://www.jetbrains.com/phpstorm/"
+    },
+    "pixijs": {
+        "name": "PixiJS",
+        "url": "https://pixijs.com/"
+    },
+    "playwright": {
+        "name": "",
+        "url": "https://playwright.dev/"
+    },
+    "plotly": {
+        "name": "",
+        "url": "https://plotly.com/"
+    },
+    "pm2": {
+        "name": "",
+        "url": "https://pm2.keymetrics.io/"
+    },
+    "pnpm": {
+        "name": "",
+        "url": "https://pnpm.io/"
+    },
+    "podman": {
+        "name": "",
+        "url": "https://podman.io/"
+    },
+    "poetry": {
+        "name": "",
+        "url": "https://python-poetry.org/"
+    },
+    "polygon": {
+        "name": "",
+        "url": "https://polygon.technology/"
+    },
+    "portainer": {
+        "name": "",
+        "url": "https://www.portainer.io/"
+    },
+    "postcss": {
+        "name": "",
+        "url": "https://postcss.org/"
+    },
+    "postgresql": {
+        "name": "PostgreSQL",
+        "url": "https://www.postgresql.org/"
+    },
+    "postman": {
+        "name": "Postman",
+        "url": "https://www.postman.com/"
+    },
+    "powershell": {
+        "name": "PowerShell",
+        "url": "https://learn.microsoft.com/powershell/"
+    },
+    "premierepro": {
+        "name": "",
+        "url": "https://www.adobe.com/products/premiere.html"
+    },
+    "primeng": {
+        "name": "",
+        "url": "https://primeng.org/"
+    },
+    "prisma": {
+        "name": "Prisma",
+        "url": "https://www.prisma.io/"
+    },
+    "processing": {
+        "name": "Processing",
+        "url": "https://processing.org/"
+    },
+    "processwire": {
+        "name": "",
+        "url": "https://processwire.com/"
+    },
+    "prolog": {
+        "name": "",
+        "url": "https://www.swi-prolog.org/"
+    },
+    "prometheus": {
+        "name": "Prometheus",
+        "url": "https://prometheus.io/"
+    },
+    "protractor": {
+        "name": "",
+        "url": "https://www.protractortest.org/"
+    },
+    "proxmox": {
+        "name": "Proxmox",
+        "url": "https://www.proxmox.com/"
+    },
+    "pug": {
+        "name": "Pug",
+        "url": "https://pugjs.org/"
+    },
+    "pulsar": {
+        "name": "",
+        "url": "https://pulsar.apache.org/"
+    },
+    "pulumi": {
+        "name": "Pulumi",
+        "url": "https://www.pulumi.com/"
+    },
+    "puppeteer": {
+        "name": "Puppeteer",
+        "url": "https://pptr.dev/"
+    },
+    "purescript": {
+        "name": "",
+        "url": "https://www.purescript.org/"
+    },
+    "putty": {
+        "name": "",
+        "url": "https://www.putty.org/"
+    },
+    "pycharm": {
+        "name": "",
+        "url": "https://www.jetbrains.com/pycharm/"
+    },
+    "pypi": {
+        "name": "",
+        "url": "https://pypi.org/"
+    },
+    "pyscript": {
+        "name": "",
+        "url": "https://pyscript.net/"
+    },
+    "pytest": {
+        "name": "",
+        "url": "https://docs.pytest.org/"
+    },
+    "python": {
+        "name": "Python",
+        "url": "https://www.python.org/"
+    },
+    "pytorch": {
+        "name": "PyTorch",
+        "url": "https://pytorch.org/"
+    },
+    "qodana": {
+        "name": "",
+        "url": "https://www.jetbrains.com/qodana/"
+    },
+    "qt": {
+        "name": "Qt",
+        "url": "https://www.qt.io/"
+    },
+    "qtest": {
+        "name": "",
+        "url": "https://www.tricentis.com/products/qtest"
+    },
+    "quarkus": {
+        "name": "Quarkus",
+        "url": "https://quarkus.io/"
+    },
+    "quasar": {
+        "name": "Quasar",
+        "url": "https://quasar.dev/"
+    },
+    "qwik": {
+        "name": "",
+        "url": "https://qwik.dev/"
+    },
+    "r": {
+        "name": "R",
+        "url": "https://www.r-project.org/"
+    },
+    "rabbitmq": {
+        "name": "RabbitMQ",
+        "url": "https://www.rabbitmq.com/"
+    },
+    "racket": {
+        "name": "",
+        "url": "https://racket-lang.org/"
+    },
+    "radstudio": {
+        "name": "",
+        "url": "https://www.embarcadero.com/products/rad-studio"
+    },
+    "rails": {
+        "name": "",
+        "url": "https://rubyonrails.org/"
+    },
+    "railway": {
+        "name": "",
+        "url": "https://railway.app/"
+    },
+    "rancher": {
+        "name": "Rancher",
+        "url": "https://rancher.com/"
+    },
+    "raspberrypi": {
+        "name": "RaspberryPi",
+        "url": "https://www.raspberrypi.com/"
+    },
+    "reach": {
+        "name": "",
+        "url": "https://reach.tech/"
+    },
+    "react": {
+        "name": "React",
+        "url": "https://react.dev/"
+    },
+    "reactbootstrap": {
+        "name": "ReactBootstrap",
+        "url": "https://react-bootstrap.netlify.app/"
+    },
+    "reactnative": {
+        "name": "ReactNative",
+        "url": "https://reactnative.dev/"
+    },
+    "reactnavigation": {
+        "name": "",
+        "url": "https://reactnavigation.org/"
+    },
+    "reactrouter": {
+        "name": "ReactRouter",
+        "url": "https://reactrouter.com/"
+    },
+    "readthedocs": {
+        "name": "",
+        "url": "https://readthedocs.org/"
+    },
+    "realm": {
+        "name": "",
+        "url": "https://www.mongodb.com/realm"
+    },
+    "rect": {
+        "name": "",
+        "url": "https://react.dev/"
+    },
+    "redhat": {
+        "name": "",
+        "url": "https://www.redhat.com/"
+    },
+    "redis": {
+        "name": "Redis",
+        "url": "https://redis.io/"
+    },
+    "redux": {
+        "name": "Redux",
+        "url": "https://redux.js.org/"
+    },
+    "reflex": {
+        "name": "",
+        "url": "https://reflex.dev/"
+    },
+    "remix": {
+        "name": "Remix",
+        "url": "https://remix.run/"
+    },
+    "renpy": {
+        "name": "",
+        "url": "https://www.renpy.org/"
+    },
+    "replit": {
+        "name": "Replit",
+        "url": "https://replit.com/"
+    },
+    "rexx": {
+        "name": "",
+        "url": "https://www.rexxla.org/"
+    },
+    "rider": {
+        "name": "",
+        "url": "https://www.jetbrains.com/rider/"
+    },
+    "rocksdb": {
+        "name": "",
+        "url": "https://rocksdb.org/"
+    },
+    "rockylinux": {
+        "name": "",
+        "url": "https://rockylinux.org/"
+    },
+    "rollup": {
+        "name": "",
+        "url": "https://rollupjs.org/"
+    },
+    "ros": {
+        "name": "",
+        "url": "https://www.ros.org/"
+    },
+    "rspec": {
+        "name": "",
+        "url": "https://rspec.info/"
+    },
+    "rstudio": {
+        "name": "",
+        "url": "https://posit.co/products/rstudio/"
+    },
+    "ruby": {
+        "name": "Ruby",
+        "url": "https://www.ruby-lang.org/"
+    },
+    "rubymine": {
+        "name": "",
+        "url": "https://www.jetbrains.com/ruby/"
+    },
+    "rust": {
+        "name": "Rust",
+        "url": "https://www.rust-lang.org/"
+    },
+    "rxjs": {
+        "name": "RxJS",
+        "url": "https://rxjs.dev/"
+    },
+    "safari": {
+        "name": "",
+        "url": "https://www.apple.com/safari/"
+    },
+    "salesforce": {
+        "name": "",
+        "url": "https://www.salesforce.com/"
+    },
+    "sanity": {
+        "name": "",
+        "url": "https://www.sanity.io/"
+    },
+    "sass": {
+        "name": "Sass",
+        "url": "https://sass-lang.com/"
+    },
+    "scala": {
+        "name": "Scala",
+        "url": "https://www.scala-lang.org/"
+    },
+    "scalingo": {
+        "name": "",
+        "url": "https://scalingo.com/"
+    },
+    "scikitlearn": {
+        "name": "ScikitLearn",
+        "url": "https://scikit-learn.org/"
+    },
+    "sdl": {
+        "name": "",
+        "url": "https://www.libsdl.org/"
+    },
+    "selenium": {
+        "name": "Selenium",
+        "url": "https://www.selenium.dev/"
+    },
+    "sema": {
+        "name": "",
+        "url": "https://semaphoreci.com/"
+    },
+    "sentry": {
+        "name": "Sentry",
+        "url": "https://sentry.io/"
+    },
+    "sequelize": {
+        "name": "Sequelize",
+        "url": "https://sequelize.org/"
+    },
+    "shopware": {
+        "name": "Shopware",
+        "url": "https://www.shopware.com/"
+    },
+    "shotgrid": {
+        "name": "",
+        "url": "https://www.autodesk.com/products/shotgrid/overview"
+    },
+    "sketch": {
+        "name": "Sketch",
+        "url": "https://www.sketch.com/"
+    },
+    "slack": {
+        "name": "Slack",
+        "url": "https://slack.com/"
+    },
+    "socketio": {
+        "name": "SocketIO",
+        "url": "https://socket.io/"
+    },
+    "solidity": {
+        "name": "Solidity",
+        "url": "https://soliditylang.org/"
+    },
+    "solidjs": {
+        "name": "SolidJS",
+        "url": "https://www.solidjs.com/"
+    },
+    "sonarqube": {
+        "name": "SonarQube",
+        "url": "https://www.sonarqube.org/"
+    },
+    "sourceengine": {
+        "name": "",
+        "url": "https://developer.valvesoftware.com/wiki/Source"
+    },
+    "sourcetree": {
+        "name": "",
+        "url": "https://www.sourcetreeapp.com/"
+    },
+    "spack": {
+        "name": "",
+        "url": "https://spack.readthedocs.io/"
+    },
+    "spicedb": {
+        "name": "",
+        "url": "https://authzed.com/"
+    },
+    "splunk": {
+        "name": "",
+        "url": "https://www.splunk.com/"
+    },
+    "spring": {
+        "name": "Spring",
+        "url": "https://spring.io/"
+    },
+    "spss": {
+        "name": "",
+        "url": "https://www.ibm.com/products/spss-statistics"
+    },
+    "spyder": {
+        "name": "",
+        "url": "https://www.spyder-ide.org/"
+    },
+    "sqlalchemy": {
+        "name": "",
+        "url": "https://www.sqlalchemy.org/"
+    },
+    "sqldeveloper": {
+        "name": "",
+        "url": "https://www.oracle.com/database/sqldeveloper/"
+    },
+    "sqlite": {
+        "name": "SQLite",
+        "url": "https://www.sqlite.org/"
+    },
+    "ssh": {
+        "name": "SSH",
+        "url": "https://www.ssh.com/"
+    },
+    "stackblitz": {
+        "name": "",
+        "url": "https://stackblitz.com/"
+    },
+    "stackoverflow": {
+        "name": "",
+        "url": "https://stackoverflow.com/"
+    },
+    "stata": {
+        "name": "",
+        "url": "https://www.stata.com/"
+    },
+    "stenciljs": {
+        "name": "",
+        "url": "https://stenciljs.com/"
+    },
+    "storybook": {
+        "name": "Storybook",
+        "url": "https://storybook.js.org/"
+    },
+    "streamlit": {
+        "name": "",
+        "url": "https://streamlit.io/"
+    },
+    "styledcomponents": {
+        "name": "StyledComponents",
+        "url": "https://styled-components.com/"
+    },
+    "stylus": {
+        "name": "",
+        "url": "https://stylus-lang.com/"
+    },
+    "subversion": {
+        "name": "",
+        "url": "https://subversion.apache.org/"
+    },
+    "sulu": {
+        "name": "",
+        "url": "https://sulu.io/"
+    },
+    "supabase": {
+        "name": "Supabase",
+        "url": "https://supabase.com/"
+    },
+    "surrealdb": {
+        "name": "",
+        "url": "https://surrealdb.com/"
+    },
+    "svelte": {
+        "name": "Svelte",
+        "url": "https://svelte.dev/"
+    },
+    "svgo": {
+        "name": "",
+        "url": "https://github.com/svg/svgo"
+    },
+    "swagger": {
+        "name": "Swagger",
+        "url": "https://swagger.io/"
+    },
+    "swift": {
+        "name": "Swift",
+        "url": "https://swift.org/"
+    },
+    "swiper": {
+        "name": "",
+        "url": "https://swiperjs.com/"
+    },
+    "symfony": {
+        "name": "Symfony",
+        "url": "https://symfony.com/"
+    },
+    "tailwindcss": {
+        "name": "TailwindCSS",
+        "url": "https://tailwindcss.com/"
+    },
+    "talos": {
+        "name": "",
+        "url": "https://www.talos.dev/"
+    },
+    "tauri": {
+        "name": "Tauri",
+        "url": "https://tauri.app/"
+    },
+    "teleport": {
+        "name": "",
+        "url": "https://goteleport.com/"
+    },
+    "tensorflow": {
+        "name": "TensorFlow",
+        "url": "https://www.tensorflow.org/"
+    },
+    "terraform": {
+        "name": "Terraform",
+        "url": "https://www.terraform.io/"
+    },
+    "terramate": {
+        "name": "",
+        "url": "https://terramate.io/"
+    },
+    "tex": {
+        "name": "",
+        "url": "https://www.latex-project.org/"
+    },
+    "thealgorithms": {
+        "name": "",
+        "url": "https://the-algorithms.com/"
+    },
+    "threedsmax": {
+        "name": "",
+        "url": "https://www.autodesk.com/products/3ds-max/overview"
+    },
+    "threejs": {
+        "name": "",
+        "url": "https://threejs.org/"
+    },
+    "thymeleaf": {
+        "name": "",
+        "url": "https://www.thymeleaf.org/"
+    },
+    "titaniumsdk": {
+        "name": "",
+        "url": "https://titaniumsdk.com/"
+    },
+    "tmux": {
+        "name": "",
+        "url": "https://github.com/tmux/tmux/wiki"
+    },
+    "tomcat": {
+        "name": "",
+        "url": "https://tomcat.apache.org/"
+    },
+    "tortoisegit": {
+        "name": "",
+        "url": "https://tortoisegit.org/"
+    },
+    "towergit": {
+        "name": "",
+        "url": "https://www.git-tower.com/"
+    },
+    "traefikmesh": {
+        "name": "",
+        "url": "https://doc.traefik.io/traefik-mesh/"
+    },
+    "traefikproxy": {
+        "name": "",
+        "url": "https://traefik.io/traefik/"
+    },
+    "travis": {
+        "name": "",
+        "url": "https://www.travis-ci.com/"
+    },
+    "trello": {
+        "name": "",
+        "url": "https://trello.com/"
+    },
+    "trpc": {
+        "name": "",
+        "url": "https://trpc.io/"
+    },
+    "turbo": {
+        "name": "",
+        "url": "https://turbo.build/"
+    },
+    "twilio": {
+        "name": "",
+        "url": "https://www.twilio.com/"
+    },
+    "twitter": {
+        "name": "",
+        "url": "https://twitter.com/"
+    },
+    "typescript": {
+        "name": "TypeScript",
+        "url": "https://www.typescriptlang.org/"
+    },
+    "typo3": {
+        "name": "",
+        "url": "https://typo3.org/"
+    },
+    "ubuntu": {
+        "name": "Ubuntu",
+        "url": "https://ubuntu.com/"
+    },
+    "unifiedmodelinglanguage": {
+        "name": "",
+        "url": "https://www.uml.org/"
+    },
+    "unity": {
+        "name": "Unity",
+        "url": "https://unity.com/"
+    },
+    "unix": {
+        "name": "",
+        "url": "https://www.opengroup.org/membership/forums/platform/unix"
+    },
+    "unrealengine": {
+        "name": "UnrealEngine",
+        "url": "https://www.unrealengine.com/"
+    },
+    "uwsgi": {
+        "name": "",
+        "url": "https://uwsgi-docs.readthedocs.io/"
+    },
+    "v8": {
+        "name": "",
+        "url": "https://v8.dev/"
+    },
+    "vaadin": {
+        "name": "",
+        "url": "https://vaadin.com/"
+    },
+    "vagrant": {
+        "name": "",
+        "url": "https://www.vagrantup.com/"
+    },
+    "vala": {
+        "name": "",
+        "url": "https://vala.dev/"
+    },
+    "vault": {
+        "name": "",
+        "url": "https://www.vaultproject.io/"
+    },
+    "veevalidate": {
+        "name": "",
+        "url": "https://vee-validate.logaretm.com/"
+    },
+    "vercel": {
+        "name": "Vercel",
+        "url": "https://vercel.com/"
+    },
+    "vertx": {
+        "name": "",
+        "url": "https://vertx.io/"
+    },
+    "vim": {
+        "name": "",
+        "url": "https://www.vim.org/"
+    },
+    "visualbasic": {
+        "name": "",
+        "url": "https://learn.microsoft.com/en-us/dotnet/visual-basic/"
+    },
+    "visualstudio": {
+        "name": "",
+        "url": "https://visualstudio.microsoft.com/"
+    },
+    "vite": {
+        "name": "Vite",
+        "url": "https://vite.dev/"
+    },
+    "vitejs": {
+        "name": "ViteJS",
+        "url": "https://vitejs.dev/"
+    },
+    "vitess": {
+        "name": "",
+        "url": "https://vitess.io/"
+    },
+    "vitest": {
+        "name": "",
+        "url": "https://vitest.dev/"
+    },
+    "vscode": {
+        "name": "VSCode",
+        "url": "https://code.visualstudio.com/"
+    },
+    "vscodium": {
+        "name": "",
+        "url": "https://vscodium.com/"
+    },
+    "vsphere": {
+        "name": "",
+        "url": "https://www.vmware.com/products/vsphere.html"
+    },
+    "vuejs": {
+        "name": "VueJS",
+        "url": "https://vuejs.org/"
+    },
+    "vuestorefront": {
+        "name": "",
+        "url": "https://vuestorefront.io/"
+    },
+    "vuetify": {
+        "name": "Vuetify",
+        "url": "https://vuetifyjs.com/"
+    },
+    "vulkan": {
+        "name": "",
+        "url": "https://www.vulkan.org/"
+    },
+    "vyper": {
+        "name": "",
+        "url": "https://docs.vyperlang.org/"
+    },
+    "waku": {
+        "name": "",
+        "url": "https://waku.org/"
+    },
+    "wasm": {
+        "name": "",
+        "url": "https://webassembly.org/"
+    },
+    "web3js": {
+        "name": "",
+        "url": "https://web3js.readthedocs.io/"
+    },
+    "webflow": {
+        "name": "",
+        "url": "https://webflow.com/"
+    },
+    "webgpu": {
+        "name": "",
+        "url": "https://gpuweb.github.io/gpuweb/"
+    },
+    "weblate": {
+        "name": "",
+        "url": "https://weblate.org/"
+    },
+    "webpack": {
+        "name": "Webpack",
+        "url": "https://webpack.js.org/"
+    },
+    "webstorm": {
+        "name": "",
+        "url": "https://www.jetbrains.com/webstorm/"
+    },
+    "windows11": {
+        "name": "",
+        "url": "https://www.microsoft.com/windows/windows-11"
+    },
+    "windows8": {
+        "name": "",
+        "url": "https://learn.microsoft.com/en-us/lifecycle/products/windows-8"
+    },
+    "wolfram": {
+        "name": "",
+        "url": "https://www.wolfram.com/"
+    },
+    "woocommerce": {
+        "name": "",
+        "url": "https://woocommerce.com/"
+    },
+    "wordpress": {
+        "name": "WordPress",
+        "url": "https://wordpress.org/"
+    },
+    "xamarin": {
+        "name": "",
+        "url": "https://dotnet.microsoft.com/en-us/apps/xamarin"
+    },
+    "xcode": {
+        "name": "Xcode",
+        "url": "https://developer.apple.com/xcode/"
+    },
+    "xd": {
+        "name": "",
+        "url": "https://helpx.adobe.com/xd/user-guide.html"
+    },
+    "xml": {
+        "name": "",
+        "url": "https://www.w3.org/XML/"
+    },
+    "yaml": {
+        "name": "YAML",
+        "url": "https://yaml.org/"
+    },
+    "yarn": {
+        "name": "Yarn",
+        "url": "https://yarnpkg.com/"
+    },
+    "yii": {
+        "name": "",
+        "url": "https://www.yiiframework.com/"
+    },
+    "yugabytedb": {
+        "name": "",
+        "url": "https://www.yugabyte.com/"
+    },
+    "yunohost": {
+        "name": "",
+        "url": "https://yunohost.org/"
+    },
+    "zend": {
+        "name": "Zend",
+        "url": "https://framework.zend.com/"
+    },
+    "zig": {
+        "name": "Zig",
+        "url": "https://ziglang.org/"
+    },
+    "zsh": {
+        "name": "Zsh",
+        "url": "https://www.zsh.org/"
+    },
+    "zustand": {
+        "name": "Zustand",
+        "url": "https://zustand-demo.pmnd.rs/"
+    }
+}
