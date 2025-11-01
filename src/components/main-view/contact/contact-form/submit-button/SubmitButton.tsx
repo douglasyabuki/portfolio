@@ -17,7 +17,7 @@ export const SubmitButton = ({ onClick, disabled, ...props }: SubmitButtonProps)
       <div>
         <IconButton
           className={twMerge(
-            `transition-transform duration-150 ease-out`,
+            `bg-white-primary transition-transform duration-150 ease-out`,
             disabled && isEscaping ? 'md:translate-x-[200%]' : 'md:translate-x-0',
           )}
           ref={buttonRef}
