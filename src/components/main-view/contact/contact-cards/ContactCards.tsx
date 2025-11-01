@@ -7,7 +7,7 @@ export const ContactCards = () => {
       <h1 className="w-auto text-center text-3xl font-bold md:text-4xl lg:text-left xl:text-5xl 2xl:text-6xl">
         Get in touch
       </h1>
-      <div className="flex w-full flex-col items-center justify-between gap-12 py-20 lg:grid lg:grid-cols-2 lg:gap-20 lg:py-32">
+      <div className="mx-auto flex w-full max-w-[120rem] flex-col items-center justify-between gap-12 py-20 lg:grid lg:grid-cols-2 lg:gap-20 lg:py-32">
         <div className="flex flex-col gap-8">
           {contactList.map(({ content, href, mode, name, newPage, routing, iconName }) => (
             <ContactCard
