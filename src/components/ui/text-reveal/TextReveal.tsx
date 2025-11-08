@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import { twMerge } from 'tailwind-merge';
 
 type CaretDisplayOptions = 'always' | 'never' | 'while-typing';
+
 interface TextRevealProps {
   className?: string;
   text: string;
@@ -19,46 +20,51 @@ export const TextReveal = ({
   caretOptions = { className: '', display: 'always' },
 }: TextRevealProps) => {
   const [displayedText, setDisplayedText] = useState('');
-  const timeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const timeoutRef = useRef<number | null>(null);
   const indexRef = useRef(0);
 
   useEffect(() => {
-    // If already finished, do nothing (prevents new timeouts)
-    if (!text || displayedText === text) return;
+    if (timeoutRef.current !== null) {
+      clearTimeout(timeoutRef.current);
+      timeoutRef.current = null;
+    }
 
-    // Clear any prior timer
-    if (timeoutRef.current) clearTimeout(timeoutRef.current);
+    indexRef.current = 0;
+    setDisplayedText('');
 
-    // Continue from current progress or reset if starting fresh
-    if (!displayedText) indexRef.current = 0;
-    else indexRef.current = displayedText.length;
+    if (!text) return;
 
     const tick = () => {
-      // Extra guard: stop if done
-      if (indexRef.current >= text.length || displayedText === text) return;
-
-      const next = (prev: string) => {
-        // If another render already finished it, keep as is
+      setDisplayedText((prev) => {
         if (prev === text) return prev;
-        const n = prev + text[indexRef.current];
-        indexRef.current += 1;
-        // Schedule next only if there’s more to reveal
-        if (indexRef.current < text.length && n !== text) {
-          timeoutRef.current = setTimeout(tick, interval);
-        }
-        return n;
-      };
 
-      setDisplayedText(next);
+        const next = prev + text[indexRef.current];
+        indexRef.current += 1;
+
+        if (indexRef.current < text.length) {
+          timeoutRef.current = window.setTimeout(tick, interval);
+        } else {
+          timeoutRef.current = null;
+        }
+
+        return next;
+      });
     };
 
-    // Kick off
-    timeoutRef.current = setTimeout(tick, interval);
+    timeoutRef.current = window.setTimeout(tick, interval);
 
     return () => {
-      if (timeoutRef.current) clearTimeout(timeoutRef.current);
+      if (timeoutRef.current !== null) {
+        clearTimeout(timeoutRef.current);
+        timeoutRef.current = null;
+      }
     };
-  }, [text, interval, displayedText]);
+  }, [text, interval]);
+
+  const showCaret =
+    caretOptions?.display !== 'never' &&
+    (caretOptions?.display === 'always' ||
+      (caretOptions?.display === 'while-typing' && displayedText !== text));
 
   return (
     <div
@@ -69,13 +75,11 @@ export const TextReveal = ({
     >
       <p className="text-inherit">
         {displayedText}
-        {caretOptions?.display !== 'never' &&
-        (caretOptions?.display === 'always' ||
-          (caretOptions?.display === 'while-typing' && displayedText !== text)) ? (
+        {showCaret ? (
           <span
             className={twMerge(
               'bg-white-primary text-white-primary h-5 w-2 animate-pulse font-bold',
-              caretOptions.className,
+              caretOptions?.className,
             )}
           >
             |
