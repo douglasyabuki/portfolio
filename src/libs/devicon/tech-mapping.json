@@ -16,7 +16,7 @@
         "url": "https://aframe.io"
     },
     "aftereffects": {
-        "name": "AfterEffects",
+        "name": "After Effects",
         "url": "https://www.adobe.com/products/aftereffects.html"
     },
     "akka": {
@@ -36,7 +36,7 @@
         "url": "https://alpinejs.dev"
     },
     "amazonwebservices": {
-        "name": "",
+        "name": "AWS",
         "url": "https://aws.amazon.com"
     },
     "anaconda": {
@@ -48,7 +48,7 @@
         "url": "https://www.android.com"
     },
     "androidstudio": {
-        "name": "AndroidStudio",
+        "name": "Android Studio",
         "url": "https://developer.android.com/studio"
     },
     "angular": {
@@ -60,7 +60,7 @@
         "url": "https://angularjs.org"
     },
     "angularmaterial": {
-        "name": "AngularMaterial",
+        "name": "Angular Material",
         "url": "https://material.angular.io"
     },
     "ansible": {
@@ -80,15 +80,15 @@
         "url": "https://www.apache.org"
     },
     "apacheairflow": {
-        "name": "ApacheAirflow",
+        "name": "Apache Airflow",
         "url": "https://airflow.apache.org"
     },
     "apachekafka": {
-        "name": "ApacheKafka",
+        "name": "Apache Kafka",
         "url": "https://kafka.apache.org"
     },
     "apachespark": {
-        "name": "ApacheSpark",
+        "name": "Apache Spark",
         "url": "https://spark.apache.org"
     },
     "apex": {
@@ -144,7 +144,7 @@
         "url": "https://www.gnu.org/software/gawk/"
     },
     "axios": {
-        "name": "",
+        "name": "Axios",
         "url": "https://axios-http.com"
     },
     "azure": {
@@ -152,11 +152,11 @@
         "url": "https://azure.microsoft.com"
     },
     "azuredevops": {
-        "name": "AzureDevOps",
+        "name": "Azure DevOps",
         "url": "https://azure.microsoft.com/services/devops/"
     },
     "azuresqldatabase": {
-        "name": "AzureSQLDatabase",
+        "name": "Azure SQL Database",
         "url": "https://azure.microsoft.com/services/sql-database/"
     },
     "babel": {
@@ -228,7 +228,7 @@
         "url": "https://www.browserstack.com"
     },
     "bulma": {
-        "name": "",
+        "name": "Bulma",
         "url": "https://bulma.io"
     },
     "bun": {
@@ -284,7 +284,7 @@
         "url": "https://www.google.com/chrome/"
     },
     "circleci": {
-        "name": "",
+        "name": "Circleci",
         "url": "https://circleci.com"
     },
     "clarity": {
@@ -332,11 +332,11 @@
         "url": "https://www.codeac.io"
     },
     "codecov": {
-        "name": "",
+        "name": "Codecov",
         "url": "https://about.codecov.io"
     },
     "codeigniter": {
-        "name": "",
+        "name": "Codeigniter",
         "url": "https://codeigniter.com"
     },
     "codepen": {
@@ -384,7 +384,7 @@
         "url": "https://cpanel.net"
     },
     "cplusplus": {
-        "name": "CPlusPlus",
+        "name": "C++",
         "url": "https://isocpp.org"
     },
     "crystal": {
@@ -392,7 +392,7 @@
         "url": "https://crystal-lang.org"
     },
     "csharp": {
-        "name": "CSharp",
+        "name": "C#",
         "url": "https://learn.microsoft.com/dotnet/csharp/"
     },
     "css3": {
@@ -400,7 +400,7 @@
         "url": "https://developer.mozilla.org/docs/Web/CSS"
     },
     "cucumber": {
-        "name": "",
+        "name": "Cucumber",
         "url": "https://cucumber.io"
     },
     "cypressio": {
@@ -468,7 +468,7 @@
         "url": "https://discord.js.org"
     },
     "django": {
-        "name": "",
+        "name": "Django",
         "url": "https://www.djangoproject.com"
     },
     "djangorest": {
@@ -484,11 +484,11 @@
         "url": "https://www.doctrine-project.org"
     },
     "dot-net": {
-        "name": "",
+        "name": ".NET",
         "url": "https://dotnet.microsoft.com"
     },
     "dotnetcore": {
-        "name": "DotNETCore",
+        "name": ".NET Core",
         "url": "https://dotnet.microsoft.com"
     },
     "dovecot": {
@@ -740,7 +740,7 @@
         "url": "https://www.gitpod.io"
     },
     "gitter": {
-        "name": "",
+        "name": "Gitter",
         "url": "https://gitter.im"
     },
     "gleam": {
@@ -788,7 +788,7 @@
         "url": "https://grails.org"
     },
     "graphql": {
-        "name": "",
+        "name": "GraphQL",
         "url": "https://graphql.org"
     },
     "groovy": {
@@ -804,7 +804,7 @@
         "url": "https://gruntjs.com"
     },
     "gulp": {
-        "name": "",
+        "name": "Gulp",
         "url": "https://gulpjs.com"
     },
     "hadoop": {
@@ -824,7 +824,7 @@
         "url": "https://hardhat.org"
     },
     "harvester": {
-        "name": "",
+        "name": "Harvester",
         "url": "https://harvesterhci.io"
     },
     "haskell": {
@@ -832,7 +832,7 @@
         "url": "https://www.haskell.org"
     },
     "haxe": {
-        "name": "",
+        "name": "Haxe",
         "url": "https://haxe.org"
     },
     "helm": {
@@ -928,7 +928,7 @@
         "url": "https://developer.mozilla.org/docs/Web/JavaScript"
     },
     "jeet": {
-        "name": "",
+        "name": "Jeet",
         "url": "http://jeet.gs"
     },
     "jekyll": {
@@ -940,7 +940,7 @@
         "url": "https://www.jenkins.io"
     },
     "jest": {
-        "name": "",
+        "name": "Jest",
         "url": "https://jestjs.io"
     },
     "jetbrains": {
@@ -960,7 +960,7 @@
         "url": "https://www.atlassian.com/software/jira"
     },
     "jiraalign": {
-        "name": "",
+        "name": "Jiraalign",
         "url": "https://www.atlassian.com/software/jira/align"
     },
     "jquery": {
@@ -972,7 +972,7 @@
         "url": "https://www.json.org"
     },
     "jule": {
-        "name": "",
+        "name": "Jule",
         "url": "https://julelang.org"
     },
     "julia": {
@@ -1004,7 +1004,7 @@
         "url": "https://www.kaggle.com"
     },
     "kaldi": {
-        "name": "",
+        "name": "Kaldi",
         "url": "https://kaldi-asr.org"
     },
     "kalilinux": {
@@ -1012,7 +1012,7 @@
         "url": "https://www.kali.org"
     },
     "karatelabs": {
-        "name": "",
+        "name": "Karatelabs",
         "url": "https://karatelabs.io"
     },
     "karma": {
@@ -1020,7 +1020,7 @@
         "url": "https://karma-runner.github.io"
     },
     "kdeneon": {
-        "name": "",
+        "name": "Kdeneon",
         "url": "https://neon.kde.org"
     },
     "keras": {
@@ -1032,11 +1032,11 @@
         "url": "https://www.elastic.co/kibana"
     },
     "knexjs": {
-        "name": "",
+        "name": "Knex JS",
         "url": "https://knexjs.org"
     },
     "knockout": {
-        "name": "",
+        "name": "Knockout",
         "url": "https://knockoutjs.com"
     },
     "kotlin": {
@@ -1044,15 +1044,15 @@
         "url": "https://kotlinlang.org"
     },
     "krakenjs": {
-        "name": "",
+        "name": "Kraken JS",
         "url": "https://krakenjs.com"
     },
     "ktor": {
-        "name": "",
+        "name": "Ktor",
         "url": "https://ktor.io"
     },
     "kubeflow": {
-        "name": "",
+        "name": "Kubeflow",
         "url": "https://kubeflow.org"
     },
     "kubernetes": {
@@ -1060,11 +1060,11 @@
         "url": "https://kubernetes.io"
     },
     "labview": {
-        "name": "",
+        "name": "Labview",
         "url": "https://www.ni.com/labview"
     },
     "laminas": {
-        "name": "",
+        "name": "Laminas",
         "url": "https://getlaminas.org"
     },
     "laravel": {
@@ -1072,7 +1072,7 @@
         "url": "https://laravel.com"
     },
     "laraveljetstream": {
-        "name": "",
+        "name": "Laraveljetstream",
         "url": "https://jetstream.laravel.com"
     },
     "latex": {
@@ -1084,7 +1084,7 @@
         "url": "https://leetcode.com"
     },
     "less": {
-        "name": "",
+        "name": "Less",
         "url": "https://lesscss.org"
     },
     "libgdx": {
@@ -1104,15 +1104,15 @@
         "url": "https://linuxmint.com"
     },
     "liquibase": {
-        "name": "",
+        "name": "Liquibase",
         "url": "https://www.liquibase.com"
     },
     "livewire": {
-        "name": "",
+        "name": "Livewire",
         "url": "https://livewire.laravel.com"
     },
     "llvm": {
-        "name": "",
+        "name": "Llvm",
         "url": "https://llvm.org"
     },
     "lodash": {
@@ -1124,7 +1124,7 @@
         "url": "https://www.elastic.co/logstash"
     },
     "love2d": {
-        "name": "",
+        "name": "Love2d",
         "url": "https://love2d.org"
     },
     "lua": {
@@ -1132,7 +1132,7 @@
         "url": "https://www.lua.org"
     },
     "lumen": {
-        "name": "",
+        "name": "Lumen",
         "url": "https://lumen.laravel.com"
     },
     "magento": {
@@ -1152,11 +1152,11 @@
         "url": "https://daringfireball.net/projects/markdown/"
     },
     "materializecss": {
-        "name": "",
+        "name": "Materializecss",
         "url": "https://materializecss.com"
     },
     "materialui": {
-        "name": "MaterialUI",
+        "name": "Material UI",
         "url": "https://mui.com"
     },
     "matlab": {
@@ -1168,7 +1168,7 @@
         "url": "https://matplotlib.org"
     },
     "mattermost": {
-        "name": "",
+        "name": "Mattermost",
         "url": "https://mattermost.com"
     },
     "maven": {
@@ -1176,19 +1176,19 @@
         "url": "https://maven.apache.org"
     },
     "maya": {
-        "name": "",
+        "name": "Maya",
         "url": "https://www.autodesk.com/products/maya/overview"
     },
     "memcached": {
-        "name": "",
+        "name": "Memcached",
         "url": "https://memcached.org"
     },
     "mercurial": {
-        "name": "",
+        "name": "Mercurial",
         "url": "https://www.mercurial-scm.org"
     },
     "meteor": {
-        "name": "",
+        "name": "Meteor",
         "url": "https://www.meteor.com"
     },
     "microsoftsqlserver": {
@@ -1196,11 +1196,11 @@
         "url": "https://www.microsoft.com/sql-server"
     },
     "minitab": {
-        "name": "",
+        "name": "Minitab",
         "url": "https://www.minitab.com"
     },
     "mithril": {
-        "name": "",
+        "name": "Mithril",
         "url": "https://mithril.js.org"
     },
     "mobx": {
@@ -1208,15 +1208,15 @@
         "url": "https://mobx.js.org"
     },
     "mocha": {
-        "name": "",
+        "name": "Mocha",
         "url": "https://mochajs.org"
     },
     "modx": {
-        "name": "",
+        "name": "Modx",
         "url": "https://modx.com"
     },
     "moleculer": {
-        "name": "",
+        "name": "Moleculer",
         "url": "https://moleculer.services"
     },
     "mongodb": {
@@ -1228,15 +1228,15 @@
         "url": "https://mongoosejs.com"
     },
     "monogame": {
-        "name": "",
+        "name": "Monogame",
         "url": "https://www.monogame.net"
     },
     "moodle": {
-        "name": "",
+        "name": "Moodle",
         "url": "https://moodle.org"
     },
     "msdos": {
-        "name": "",
+        "name": "Msdos",
         "url": "https://learn.microsoft.com/en-us/shows/the-history-of-windows/ms-dos/"
     },
     "mysql": {
@@ -1244,19 +1244,19 @@
         "url": "https://www.mysql.com"
     },
     "nano": {
-        "name": "",
+        "name": "Nano",
         "url": "https://www.nano-editor.org"
     },
     "nats": {
-        "name": "",
+        "name": "Nats",
         "url": "https://nats.io"
     },
     "neo4j": {
-        "name": "",
+        "name": "Neo4j",
         "url": "https://neo4j.com"
     },
     "neovim": {
-        "name": "",
+        "name": "Neovim",
         "url": "https://neovim.io"
     },
     "nestjs": {
@@ -1268,7 +1268,7 @@
         "url": "https://netbeans.apache.org/"
     },
     "netbox": {
-        "name": "",
+        "name": "Netbox",
         "url": "https://netbox.dev/"
     },
     "netlify": {
@@ -1276,15 +1276,15 @@
         "url": "https://www.netlify.com/"
     },
     "networkx": {
-        "name": "",
+        "name": "Networkx",
         "url": "https://networkx.org/"
     },
     "newrelic": {
-        "name": "",
+        "name": "Newrelic",
         "url": "https://newrelic.com/"
     },
     "nextjs": {
-        "name": "NextJS",
+        "name": "Next.js",
         "url": "https://nextjs.org/"
     },
     "nginx": {
@@ -1292,51 +1292,51 @@
         "url": "https://nginx.org/"
     },
     "ngrok": {
-        "name": "",
+        "name": "Ngrok",
         "url": "https://ngrok.com/"
     },
     "ngrx": {
-        "name": "",
+        "name": "Ngrx",
         "url": "https://ngrx.io/"
     },
     "nhibernate": {
-        "name": "",
+        "name": "Nhibernate",
         "url": "https://nhibernate.info/"
     },
     "nim": {
-        "name": "",
+        "name": "Nim",
         "url": "https://nim-lang.org/"
     },
     "nimble": {
-        "name": "",
+        "name": "Nimble",
         "url": "https://nimble.directory/"
     },
     "nixos": {
-        "name": "",
+        "name": "Nixos",
         "url": "https://nixos.org/"
     },
     "nodejs": {
-        "name": "NodeJS",
+        "name": "Node.js",
         "url": "https://nodejs.org/"
     },
     "nodemon": {
-        "name": "",
+        "name": "Nodemon",
         "url": "https://nodemon.io/"
     },
     "nodered": {
-        "name": "",
+        "name": "Nodered",
         "url": "https://nodered.org/"
     },
     "nodewebkit": {
-        "name": "",
+        "name": "Nodewebkit",
         "url": "https://github.com/nwjs/nw.js"
     },
     "nomad": {
-        "name": "",
+        "name": "Nomad",
         "url": "https://www.nomadproject.io/"
     },
     "norg": {
-        "name": "",
+        "name": "Norg",
         "url": "https://norg.dev/"
     },
     "notion": {
@@ -1348,11 +1348,11 @@
         "url": "https://www.npmjs.com/"
     },
     "npss": {
-        "name": "",
+        "name": "Npss",
         "url": "https://www.nasa.gov/software/npss/"
     },
     "nuget": {
-        "name": "",
+        "name": "Nuget",
         "url": "https://www.nuget.org/"
     },
     "numpy": {
@@ -1360,19 +1360,19 @@
         "url": "https://numpy.org/"
     },
     "nuxt": {
-        "name": "",
+        "name": "Nuxt",
         "url": "https://nuxt.com/"
     },
     "nuxtjs": {
-        "name": "NuxtJS",
+        "name": "Nuxt",
         "url": "https://nuxt.com/"
     },
     "oauth": {
-        "name": "",
+        "name": "Oauth",
         "url": "https://oauth.net/"
     },
     "objectivec": {
-        "name": "",
+        "name": "Objectivec",
         "url": "https://developer.apple.com/documentation/objectivec"
     },
     "ocaml": {
@@ -1380,15 +1380,15 @@
         "url": "https://ocaml.org/"
     },
     "ohmyzsh": {
-        "name": "",
+        "name": "Ohmyzsh",
         "url": "https://ohmyz.sh/"
     },
     "okta": {
-        "name": "",
+        "name": "Okta",
         "url": "https://developer.okta.com/"
     },
     "openal": {
-        "name": "",
+        "name": "Openal",
         "url": "https://www.openal.org/"
     },
     "openapi": {
@@ -1396,7 +1396,7 @@
         "url": "https://www.openapis.org/"
     },
     "opencl": {
-        "name": "",
+        "name": "Opencl",
         "url": "https://www.khronos.org/opencl/"
     },
     "opencv": {
@@ -1416,11 +1416,11 @@
         "url": "https://www.opensuse.org/"
     },
     "opentelemetry": {
-        "name": "",
+        "name": "Opentelemetry",
         "url": "https://opentelemetry.io/"
     },
     "opera": {
-        "name": "",
+        "name": "Opera",
         "url": "https://www.opera.com/"
     },
     "oracle": {
@@ -1428,15 +1428,15 @@
         "url": "https://www.oracle.com/"
     },
     "ory": {
-        "name": "",
+        "name": "Ory",
         "url": "https://www.ory.sh/"
     },
     "p5js": {
-        "name": "",
+        "name": "P5 JS",
         "url": "https://p5js.org/"
     },
     "packer": {
-        "name": "",
+        "name": "Packer",
         "url": "https://www.packer.io/"
     },
     "pandas": {
@@ -1444,7 +1444,7 @@
         "url": "https://pandas.pydata.org/"
     },
     "passport": {
-        "name": "",
+        "name": "Passport",
         "url": "http://www.passportjs.org/"
     },
     "perl": {
@@ -1452,19 +1452,19 @@
         "url": "https://www.perl.org/"
     },
     "pfsense": {
-        "name": "",
+        "name": "Pfsense",
         "url": "https://www.pfsense.org/"
     },
     "phalcon": {
-        "name": "",
+        "name": "Phalcon",
         "url": "https://phalcon.io/"
     },
     "phoenix": {
-        "name": "",
+        "name": "Phoenix",
         "url": "https://www.phoenixframework.org/"
     },
     "photonengine": {
-        "name": "",
+        "name": "Photonengine",
         "url": "https://www.photonengine.com/"
     },
     "photoshop": {
@@ -1484,39 +1484,39 @@
         "url": "https://pixijs.com/"
     },
     "playwright": {
-        "name": "",
+        "name": "Playwright",
         "url": "https://playwright.dev/"
     },
     "plotly": {
-        "name": "",
+        "name": "Plotly",
         "url": "https://plotly.com/"
     },
     "pm2": {
-        "name": "",
+        "name": "Pm2",
         "url": "https://pm2.keymetrics.io/"
     },
     "pnpm": {
-        "name": "",
+        "name": "Pnpm",
         "url": "https://pnpm.io/"
     },
     "podman": {
-        "name": "",
+        "name": "Podman",
         "url": "https://podman.io/"
     },
     "poetry": {
-        "name": "",
+        "name": "Poetry",
         "url": "https://python-poetry.org/"
     },
     "polygon": {
-        "name": "",
+        "name": "Polygon",
         "url": "https://polygon.technology/"
     },
     "portainer": {
-        "name": "",
+        "name": "Portainer",
         "url": "https://www.portainer.io/"
     },
     "postcss": {
-        "name": "",
+        "name": "Postcss",
         "url": "https://postcss.org/"
     },
     "postgresql": {
@@ -1532,11 +1532,11 @@
         "url": "https://learn.microsoft.com/powershell/"
     },
     "premierepro": {
-        "name": "",
+        "name": "Premierepro",
         "url": "https://www.adobe.com/products/premiere.html"
     },
     "primeng": {
-        "name": "",
+        "name": "Primeng",
         "url": "https://primeng.org/"
     },
     "prisma": {
@@ -1548,11 +1548,11 @@
         "url": "https://processing.org/"
     },
     "processwire": {
-        "name": "",
+        "name": "Processwire",
         "url": "https://processwire.com/"
     },
     "prolog": {
-        "name": "",
+        "name": "Prolog",
         "url": "https://www.swi-prolog.org/"
     },
     "prometheus": {
@@ -1560,7 +1560,7 @@
         "url": "https://prometheus.io/"
     },
     "protractor": {
-        "name": "",
+        "name": "Protractor",
         "url": "https://www.protractortest.org/"
     },
     "proxmox": {
@@ -1572,7 +1572,7 @@
         "url": "https://pugjs.org/"
     },
     "pulsar": {
-        "name": "",
+        "name": "Pulsar",
         "url": "https://pulsar.apache.org/"
     },
     "pulumi": {
@@ -1584,27 +1584,27 @@
         "url": "https://pptr.dev/"
     },
     "purescript": {
-        "name": "",
+        "name": "Purescript",
         "url": "https://www.purescript.org/"
     },
     "putty": {
-        "name": "",
+        "name": "Putty",
         "url": "https://www.putty.org/"
     },
     "pycharm": {
-        "name": "",
+        "name": "Pycharm",
         "url": "https://www.jetbrains.com/pycharm/"
     },
     "pypi": {
-        "name": "",
+        "name": "Pypi",
         "url": "https://pypi.org/"
     },
     "pyscript": {
-        "name": "",
+        "name": "Pyscript",
         "url": "https://pyscript.net/"
     },
     "pytest": {
-        "name": "",
+        "name": "Pytest",
         "url": "https://docs.pytest.org/"
     },
     "python": {
@@ -1616,7 +1616,7 @@
         "url": "https://pytorch.org/"
     },
     "qodana": {
-        "name": "",
+        "name": "Qodana",
         "url": "https://www.jetbrains.com/qodana/"
     },
     "qt": {
@@ -1624,7 +1624,7 @@
         "url": "https://www.qt.io/"
     },
     "qtest": {
-        "name": "",
+        "name": "Qtest",
         "url": "https://www.tricentis.com/products/qtest"
     },
     "quarkus": {
@@ -1636,7 +1636,7 @@
         "url": "https://quasar.dev/"
     },
     "qwik": {
-        "name": "",
+        "name": "Qwik",
         "url": "https://qwik.dev/"
     },
     "r": {
@@ -1648,19 +1648,19 @@
         "url": "https://www.rabbitmq.com/"
     },
     "racket": {
-        "name": "",
+        "name": "Racket",
         "url": "https://racket-lang.org/"
     },
     "radstudio": {
-        "name": "",
+        "name": "Radstudio",
         "url": "https://www.embarcadero.com/products/rad-studio"
     },
     "rails": {
-        "name": "",
+        "name": "Rails",
         "url": "https://rubyonrails.org/"
     },
     "railway": {
-        "name": "",
+        "name": "Railway",
         "url": "https://railway.app/"
     },
     "rancher": {
@@ -1672,7 +1672,7 @@
         "url": "https://www.raspberrypi.com/"
     },
     "reach": {
-        "name": "",
+        "name": "Reach",
         "url": "https://reach.tech/"
     },
     "react": {
@@ -1680,15 +1680,15 @@
         "url": "https://react.dev/"
     },
     "reactbootstrap": {
-        "name": "ReactBootstrap",
+        "name": "React Bootstrap",
         "url": "https://react-bootstrap.netlify.app/"
     },
     "reactnative": {
-        "name": "ReactNative",
+        "name": "React Native",
         "url": "https://reactnative.dev/"
     },
     "reactnavigation": {
-        "name": "",
+        "name": "Reactnavigation",
         "url": "https://reactnavigation.org/"
     },
     "reactrouter": {
@@ -1696,19 +1696,19 @@
         "url": "https://reactrouter.com/"
     },
     "readthedocs": {
-        "name": "",
+        "name": "Readthedocs",
         "url": "https://readthedocs.org/"
     },
     "realm": {
-        "name": "",
+        "name": "Realm",
         "url": "https://www.mongodb.com/realm"
     },
     "rect": {
-        "name": "",
+        "name": "Rect",
         "url": "https://react.dev/"
     },
     "redhat": {
-        "name": "",
+        "name": "Redhat",
         "url": "https://www.redhat.com/"
     },
     "redis": {
@@ -1720,7 +1720,7 @@
         "url": "https://redux.js.org/"
     },
     "reflex": {
-        "name": "",
+        "name": "Reflex",
         "url": "https://reflex.dev/"
     },
     "remix": {
@@ -1728,7 +1728,7 @@
         "url": "https://remix.run/"
     },
     "renpy": {
-        "name": "",
+        "name": "Renpy",
         "url": "https://www.renpy.org/"
     },
     "replit": {
@@ -1736,35 +1736,35 @@
         "url": "https://replit.com/"
     },
     "rexx": {
-        "name": "",
+        "name": "Rexx",
         "url": "https://www.rexxla.org/"
     },
     "rider": {
-        "name": "",
+        "name": "Rider",
         "url": "https://www.jetbrains.com/rider/"
     },
     "rocksdb": {
-        "name": "",
+        "name": "Rocksdb",
         "url": "https://rocksdb.org/"
     },
     "rockylinux": {
-        "name": "",
+        "name": "Rockylinux",
         "url": "https://rockylinux.org/"
     },
     "rollup": {
-        "name": "",
+        "name": "Rollup",
         "url": "https://rollupjs.org/"
     },
     "ros": {
-        "name": "",
+        "name": "Ros",
         "url": "https://www.ros.org/"
     },
     "rspec": {
-        "name": "",
+        "name": "Rspec",
         "url": "https://rspec.info/"
     },
     "rstudio": {
-        "name": "",
+        "name": "Rstudio",
         "url": "https://posit.co/products/rstudio/"
     },
     "ruby": {
@@ -1772,7 +1772,7 @@
         "url": "https://www.ruby-lang.org/"
     },
     "rubymine": {
-        "name": "",
+        "name": "Rubymine",
         "url": "https://www.jetbrains.com/ruby/"
     },
     "rust": {
@@ -1784,15 +1784,15 @@
         "url": "https://rxjs.dev/"
     },
     "safari": {
-        "name": "",
+        "name": "Safari",
         "url": "https://www.apple.com/safari/"
     },
     "salesforce": {
-        "name": "",
+        "name": "Salesforce",
         "url": "https://www.salesforce.com/"
     },
     "sanity": {
-        "name": "",
+        "name": "Sanity",
         "url": "https://www.sanity.io/"
     },
     "sass": {
@@ -1804,7 +1804,7 @@
         "url": "https://www.scala-lang.org/"
     },
     "scalingo": {
-        "name": "",
+        "name": "Scalingo",
         "url": "https://scalingo.com/"
     },
     "scikitlearn": {
@@ -1812,7 +1812,7 @@
         "url": "https://scikit-learn.org/"
     },
     "sdl": {
-        "name": "",
+        "name": "Sdl",
         "url": "https://www.libsdl.org/"
     },
     "selenium": {
@@ -1820,7 +1820,7 @@
         "url": "https://www.selenium.dev/"
     },
     "sema": {
-        "name": "",
+        "name": "Sema",
         "url": "https://semaphoreci.com/"
     },
     "sentry": {
@@ -1836,7 +1836,7 @@
         "url": "https://www.shopware.com/"
     },
     "shotgrid": {
-        "name": "",
+        "name": "Shotgrid",
         "url": "https://www.autodesk.com/products/shotgrid/overview"
     },
     "sketch": {
@@ -1864,23 +1864,23 @@
         "url": "https://www.sonarqube.org/"
     },
     "sourceengine": {
-        "name": "",
+        "name": "Sourceengine",
         "url": "https://developer.valvesoftware.com/wiki/Source"
     },
     "sourcetree": {
-        "name": "",
+        "name": "Sourcetree",
         "url": "https://www.sourcetreeapp.com/"
     },
     "spack": {
-        "name": "",
+        "name": "Spack",
         "url": "https://spack.readthedocs.io/"
     },
     "spicedb": {
-        "name": "",
+        "name": "Spicedb",
         "url": "https://authzed.com/"
     },
     "splunk": {
-        "name": "",
+        "name": "Splunk",
         "url": "https://www.splunk.com/"
     },
     "spring": {
@@ -1888,19 +1888,19 @@
         "url": "https://spring.io/"
     },
     "spss": {
-        "name": "",
+        "name": "Spss",
         "url": "https://www.ibm.com/products/spss-statistics"
     },
     "spyder": {
-        "name": "",
+        "name": "Spyder",
         "url": "https://www.spyder-ide.org/"
     },
     "sqlalchemy": {
-        "name": "",
+        "name": "Sqlalchemy",
         "url": "https://www.sqlalchemy.org/"
     },
     "sqldeveloper": {
-        "name": "",
+        "name": "Sqldeveloper",
         "url": "https://www.oracle.com/database/sqldeveloper/"
     },
     "sqlite": {
@@ -1912,19 +1912,19 @@
         "url": "https://www.ssh.com/"
     },
     "stackblitz": {
-        "name": "",
+        "name": "Stackblitz",
         "url": "https://stackblitz.com/"
     },
     "stackoverflow": {
-        "name": "",
+        "name": "Stackoverflow",
         "url": "https://stackoverflow.com/"
     },
     "stata": {
-        "name": "",
+        "name": "Stata",
         "url": "https://www.stata.com/"
     },
     "stenciljs": {
-        "name": "",
+        "name": "Stencil JS",
         "url": "https://stenciljs.com/"
     },
     "storybook": {
@@ -1932,7 +1932,7 @@
         "url": "https://storybook.js.org/"
     },
     "streamlit": {
-        "name": "",
+        "name": "Streamlit",
         "url": "https://streamlit.io/"
     },
     "styledcomponents": {
@@ -1940,15 +1940,15 @@
         "url": "https://styled-components.com/"
     },
     "stylus": {
-        "name": "",
+        "name": "Stylus",
         "url": "https://stylus-lang.com/"
     },
     "subversion": {
-        "name": "",
+        "name": "Subversion",
         "url": "https://subversion.apache.org/"
     },
     "sulu": {
-        "name": "",
+        "name": "Sulu",
         "url": "https://sulu.io/"
     },
     "supabase": {
@@ -1956,7 +1956,7 @@
         "url": "https://supabase.com/"
     },
     "surrealdb": {
-        "name": "",
+        "name": "Surrealdb",
         "url": "https://surrealdb.com/"
     },
     "svelte": {
@@ -1964,7 +1964,7 @@
         "url": "https://svelte.dev/"
     },
     "svgo": {
-        "name": "",
+        "name": "Svgo",
         "url": "https://github.com/svg/svgo"
     },
     "swagger": {
@@ -1976,7 +1976,7 @@
         "url": "https://swift.org/"
     },
     "swiper": {
-        "name": "",
+        "name": "Swiper",
         "url": "https://swiperjs.com/"
     },
     "symfony": {
@@ -1988,7 +1988,7 @@
         "url": "https://tailwindcss.com/"
     },
     "talos": {
-        "name": "",
+        "name": "Talos",
         "url": "https://www.talos.dev/"
     },
     "tauri": {
@@ -1996,7 +1996,7 @@
         "url": "https://tauri.app/"
     },
     "teleport": {
-        "name": "",
+        "name": "Teleport",
         "url": "https://goteleport.com/"
     },
     "tensorflow": {
@@ -2008,79 +2008,79 @@
         "url": "https://www.terraform.io/"
     },
     "terramate": {
-        "name": "",
+        "name": "Terramate",
         "url": "https://terramate.io/"
     },
     "tex": {
-        "name": "",
+        "name": "Tex",
         "url": "https://www.latex-project.org/"
     },
     "thealgorithms": {
-        "name": "",
+        "name": "Thealgorithms",
         "url": "https://the-algorithms.com/"
     },
     "threedsmax": {
-        "name": "",
+        "name": "Threedsmax",
         "url": "https://www.autodesk.com/products/3ds-max/overview"
     },
     "threejs": {
-        "name": "",
+        "name": "Three JS",
         "url": "https://threejs.org/"
     },
     "thymeleaf": {
-        "name": "",
+        "name": "Thymeleaf",
         "url": "https://www.thymeleaf.org/"
     },
     "titaniumsdk": {
-        "name": "",
+        "name": "Titaniumsdk",
         "url": "https://titaniumsdk.com/"
     },
     "tmux": {
-        "name": "",
+        "name": "Tmux",
         "url": "https://github.com/tmux/tmux/wiki"
     },
     "tomcat": {
-        "name": "",
+        "name": "Tomcat",
         "url": "https://tomcat.apache.org/"
     },
     "tortoisegit": {
-        "name": "",
+        "name": "Tortoisegit",
         "url": "https://tortoisegit.org/"
     },
     "towergit": {
-        "name": "",
+        "name": "Towergit",
         "url": "https://www.git-tower.com/"
     },
     "traefikmesh": {
-        "name": "",
+        "name": "Traefikmesh",
         "url": "https://doc.traefik.io/traefik-mesh/"
     },
     "traefikproxy": {
-        "name": "",
+        "name": "Traefikproxy",
         "url": "https://traefik.io/traefik/"
     },
     "travis": {
-        "name": "",
+        "name": "Travis",
         "url": "https://www.travis-ci.com/"
     },
     "trello": {
-        "name": "",
+        "name": "Trello",
         "url": "https://trello.com/"
     },
     "trpc": {
-        "name": "",
+        "name": "Trpc",
         "url": "https://trpc.io/"
     },
     "turbo": {
-        "name": "",
+        "name": "Turbo",
         "url": "https://turbo.build/"
     },
     "twilio": {
-        "name": "",
+        "name": "Twilio",
         "url": "https://www.twilio.com/"
     },
     "twitter": {
-        "name": "",
+        "name": "Twitter",
         "url": "https://twitter.com/"
     },
     "typescript": {
@@ -2088,7 +2088,7 @@
         "url": "https://www.typescriptlang.org/"
     },
     "typo3": {
-        "name": "",
+        "name": "Typo3",
         "url": "https://typo3.org/"
     },
     "ubuntu": {
@@ -2096,7 +2096,7 @@
         "url": "https://ubuntu.com/"
     },
     "unifiedmodelinglanguage": {
-        "name": "",
+        "name": "Unifiedmodelinglanguage",
         "url": "https://www.uml.org/"
     },
     "unity": {
@@ -2104,7 +2104,7 @@
         "url": "https://unity.com/"
     },
     "unix": {
-        "name": "",
+        "name": "Unix",
         "url": "https://www.opengroup.org/membership/forums/platform/unix"
     },
     "unrealengine": {
@@ -2112,31 +2112,31 @@
         "url": "https://www.unrealengine.com/"
     },
     "uwsgi": {
-        "name": "",
+        "name": "Uwsgi",
         "url": "https://uwsgi-docs.readthedocs.io/"
     },
     "v8": {
-        "name": "",
+        "name": "V8",
         "url": "https://v8.dev/"
     },
     "vaadin": {
-        "name": "",
+        "name": "Vaadin",
         "url": "https://vaadin.com/"
     },
     "vagrant": {
-        "name": "",
+        "name": "Vagrant",
         "url": "https://www.vagrantup.com/"
     },
     "vala": {
-        "name": "",
+        "name": "Vala",
         "url": "https://vala.dev/"
     },
     "vault": {
-        "name": "",
+        "name": "Vault",
         "url": "https://www.vaultproject.io/"
     },
     "veevalidate": {
-        "name": "",
+        "name": "Veevalidate",
         "url": "https://vee-validate.logaretm.com/"
     },
     "vercel": {
@@ -2144,19 +2144,19 @@
         "url": "https://vercel.com/"
     },
     "vertx": {
-        "name": "",
+        "name": "Vertx",
         "url": "https://vertx.io/"
     },
     "vim": {
-        "name": "",
+        "name": "Vim",
         "url": "https://www.vim.org/"
     },
     "visualbasic": {
-        "name": "",
+        "name": "Visualbasic",
         "url": "https://learn.microsoft.com/en-us/dotnet/visual-basic/"
     },
     "visualstudio": {
-        "name": "",
+        "name": "Visualstudio",
         "url": "https://visualstudio.microsoft.com/"
     },
     "vite": {
@@ -2164,15 +2164,15 @@
         "url": "https://vite.dev/"
     },
     "vitejs": {
-        "name": "ViteJS",
+        "name": "Vite",
         "url": "https://vitejs.dev/"
     },
     "vitess": {
-        "name": "",
+        "name": "Vitess",
         "url": "https://vitess.io/"
     },
     "vitest": {
-        "name": "",
+        "name": "Vitest",
         "url": "https://vitest.dev/"
     },
     "vscode": {
@@ -2180,11 +2180,11 @@
         "url": "https://code.visualstudio.com/"
     },
     "vscodium": {
-        "name": "",
+        "name": "Vscodium",
         "url": "https://vscodium.com/"
     },
     "vsphere": {
-        "name": "",
+        "name": "Vsphere",
         "url": "https://www.vmware.com/products/vsphere.html"
     },
     "vuejs": {
@@ -2192,7 +2192,7 @@
         "url": "https://vuejs.org/"
     },
     "vuestorefront": {
-        "name": "",
+        "name": "Vuestorefront",
         "url": "https://vuestorefront.io/"
     },
     "vuetify": {
@@ -2200,35 +2200,35 @@
         "url": "https://vuetifyjs.com/"
     },
     "vulkan": {
-        "name": "",
+        "name": "Vulkan",
         "url": "https://www.vulkan.org/"
     },
     "vyper": {
-        "name": "",
+        "name": "Vyper",
         "url": "https://docs.vyperlang.org/"
     },
     "waku": {
-        "name": "",
+        "name": "Waku",
         "url": "https://waku.org/"
     },
     "wasm": {
-        "name": "",
+        "name": "Wasm",
         "url": "https://webassembly.org/"
     },
     "web3js": {
-        "name": "",
+        "name": "Web3 JS",
         "url": "https://web3js.readthedocs.io/"
     },
     "webflow": {
-        "name": "",
+        "name": "Webflow",
         "url": "https://webflow.com/"
     },
     "webgpu": {
-        "name": "",
+        "name": "Webgpu",
         "url": "https://gpuweb.github.io/gpuweb/"
     },
     "weblate": {
-        "name": "",
+        "name": "Weblate",
         "url": "https://weblate.org/"
     },
     "webpack": {
@@ -2236,23 +2236,23 @@
         "url": "https://webpack.js.org/"
     },
     "webstorm": {
-        "name": "",
+        "name": "Webstorm",
         "url": "https://www.jetbrains.com/webstorm/"
     },
     "windows11": {
-        "name": "",
+        "name": "Windows11",
         "url": "https://www.microsoft.com/windows/windows-11"
     },
     "windows8": {
-        "name": "",
+        "name": "Windows8",
         "url": "https://learn.microsoft.com/en-us/lifecycle/products/windows-8"
     },
     "wolfram": {
-        "name": "",
+        "name": "Wolfram",
         "url": "https://www.wolfram.com/"
     },
     "woocommerce": {
-        "name": "",
+        "name": "Woocommerce",
         "url": "https://woocommerce.com/"
     },
     "wordpress": {
@@ -2260,7 +2260,7 @@
         "url": "https://wordpress.org/"
     },
     "xamarin": {
-        "name": "",
+        "name": "Xamarin",
         "url": "https://dotnet.microsoft.com/en-us/apps/xamarin"
     },
     "xcode": {
@@ -2268,11 +2268,11 @@
         "url": "https://developer.apple.com/xcode/"
     },
     "xd": {
-        "name": "",
+        "name": "Xd",
         "url": "https://helpx.adobe.com/xd/user-guide.html"
     },
     "xml": {
-        "name": "",
+        "name": "Xml",
         "url": "https://www.w3.org/XML/"
     },
     "yaml": {
@@ -2284,15 +2284,15 @@
         "url": "https://yarnpkg.com/"
     },
     "yii": {
-        "name": "",
+        "name": "Yii",
         "url": "https://www.yiiframework.com/"
     },
     "yugabytedb": {
-        "name": "",
+        "name": "Yugabytedb",
         "url": "https://www.yugabyte.com/"
     },
     "yunohost": {
-        "name": "",
+        "name": "Yunohost",
         "url": "https://yunohost.org/"
     },
     "zend": {
