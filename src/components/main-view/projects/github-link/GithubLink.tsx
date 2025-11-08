@@ -10,18 +10,18 @@ export const GithubLink = () => {
       <a
         href="https://github.com/douglasyabuki"
         target={'_blank'}
-        className="group relative container m-auto flex h-fit w-fit items-center justify-center rounded-full bg-none shadow-lg shadow-black/10 transition-all duration-300 hover:shadow-2xl hover:shadow-red-700/10"
+        className="group relative container m-auto flex h-fit w-fit items-center justify-center rounded-full bg-none shadow-lg shadow-black/10 transition-all duration-300 hover:shadow-2xl hover:shadow-red-700/10 focus:shadow-2xl focus:shadow-red-700/10"
         onContextMenu={(e) => e.preventDefault()}
       >
         <img
-          className="cover xs:w-[250px] w-[200px] rounded-full opacity-80 ring-4 ring-black transition-all duration-300 ring-inset group-hover:bg-red-700/100 md:w-[400px] lg:w-auto"
+          className="cover xs:w-[250px] w-[200px] rounded-full opacity-80 ring-4 ring-black transition-all duration-300 ring-inset group-hover:bg-red-700/100 group-focus:bg-red-700/100 md:w-[400px] lg:w-auto"
           src="/github.png"
           alt=""
         />
         <img
           src="/sunglasses.svg"
           alt="Svg from SVGRepo.com"
-          className="absolute w-1/2 opacity-0 transition-all duration-300 group-hover:translate-y-5 group-hover:opacity-100 md:group-hover:translate-y-9 lg:group-hover:translate-y-12"
+          className="absolute w-1/2 opacity-0 transition-all duration-300 group-hover:translate-y-5 group-hover:opacity-100 group-focus:translate-y-5 group-focus:opacity-100 md:group-hover:translate-y-9 md:group-focus:translate-y-9 lg:group-hover:translate-y-12 lg:group-focus:translate-y-12"
         />
       </a>
     </div>
