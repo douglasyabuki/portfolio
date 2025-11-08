@@ -11,6 +11,7 @@ export const GithubLink = () => {
         href="https://github.com/douglasyabuki"
         target={'_blank'}
         className="group relative container m-auto flex h-fit w-fit items-center justify-center rounded-full bg-none shadow-lg shadow-black/10 transition-all duration-300 hover:shadow-2xl hover:shadow-red-700/10"
+        onContextMenu={(e) => e.preventDefault()}
       >
         <img
           className="cover xs:w-[250px] w-[200px] rounded-full opacity-80 ring-4 ring-black transition-all duration-300 ring-inset group-hover:bg-red-700/100 md:w-[400px] lg:w-auto"
