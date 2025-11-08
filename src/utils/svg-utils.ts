@@ -9,10 +9,13 @@ const attrNameToReact = (name: string) => {
 
   if (name.includes(':')) {
     const [ns, local] = name.split(':');
-    if (ns && local) return ns + local[0].toUpperCase() + local.slice(1); // e.g. xml:space -> xmlSpace
+    if (ns && local) return ns + local[0].toUpperCase() + local.slice(1);
   }
 
   const map: Record<string, string> = {
+    class: 'className',
+    for: 'htmlFor',
+    tabindex: 'tabIndex',
     viewbox: 'viewBox',
     'fill-rule': 'fillRule',
     'clip-rule': 'clipRule',
@@ -20,11 +23,43 @@ const attrNameToReact = (name: string) => {
     'stroke-linecap': 'strokeLinecap',
     'stroke-linejoin': 'strokeLinejoin',
     'stroke-miterlimit': 'strokeMiterlimit',
+    'stroke-dasharray': 'strokeDasharray',
+    'stroke-dashoffset': 'strokeDashoffset',
+    'stroke-opacity': 'strokeOpacity',
+    'fill-opacity': 'fillOpacity',
+    'vector-effect': 'vectorEffect',
+    'paint-order': 'paintOrder',
     'stop-color': 'stopColor',
+    'stop-opacity': 'stopOpacity',
+    'clip-path': 'clipPath',
+    'mask-type': 'maskType',
+    'font-family': 'fontFamily',
+    'font-size': 'fontSize',
+    'font-weight': 'fontWeight',
+    'flood-opacity': 'floodOpacity',
+    'letter-spacing': 'letterSpacing',
+    'word-spacing': 'wordSpacing',
+    'text-anchor': 'textAnchor',
+    'dominant-baseline': 'dominantBaseline',
+    'alignment-baseline': 'alignmentBaseline',
+    'baseline-shift': 'baselineShift',
+    'shape-rendering': 'shapeRendering',
+    'text-rendering': 'textRendering',
+    'image-rendering': 'imageRendering',
+    'color-interpolation-filters': 'colorInterpolationFilters',
+    'marker-start': 'markerStart',
+    'marker-mid': 'markerMid',
+    'marker-end': 'markerEnd',
     'xlink:href': 'xlinkHref',
+    href: 'href',
+    'xml:space': 'xmlSpace',
+    'xml:lang': 'xmlLang',
+    'xmlns:xlink': 'xmlnsXlink',
   };
 
-  if (map[name]) return map[name];
+  const hit = map[name.toLowerCase()];
+  if (hit) return hit;
+
   return name.replace(/-([a-z])/g, (_, c) => c.toUpperCase());
 };
 
@@ -33,7 +68,18 @@ const attrsToProps = (attrs: NamedNodeMap) => {
   for (let i = 0; i < attrs.length; i++) {
     const a = attrs.item(i)!;
     const key = attrNameToReact(a.name);
-    props[key] = a.value;
+    if (key === 'style' && a.value && a.value.includes(':')) {
+      const obj: Record<string, string> = {};
+      a.value.split(';').forEach((rule) => {
+        const [k, v] = rule.split(':');
+        if (!k || v == null) return;
+        const jsKey = k.trim().replace(/-([a-z])/g, (_, c) => c.toUpperCase());
+        obj[jsKey] = v.trim();
+      });
+      props[key] = obj;
+    } else {
+      props[key] = a.value;
+    }
   }
   return props;
 };
@@ -85,4 +131,15 @@ export const mergeRootSvgProps = (parsed: SvgEl, extra: React.SVGProps<SVGSVGEle
     ...extra,
     className: [existing, incoming].filter(Boolean).join(' '),
   };
+};
+
+export const prefixSvgIds = (svg: string, prefix: string) => {
+  svg = svg.replace(/\bid="([^"]+)"/g, (_m, id) => `id="${prefix}${id}"`);
+  svg = svg.replace(/\burl\(#([^)]+)\)/g, (_m, id) => `url(#${prefix}${id})`);
+  svg = svg.replace(
+    /\b(xlink:href|href)="#([^"]+)"/g,
+    (_m, attr, id) => `${attr}="#${prefix}${id}"`,
+  );
+
+  return svg;
 };
