@@ -134,12 +134,7 @@ export const GridImage = ({
   );
 
   return (
-    <div
-      className={twMerge(
-        'relative h-auto min-h-76 w-auto min-w-76 select-none md:min-h-96 md:min-w-96',
-        className,
-      )}
-    >
+    <div className={twMerge('relative flex items-center! justify-center! select-none', className)}>
       {gridPieces.map(({ clipPath, delay, idx }) => (
         <div
           key={idx}
