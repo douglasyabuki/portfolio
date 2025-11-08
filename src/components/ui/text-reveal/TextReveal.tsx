@@ -63,7 +63,7 @@ export const TextReveal = ({
   return (
     <div
       className={twMerge(
-        'bg-opacity-0 text-white-primary w-full items-start text-start text-lg font-bold text-pretty',
+        'bg-opacity-0 text-white-primary w-full items-start text-start text-lg text-pretty',
         className,
       )}
     >

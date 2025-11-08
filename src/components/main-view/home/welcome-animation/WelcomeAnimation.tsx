@@ -18,7 +18,7 @@ export const WelcomeAnimation = () => {
           text="Welcome"
           interval={50}
           caretOptions={{ display: 'while-typing' }}
-          className="text-lg select-none xl:text-xl"
+          className="text-lg font-bold select-none xl:text-xl"
         />
       )}
       <span className="size-8 animate-bounce lg:size-12">
