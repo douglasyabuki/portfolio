@@ -11,12 +11,14 @@ interface TextRevealProps {
     className?: string;
     display?: CaretDisplayOptions;
   };
+  reserveSpace?: boolean; // when true, reserve the final height immediately
 }
 
 export const TextReveal = ({
   className = '',
   text,
   interval = 20,
+  reserveSpace = false,
   caretOptions = { className: '', display: 'always' },
 }: TextRevealProps) => {
   const [displayedText, setDisplayedText] = useState('');
@@ -28,7 +30,6 @@ export const TextReveal = ({
       clearTimeout(timeoutRef.current);
       timeoutRef.current = null;
     }
-
     indexRef.current = 0;
     setDisplayedText('');
 
@@ -37,16 +38,13 @@ export const TextReveal = ({
     const tick = () => {
       setDisplayedText((prev) => {
         if (prev === text) return prev;
-
         const next = prev + text[indexRef.current];
         indexRef.current += 1;
-
         if (indexRef.current < text.length) {
           timeoutRef.current = window.setTimeout(tick, interval);
         } else {
           timeoutRef.current = null;
         }
-
         return next;
       });
     };
@@ -73,19 +71,26 @@ export const TextReveal = ({
         className,
       )}
     >
-      <p className="text-inherit">
-        {displayedText}
-        {showCaret ? (
-          <span
-            className={twMerge(
-              'bg-white-primary text-white-primary h-5 w-2 animate-pulse font-bold',
-              caretOptions?.className,
-            )}
-          >
-            |
-          </span>
-        ) : null}
-      </p>
+      <div className="relative w-full">
+        {reserveSpace && (
+          <p aria-hidden="true" className="invisible whitespace-break-spaces text-inherit">
+            {text}
+          </p>
+        )}
+        <p className={twMerge('text-inherit', reserveSpace ? 'absolute inset-0' : '')}>
+          {displayedText}
+          {showCaret ? (
+            <span
+              className={twMerge(
+                'bg-white-primary text-white-primary h-5 w-2 animate-pulse font-bold',
+                caretOptions?.className,
+              )}
+            >
+              |
+            </span>
+          ) : null}
+        </p>
+      </div>
     </div>
   );
 };
