@@ -56,6 +56,8 @@ export const ProjectCard = ({
                 className="duration-150 hover:animate-pulse"
                 key={`project-${name}-${tech}`}
                 href={techMapping[tech].url}
+                onContextMenu={(e) => e.preventDefault()}
+                target="_blank"
               >
                 <IconParser name={tech} className="size-6" variant="original" />
               </a>

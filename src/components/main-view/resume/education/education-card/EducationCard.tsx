@@ -35,7 +35,7 @@ export const EducationCard = ({ content, iconName, status, title, href }: Educat
         <DynamicIcon iconName={iconName} />
       </span>
       <div className="flex h-auto flex-1 flex-col justify-center gap-2 self-stretch xl:gap-4">
-        <span className="flex items-baseline gap-4">
+        <span className="flex items-baseline gap-4 text-nowrap">
           <h2 className="2xl:text-4x text-xl font-bold duration-150 md:text-2xl xl:text-3xl">
             {title}
           </h2>
@@ -46,11 +46,12 @@ export const EducationCard = ({ content, iconName, status, title, href }: Educat
             Check it out in{' '}
             <a
               href={href}
-              className="group-hover/card:underline"
+              className="underline duration-150 focus:font-semibold focus:outline-none"
               onClick={(e) => {
                 e.preventDefault();
                 scrollToId(href);
               }}
+              onContextMenu={(e) => e.preventDefault()}
             >
               {content}
             </a>

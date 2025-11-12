@@ -16,7 +16,7 @@ export const ContactCard = ({ title, content, iconName, href, newPage, routing }
   return (
     <a
       className={twMerge(
-        'bg-background-primary group/card text-white-primary flex h-auto max-h-[10.625rem] min-h-[8.75rem] min-w-fit lg:origin-left scale-95 items-start justify-start gap-2 rounded-xl p-4 shadow-md shadow-black/10 duration-150',
+        'bg-background-primary group/card text-white-primary flex h-auto max-h-[10.625rem] min-h-[8.75rem] min-w-fit scale-95 items-start justify-start gap-2 rounded-xl p-4 shadow-md shadow-black/10 duration-150 lg:origin-left',
         'sm:gap-4 sm:even:translate-x-10',
         'lg:min-h-[6.875rem]',
         'xl:p-4',
@@ -31,6 +31,7 @@ export const ContactCard = ({ title, content, iconName, href, newPage, routing }
           scrollToId(href, false);
         }
       }}
+      onContextMenu={(e) => e.preventDefault()}
     >
       <span className="flex size-6 items-center justify-center duration-150 md:size-8 lg:size-6 xl:size-8">
         <DynamicIcon iconName={iconName} />

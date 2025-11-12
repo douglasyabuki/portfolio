@@ -19,8 +19,13 @@ export const TestimonialCard = ({ position, relation, testimonial, href }: Testi
         </div>
       </div>
       <div className="flex h-auto flex-1 flex-col items-center justify-end self-stretch py-3 text-nowrap">
-        <Divider className='mb-4'/>
-        <a href={href} className="relative flex size-18">
+        <Divider className="mb-4" />
+        <a
+          href={href}
+          className="relative flex size-18 rounded-full"
+          onContextMenu={(e) => e.preventDefault()}
+          target="_blank"
+        >
           <Icons.CircleUser className="absolute opacity-100 duration-150 group-hover:opacity-0" />
           <Icons.Chain className="absolute opacity-0 duration-150 group-hover:opacity-100" />
         </a>

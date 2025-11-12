@@ -38,7 +38,7 @@ export const TextSpawnAnchorButton = ({
   return (
     <a
       className={twMerge(
-        'group/text-spawn-button before:hover:500 text-white-primary relative flex h-12 w-12 max-w-fit items-center justify-start gap-2 rounded-full p-2 pr-6 font-bold duration-500 before:absolute before:left-8 before:-z-10 before:h-6 before:w-6 before:rotate-45 before:duration-700 hover:w-50 before:hover:left-40',
+        'group/text-spawn-button text-white-primary focus:ring-white-primary relative flex h-12 w-12 max-w-fit items-center justify-start gap-2 rounded-full p-2 pr-6 font-bold duration-500 before:absolute before:left-8 before:-z-10 before:h-6 before:w-6 before:rotate-45 before:duration-700 hover:w-50 before:hover:left-40 focus:w-50 focus:ring-1 focus:outline-none before:focus:left-40',
         className,
       )}
       style={{
@@ -46,13 +46,14 @@ export const TextSpawnAnchorButton = ({
       }}
       onMouseEnter={(e) => (e.currentTarget.style.backgroundColor = hover)}
       onMouseLeave={(e) => (e.currentTarget.style.backgroundColor = initial)}
+      onContextMenu={(e) => e.preventDefault()}
       href={href}
       ref={ref}
       target="_blank"
       {...props}
     >
       <span className="size-8 shrink-0">{Icon}</span>
-      <span className="inline-flex origin-left scale-x-0 transform border-l-2 px-1 tracking-tight text-nowrap opacity-0 transition-all duration-100 group-hover/text-spawn-button:scale-x-100 group-hover/text-spawn-button:opacity-100 group-hover/text-spawn-button:delay-300 group-hover/text-spawn-button:duration-200">
+      <span className="inline-flex origin-left scale-x-0 transform border-l-2 px-1 tracking-tight text-nowrap opacity-0 transition-all duration-100 group-hover/text-spawn-button:scale-x-100 group-hover/text-spawn-button:opacity-100 group-hover/text-spawn-button:delay-300 group-hover/text-spawn-button:duration-200 group-focus/text-spawn-button:scale-x-100 group-focus/text-spawn-button:opacity-100 group-focus/text-spawn-button:delay-300 group-focus/text-spawn-button:duration-200">
         {text}
       </span>
     </a>

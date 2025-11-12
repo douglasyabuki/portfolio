@@ -28,7 +28,7 @@ export const ResumePicker = () => {
           <div
             key={`${language}-pdf-hole`}
             className={twMerge(
-              'flex h-32 w-32 items-center justify-center rounded-xl transition-all duration-300 hover:translate-y-[0.0625rem]',
+              'flex h-32 w-32 items-center justify-center rounded-xl transition-all duration-300 hover:translate-y-[0.0625rem] has-focus:translate-y-[0.0625rem]',
               pdfContainerClassName,
             )}
           >
@@ -36,9 +36,11 @@ export const ResumePicker = () => {
               href={downloadPath}
               download
               className={twMerge(
-                'size-16 text-gray-400 transition-colors duration-500',
+                'size-16 text-gray-400 transition-colors duration-500 focus:outline-none',
                 resumeLanguage === language && pdfIconClassName,
               )}
+              onContextMenu={(e) => e.preventDefault()}
+              tabIndex={resumeLanguage === language ? 0 : -1}
             >
               <Icons.Pdf />
             </a>
