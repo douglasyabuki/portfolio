@@ -18,7 +18,12 @@ export const Skills = () => {
       </h1>
       <div className="m-auto grid w-fit grid-cols-3 gap-3 md:gap-5">
         {learnedSkills.map((name) => (
-          <SkillCard key={`skill-card-${name}`} href={techMappings[name].url} iconName={name} skillName={techMappings[name].name} />
+          <SkillCard
+            key={`skill-card-${name}`}
+            href={techMappings[name].url}
+            iconName={name}
+            skillName={techMappings[name].name}
+          />
         ))}
       </div>
     </div>

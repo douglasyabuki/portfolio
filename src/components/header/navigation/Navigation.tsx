@@ -48,7 +48,7 @@ export const Navigation = () => {
             <MenuItem
               className="hover:text-white-primary/80 relative justify-start gap-4 duration-150 select-none hover:underline"
               onClick={(e) => {
-                e.preventDefault()
+                e.preventDefault();
                 scrollToId(link);
                 clearTargetRect();
               }}
