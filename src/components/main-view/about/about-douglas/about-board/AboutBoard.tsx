@@ -12,8 +12,7 @@ export const AboutBoard = () => {
     <div className="flex w-full flex-col items-center justify-center gap-12 py-20 text-center lg:py-32">
       <div
         className={twMerge(
-          'bg-container-secondary relative z-[4] flex w-full flex-col gap-4 rounded-2xl px-4 py-8 shadow-lg shadow-black/10 sm:px-12 sm:py-7 md:px-20 md:py-8 lg:grid lg:grid-cols-2 lg:items-start lg:gap-16 lg:px-10 lg:py-10 xl:px-16',
-          '',
+          'bg-container-secondary 3xl:gap-32 border-black-primary relative z-[4] flex w-full max-w-[81.25rem] flex-col gap-4 rounded-2xl border-[1px] px-4 py-8 shadow-lg shadow-black/10 sm:px-12 sm:py-7 md:px-20 md:py-8 lg:grid lg:grid-cols-2 lg:items-start lg:gap-16 lg:px-10 lg:py-10 xl:px-16',
         )}
       >
         <div className="flex h-full flex-col items-center justify-start gap-2 text-center lg:gap-4 xl:gap-6">
@@ -42,7 +41,7 @@ export const AboutBoard = () => {
           </div>
         </div>
         <GridImage
-          className="aspect-square md:aspect-auto md:h-[27rem] md:w-[27rem] md:self-center lg:aspect-square lg:h-auto lg:w-auto"
+          className="aspect-square max-h-[37.5rem] max-w-[37.5rem] md:aspect-auto md:h-[27rem] md:w-[27rem] md:self-center lg:aspect-square lg:h-auto lg:w-auto"
           src={aboutList[selectedSectionId].imgHref}
           alt={aboutList[selectedSectionId].imgAlt}
         />
