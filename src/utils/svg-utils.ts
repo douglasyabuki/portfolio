@@ -1,6 +1,6 @@
 import React from 'react';
 
-export type SvgEl = React.ReactElement<React.SVGProps<SVGSVGElement>>;
+import type { SvgEl } from '@/types/common';
 
 const attrNameToReact = (name: string) => {
   if (name === 'class') return 'className';

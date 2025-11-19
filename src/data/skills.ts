@@ -1,9 +1,4 @@
-import type { DeviconName } from '@/libs/devicon/devicon';
-
-export interface SkillItem {
-  name: DeviconName;
-  learning: false;
-}
+import type { SkillItem } from '@/types/skill';
 
 export const skillList: SkillItem[] = [
   {

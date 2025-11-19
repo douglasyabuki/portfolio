@@ -1,6 +1,6 @@
+import { skillList } from '@/data/skills';
 import type { DeviconName } from '@/libs/devicon/devicon';
 import techMappings from '@/libs/devicon/tech-mapping.json';
-import { skillList } from '@/utils/skill-list';
 import { SkillCard } from './skill-card/SkillCard';
 
 const learnedSkills: DeviconName[] = [];

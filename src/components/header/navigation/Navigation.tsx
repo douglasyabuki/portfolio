@@ -1,10 +1,10 @@
 import { IconButton } from '@/components/ui/buttons/icon-button/IconButton';
 import { Dropdown } from '@/components/ui/dropdown/Dropdown';
 import { MenuItem } from '@/components/ui/menu/menu-item/MenuItem';
+import { navigationList } from '@/data/navigation';
 import { useTargetRect } from '@/hooks/use-target-rect';
 import { Icons } from '@/icons/Icons';
 import { scrollToId } from '@/utils/dom-utils';
-import { navigationList } from '@/utils/navigation-list';
 
 export const Navigation = () => {
   const { targetRect, getTargetRect, clearTargetRect, componentRef } = useTargetRect();

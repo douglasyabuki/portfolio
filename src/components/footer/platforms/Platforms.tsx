@@ -1,4 +1,4 @@
-import { platformList } from '@/utils/platform-list';
+import { platformList } from '@/data/platforms';
 
 export const Platforms = () => {
   return (

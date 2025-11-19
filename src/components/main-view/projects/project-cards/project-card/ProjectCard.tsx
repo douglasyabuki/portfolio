@@ -3,7 +3,7 @@ import { Divider } from '@/components/ui/divider/Divider';
 import { IconParser } from '@/components/ui/icon-parser/IconParser';
 import { Icons } from '@/icons/Icons';
 import techMapping from '@/libs/devicon/tech-mapping.json';
-import type { ProjectItem } from '@/utils/project-list';
+import type { ProjectItem } from '@/types/project';
 import { useState } from 'react';
 import { twMerge } from 'tailwind-merge';
 

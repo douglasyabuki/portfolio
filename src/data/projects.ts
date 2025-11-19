@@ -1,14 +1,5 @@
-import type { DeviconName } from '@/libs/devicon/devicon';
+import type { ProjectItem } from '@/types/project';
 
-export interface ProjectItem {
-  name: string;
-  description: string;
-  imageSrc: string;
-  imageAlt: string;
-  url: string;
-  gitUrl: string;
-  techs: DeviconName[];
-}
 export const projectList: ProjectItem[] = [
   {
     name: 'Sudoku Solver',

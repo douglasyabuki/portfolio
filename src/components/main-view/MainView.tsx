@@ -1,9 +1,9 @@
+import { navigationList } from '@/data/navigation';
 import { useIntersectionObserver } from '@/hooks/use-intersection-observer';
 import { useOnMount } from '@/hooks/use-on-mount';
 import { useSectionsObserver } from '@/hooks/use-sections-observer';
 import { Icons } from '@/icons/Icons';
 import { initializeLocationId, scrollToCurrentLocationId } from '@/utils/dom-utils';
-import { navigationList } from '@/utils/navigation-list';
 import { useEffect } from 'react';
 import { FloatingButton } from '../ui/buttons/floating-button/FloatingButton';
 import { About } from './about/About';

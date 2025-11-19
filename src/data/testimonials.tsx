@@ -1,9 +1,4 @@
-export interface TestimonialItem {
-  position: string;
-  relation: string;
-  testimonial: string;
-  href: string;
-}
+import type { TestimonialItem } from '@/types/testimonial';
 
 export const testimonialList: TestimonialItem[] = [
   {

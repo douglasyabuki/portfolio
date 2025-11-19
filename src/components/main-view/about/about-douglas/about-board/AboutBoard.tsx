@@ -2,7 +2,7 @@ import { ExpandButton } from '@/components/ui/buttons/expand-button/ExpandButton
 import { Divider } from '@/components/ui/divider/Divider';
 import { GridImage } from '@/components/ui/img/grid-image/GridImage';
 import { TextReveal } from '@/components/ui/text-reveal/TextReveal';
-import { aboutList } from '@/utils/about-list';
+import { aboutList } from '@/data/about';
 import { useState } from 'react';
 import { twMerge } from 'tailwind-merge';
 

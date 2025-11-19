@@ -1,7 +1,7 @@
 import { DynamicIcon } from '@/components/ui/dynamic-icon/DynamicIcon';
 import { type IconOption } from '@/icons/Icons';
+import type { EducationInstitution, EducationStatus } from '@/types/education';
 import { scrollToId } from '@/utils/dom-utils';
-import type { EducationInstitution, EducationStatus } from '@/utils/education-list';
 import { twMerge } from 'tailwind-merge';
 
 interface EducationCard {

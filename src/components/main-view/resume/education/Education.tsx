@@ -1,4 +1,4 @@
-import { educationList } from '@/utils/education-list';
+import { educationList } from '@/data/education';
 import { EducationCard } from './education-card/EducationCard';
 
 const imgList = [

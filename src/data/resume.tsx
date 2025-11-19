@@ -1,12 +1,4 @@
-import { type IconOption } from '@/icons/Icons';
-
-interface ResumeItem {
-  language: string;
-  downloadPath: string;
-  FlagIconOption: IconOption;
-  pdfContainerClassName?: string;
-  pdfIconClassName?: string;
-}
+import type { ResumeItem } from '@/types/resume';
 
 export const resumeList: ResumeItem[] = [
   {

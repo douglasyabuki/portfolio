@@ -1,13 +1,5 @@
 import { Icons } from '@/icons/Icons';
-
-type Platform = 'linkedin' | 'github' | 'whatsapp';
-
-interface Social {
-  platform: Platform;
-  href: string;
-  Icon: React.ReactElement;
-  alt: string;
-}
+import type { Social } from '@/types/platform';
 
 export const platformList: Social[] = [
   {

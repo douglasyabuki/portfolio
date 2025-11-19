@@ -1,6 +1,6 @@
 import { Divider } from '@/components/ui/divider/Divider';
 import { Icons } from '@/icons/Icons';
-import type { TestimonialItem } from '@/utils/testimonial-list';
+import type { TestimonialItem } from '@/types/testimonial';
 
 export const TestimonialCard = ({ position, relation, testimonial, href }: TestimonialItem) => {
   return (
