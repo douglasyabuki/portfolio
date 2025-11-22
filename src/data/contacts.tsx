@@ -1,17 +1,5 @@
-import { Icons, type IconOption } from '@/icons/Icons';
-
-type ContactMode = 'whatsapp' | 'mail' | 'form';
-
-interface Contact {
-  mode: ContactMode;
-  name: string;
-  content: string;
-  Icon: React.ReactElement;
-  iconName: IconOption;
-  href: string;
-  routing: boolean;
-  newPage: boolean;
-}
+import { Icons } from '@/icons/Icons';
+import type { Contact } from '@/types/contact';
 
 export const contactList: Contact[] = [
   {

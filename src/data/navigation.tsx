@@ -1,11 +1,5 @@
 import { Icons } from '@/icons/Icons';
-
-interface NavigationItem {
-  id: string;
-  name: string;
-  link: string;
-  Icon: React.ReactElement;
-}
+import type { NavigationItem } from '@/types/navigation';
 
 export const navigationList: NavigationItem[] = [
   {

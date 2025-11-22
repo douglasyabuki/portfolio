@@ -1,15 +1,15 @@
 import {
-  devicons,
-  PREFERRED_VARIANT_ORDER_DEVICON,
-  type DeviconName,
-  type DeviconVariantKey,
+    devicons,
+    PREFERRED_VARIANT_ORDER_DEVICON,
+    type DeviconName,
+    type DeviconVariantKey,
 } from '@/libs/devicon/devicon';
+import type { SvgEl } from '@/types/common';
 import {
-  mergeRootSvgProps,
-  parseSvgStringToElement,
-  pickFirstAvailable,
-  prefixSvgIds,
-  type SvgEl,
+    mergeRootSvgProps,
+    parseSvgStringToElement,
+    pickFirstAvailable,
+    prefixSvgIds,
 } from '@/utils/svg-utils';
 import React, { useId, useMemo } from 'react';
 interface Props extends React.SVGProps<SVGSVGElement> {

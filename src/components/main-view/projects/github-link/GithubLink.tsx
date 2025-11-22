@@ -1,20 +1,18 @@
 export const GithubLink = () => {
   return (
-    <div className="subsection gap-20">
-      <h1 className="text-center! text-3xl font-bold duration-150 md:text-4xl xl:text-5xl 2xl:text-6xl">
-        Github
-      </h1>
-      <h2 className="py-4 text-center text-xl opacity-70 md:text-2xl 2xl:text-4xl">
+    <div className="mt-24">
+      <h3 className="text-center text-2xl font-bold text-white duration-150 md:text-3xl">Github</h3>
+      <p className="text-text-secondary py-4 text-center text-lg">
         Want to see more? Visit his Github profile.
-      </h2>
+      </p>
       <a
         href="https://github.com/douglasyabuki"
         target={'_blank'}
-        className="group relative container m-auto flex h-fit w-fit items-center justify-center rounded-full bg-none shadow-lg shadow-black/10 transition-all duration-300 hover:shadow-2xl hover:shadow-red-700/10 focus:shadow-2xl focus:shadow-red-700/10"
+        className="group glass-panel relative m-auto flex h-fit w-fit items-center justify-center rounded-full transition-all duration-300 hover:border-white/20 hover:bg-white/10 hover:shadow-2xl hover:shadow-white/10 focus:shadow-2xl focus:shadow-white/10"
         onContextMenu={(e) => e.preventDefault()}
       >
         <img
-          className="cover xs:w-[250px] w-[200px] rounded-full opacity-80 ring-4 ring-black transition-all duration-300 ring-inset group-hover:bg-red-700/100 group-focus:bg-red-700/100 sm:w-[400px] lg:w-auto"
+          className="h-[200px] w-[200px] rounded-full object-cover opacity-100 ring-4 ring-black group-hover:bg-white/10 group-focus:bg-white/10 sm:h-[400px] sm:w-[400px] lg:h-[500px] lg:w-[500px]"
           src="/github.png"
           alt=""
         />

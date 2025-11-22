@@ -51,7 +51,7 @@ export const Portal = ({
         createPortal(
           <div
             className={twMerge(
-              'absolute top-0 right-0 bottom-0 left-0 flex h-screen w-screen transition-opacity duration-150 ease-in',
+              'fixed inset-0 flex h-full w-full transition-opacity duration-150 ease-in',
               backdrop && 'bg-black/20 backdrop-blur-sm',
               childrenPosition[positionOnScreen],
               className,

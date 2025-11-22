@@ -46,13 +46,13 @@ export const ContactForm = () => {
       <h1 className="text-center! text-3xl font-bold duration-150 md:text-4xl lg:text-left xl:text-5xl 2xl:text-6xl">
         Leave a message
       </h1>
-      <div className="relative flex w-full max-w-screen items-start justify-center overflow-hidden py-20 lg:py-32">
+      <div className="relative flex w-full items-start justify-center overflow-hidden py-20 lg:py-32">
         {/* Error message */}
         <Collapsible isCollapsed={messageStatus !== 'error'} className="absolute duration-300">
           <span className="flex w-[18.75rem] flex-col items-center gap-8 rounded-lg border-2 border-dashed border-red-600/50 px-4 py-12 text-center duration-300 ease-out">
             <h3 className="text-semibold text-3xl xl:text-4xl">Error sending message</h3>
             <span className="size-24 text-red-600">
-              <Icons.CircleExclamation />
+              <Icons.CircleExclamation className="clay-icon text-red-600" />
             </span>
             <TextButton onClick={() => setMessageStatus('not sent')} variant="secondary">
               Try again later
@@ -65,7 +65,7 @@ export const ContactForm = () => {
           <span className="flex w-[18.75rem] flex-col items-center gap-8 rounded-lg border-2 border-dashed border-green-600/50 px-4 py-12 text-center duration-300 ease-out">
             <h3 className="text-semibold text-3xl xl:text-4xl">Message sent!</h3>
             <span className="size-24 text-green-600">
-              <Icons.CircleCheck />
+              <Icons.CircleCheck className="clay-icon text-green-600" />
             </span>
             <TextButton onClick={() => setMessageStatus('not sent')} variant="secondary">
               Send another message
@@ -80,10 +80,10 @@ export const ContactForm = () => {
             handleSubmit();
           }}
           className={twMerge(
-            'bg-background-primary flex w-[18.75rem] flex-col gap-4 rounded-xl px-4 py-6 shadow-md shadow-black/10 duration-300 ease-out hover:shadow-xl',
+            'glass-panel flex w-[18.75rem] flex-col gap-4 rounded-xl px-4 py-6 shadow-md shadow-black/10 transition-all duration-300 ease-out hover:shadow-xl',
             ['not sent', 'sending'].includes(messageStatus)
-              ? 'opacity-100'
-              : 'translate-x-[200vw] opacity-0',
+              ? 'translate-x-0 opacity-100'
+              : 'pointer-events-none absolute translate-x-full opacity-0',
           )}
         >
           <Label label="Full name" error={errors.name}>

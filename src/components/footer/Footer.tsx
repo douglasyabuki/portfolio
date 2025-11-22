@@ -1,17 +1,17 @@
-import { Contact } from './contact/Contact';
 import { CopyRight } from './copyright/Copyright';
 import { Navigation } from './navigation/Navigation';
 import { Platforms } from './platforms/Platforms';
 
 export const Footer = () => {
   return (
-    <footer className="px-corners relative flex h-auto w-screen flex-col gap-4 bg-black py-4 duration-150">
-      <Platforms />
-      <div className="flex flex-col gap-4 py-2">
-        <Navigation />
-        <Contact />
+    <footer className="glass-panel border-t border-white/10 py-12">
+      <div className="container-max flex flex-col items-center justify-between gap-8 md:flex-row">
+        <div className="flex flex-col gap-4">
+          <Navigation />
+          <Platforms />
+        </div>
+        <CopyRight />
       </div>
-      <CopyRight />
     </footer>
   );
 };

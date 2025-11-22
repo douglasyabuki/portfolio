@@ -1,7 +1,7 @@
 import { DynamicIcon } from '@/components/ui/dynamic-icon/DynamicIcon';
 import { type IconOption } from '@/icons/Icons';
+import type { EducationInstitution, EducationStatus } from '@/types/education';
 import { scrollToId } from '@/utils/dom-utils';
-import type { EducationInstitution, EducationStatus } from '@/utils/education-list';
 import { twMerge } from 'tailwind-merge';
 
 interface EducationCard {
@@ -16,7 +16,7 @@ export const EducationCard = ({ content, iconName, status, title, href }: Educat
   return (
     <div
       className={twMerge(
-        'bg-background-primary group/card text-white-primary flex h-auto max-h-[10.625rem] min-h-[8.75rem] min-w-fit scale-95 items-start justify-start gap-2 rounded-xl p-4 shadow-md shadow-black/10 duration-150 lg:origin-left',
+        'glass-panel group/card text-white-primary flex h-auto max-h-[10.625rem] min-h-[8.75rem] min-w-fit scale-95 items-start justify-start gap-2 rounded-xl p-4 shadow-md shadow-black/10 duration-150 lg:origin-left',
         'sm:gap-4 sm:even:translate-x-10',
         'lg:min-h-[6.875rem]',
         'xl:p-4',
@@ -26,16 +26,22 @@ export const EducationCard = ({ content, iconName, status, title, href }: Educat
     >
       <span
         className={twMerge(
-          'flex size-6 items-center justify-center duration-150 md:size-8 lg:size-6 xl:size-8',
-          iconName === 'GraduationCap'
-            ? 'group-hover/card:animate-bounce'
-            : 'group-hover/card:animate-spin',
+          'clay-icon flex size-6 items-center justify-center p-1 duration-150 md:size-8 lg:size-6 xl:size-8',
         )}
       >
-        <DynamicIcon iconName={iconName} />
+        <span
+          className={twMerge(
+            'flex size-full items-center justify-center',
+            iconName === 'GraduationCap'
+              ? 'group-hover/card:animate-bounce'
+              : 'group-hover/card:animate-spin',
+          )}
+        >
+          <DynamicIcon iconName={iconName} />
+        </span>
       </span>
       <div className="flex h-auto flex-1 flex-col justify-center gap-2 self-stretch xl:gap-4">
-        <span className="flex items-baseline gap-4 text-nowrap">
+        <span className="flex flex-wrap items-baseline gap-2 sm:gap-4">
           <h2 className="2xl:text-4x text-xl font-bold duration-150 md:text-2xl xl:text-3xl">
             {title}
           </h2>

@@ -2,7 +2,7 @@ import { ExpandButton } from '@/components/ui/buttons/expand-button/ExpandButton
 import { Divider } from '@/components/ui/divider/Divider';
 import { GridImage } from '@/components/ui/img/grid-image/GridImage';
 import { TextReveal } from '@/components/ui/text-reveal/TextReveal';
-import { aboutList } from '@/utils/about-list';
+import { aboutList } from '@/data/about';
 import { useState } from 'react';
 import { twMerge } from 'tailwind-merge';
 
@@ -12,7 +12,7 @@ export const AboutBoard = () => {
     <div className="flex w-full flex-col items-center justify-center gap-12 py-20 text-center lg:py-32">
       <div
         className={twMerge(
-          'bg-container-secondary 3xl:gap-32 border-black-primary relative z-[4] flex w-full max-w-[81.25rem] flex-col gap-4 rounded-2xl border-[1px] px-4 py-8 shadow-lg shadow-black/10 sm:px-12 sm:py-7 md:px-20 md:py-8 lg:grid lg:grid-cols-2 lg:items-start lg:gap-16 lg:px-10 lg:py-10 xl:px-16',
+          'glass-panel 3xl:gap-32 relative z-[4] flex w-full max-w-[81.25rem] flex-col gap-4 rounded-2xl px-4 py-8 shadow-lg shadow-black/10 sm:px-12 sm:py-7 md:px-20 md:py-8 lg:grid lg:grid-cols-2 lg:items-start lg:gap-16 lg:px-10 lg:py-10 xl:px-16',
         )}
       >
         <div className="flex h-full flex-col items-center justify-start gap-2 text-center lg:gap-4 xl:gap-6">
@@ -34,7 +34,9 @@ export const AboutBoard = () => {
                 key={`about-douglas-${title.toLowerCase()}`}
                 label={title}
                 iconName={iconName}
-                className={selectedSectionId === sectionId ? 'animate-bounce text-green-600' : ''}
+                className={
+                  selectedSectionId === sectionId ? 'bg-white/10 text-white' : 'text-secondary'
+                }
                 onClick={() => setSelectedSectionId(sectionId)}
               />
             ))}
@@ -51,7 +53,9 @@ export const AboutBoard = () => {
               key={`about-douglas-${title.toLowerCase()}`}
               label={title}
               iconName={iconName}
-              className={selectedSectionId === sectionId ? 'animate-bounce text-green-600' : ''}
+              className={
+                selectedSectionId === sectionId ? 'bg-white/10 text-white' : 'text-secondary'
+              }
               onClick={() => setSelectedSectionId(sectionId)}
             />
           ))}

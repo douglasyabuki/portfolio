@@ -1,5 +1,5 @@
+import { navigationList } from '@/data/navigation';
 import { scrollToId } from '@/utils/dom-utils';
-import { navigationList } from '@/utils/navigation-list';
 
 export const Navigation = () => {
   return (

@@ -11,8 +11,8 @@ export const TextInput = ({ id, className, hasError, ...props }: TextInput) => {
     <input
       id={id}
       className={twMerge(
-        'inset-shadow-weak-black bg-background-primary flex h-12 w-full rounded-md px-4 font-normal text-gray-600 placeholder-gray-400 transition-all duration-150',
-        'focus:border-bg-primary focus:bg-white-primary focus:inset-shadow-strong-black focus:outline-none',
+        'inset-shadow-weak-black bg-white/5 border border-white/10 flex h-12 w-full rounded-md px-4 font-normal text-white placeholder-gray-400 transition-all duration-150',
+        'focus:border-white focus:bg-white/10 focus:inset-shadow-strong-black focus:outline-none',
         hasError && 'border-red-600 focus:border-red-600 active:border-red-600',
         className,
       )}

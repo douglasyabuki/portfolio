@@ -1,6 +1,6 @@
 import { ZoomOutButton } from '@/components/ui/buttons/zoom-out-button/ZoomOutButton';
+import { resumeList } from '@/data/resume';
 import { Icons } from '@/icons/Icons';
-import { resumeList } from '@/utils/resume-list';
 import { useState } from 'react';
 import { twMerge } from 'tailwind-merge';
 
@@ -42,7 +42,7 @@ export const ResumePicker = () => {
               onContextMenu={(e) => e.preventDefault()}
               tabIndex={resumeLanguage === language ? 0 : -1}
             >
-              <Icons.Pdf />
+              <Icons.Pdf className="clay-icon" />
             </a>
           </div>
         ))}

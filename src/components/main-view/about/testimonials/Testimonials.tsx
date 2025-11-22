@@ -1,5 +1,6 @@
 import { Carousel } from '@/components/ui/carousel/Carousel';
-import { testimonialList, type TestimonialItem } from '@/utils/testimonial-list';
+import { testimonialList } from '@/data/testimonials';
+import type { TestimonialItem } from '@/types/testimonial';
 import { TestimonialCard } from './testimonial-card/TestimonialCard';
 
 export const Testimonials = () => {

@@ -26,7 +26,7 @@ export const Label = ({ label, className, error = 'Error message', children, ...
         {label}
         {hasError && (
           <span className="flex h-fit gap-1 text-xs text-gray-400 normal-case">
-            <Icons.Warning className="size-4 text-red-600" />
+            <Icons.Warning className="clay-icon size-4 p-0.5 text-red-600" />
             {error}
           </span>
         )}

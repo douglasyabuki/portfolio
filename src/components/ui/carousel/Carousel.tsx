@@ -69,13 +69,13 @@ export const Carousel = <T,>({
       <div className="mt-2 flex items-center justify-center gap-2">
         <IconButton
           className="text-white-primary bg-transparent p-0"
-          Icon={<Icons.CircleChevronLeft />}
+          Icon={<Icons.CircleChevronLeft className="clay-icon" />}
           onClick={() => go(currentItem - 1)}
           disabled={!loop && atStart}
         />
         <IconButton
           className="text-white-primary bg-transparent p-0"
-          Icon={<Icons.CircleChevronRight />}
+          Icon={<Icons.CircleChevronRight className="clay-icon" />}
           onClick={() => go(currentItem + 1)}
           disabled={!loop && atEnd}
         />

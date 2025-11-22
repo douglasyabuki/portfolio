@@ -1,12 +1,4 @@
-import type { IconOption } from '@/icons/Icons';
-
-interface AboutItem {
-  iconName: IconOption;
-  title: string;
-  content: string;
-  imgHref: string;
-  imgAlt: string;
-}
+import type { AboutItem } from '@/types/about';
 
 export const aboutList: AboutItem[] = [
   {

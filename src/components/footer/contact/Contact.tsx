@@ -1,4 +1,4 @@
-import { contactList } from '@/utils/contact-list';
+import { contactList } from '@/data/contacts';
 
 export const Contact = () => {
   return (

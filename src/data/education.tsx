@@ -1,16 +1,4 @@
-import { type IconOption } from '@/icons/Icons';
-
-export type EducationInstitution = 'Rocketseat' | 'UNINTER' | 'UFPR' | 'Complimentary Education';
-export type EducationStatus = 'In progress' | 'Concluded' | '';
-
-interface EducationItem {
-  institution: EducationInstitution;
-  degree: string;
-  category: string;
-  iconName: IconOption;
-  status: EducationStatus;
-  href?: string;
-}
+import type { EducationItem } from '@/types/education';
 
 export const educationList: EducationItem[] = [
   {

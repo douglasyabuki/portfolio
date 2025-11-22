@@ -4,7 +4,7 @@ import { MainView } from './components/main-view/MainView';
 
 export const App = () => {
   return (
-    <main className="page text-white-primary scrollbar-hide">
+    <main className="text-text-primary min-h-screen w-full">
       <Header />
       <MainView />
       <Footer />
