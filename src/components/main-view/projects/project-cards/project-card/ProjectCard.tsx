@@ -85,7 +85,7 @@ export const ProjectCard = ({
         >
           <button
             onClick={() => setIsModalOpen(false)}
-            className="absolute -top-12 right-0 z-50 text-white transition-colors hover:text-gray-300 md:top-0 md:-right-12"
+            className="fixed top-4 right-4 z-50 text-white transition-colors hover:text-gray-300 md:top-8 md:right-8"
             title="Close"
           >
             <Icons.X className="h-8 w-8" />

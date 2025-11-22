@@ -161,7 +161,7 @@ export const GridImage = ({
             src={src}
             alt={alt ? `${alt}-${idx}` : `Pixel piece ${idx + 1}`}
             className={twMerge(
-              'z-1 rounded-[2.5rem] object-cover',
+              'z-1 object-cover',
               grayscaleAnimation && (showColor ? 'grayscale-0' : 'grayscale'),
             )}
             style={{
