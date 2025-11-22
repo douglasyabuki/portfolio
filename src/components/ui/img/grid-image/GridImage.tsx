@@ -135,6 +135,14 @@ export const GridImage = ({
 
   return (
     <div className={twMerge('relative flex items-center! justify-center! select-none', className)}>
+      {/* Ghost image to set container dimensions */}
+      <img
+        src={src}
+        alt=""
+        className="invisible relative z-0 h-auto max-h-full w-auto max-w-full object-cover opacity-0"
+        aria-hidden="true"
+      />
+
       {gridPieces.map(({ clipPath, delay, idx }) => (
         <div
           key={idx}

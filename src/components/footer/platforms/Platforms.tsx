@@ -8,7 +8,7 @@ export const Platforms = () => {
           key={platform}
           href={href}
           className={
-            'text-white-primary hover:bg-white-primary hover:text-black-primary hover:shadow-white-primary/40 flex size-8 items-center justify-center rounded-full p-1 duration-150 ease-in-out hover:shadow-lg lg:size-9'
+            'text-white-primary hover:bg-white-primary hover:text-black-primary hover:shadow-white-primary/40 flex size-10 items-center justify-center rounded-full p-1 duration-150 ease-in-out hover:shadow-lg lg:size-12'
           }
         >
           {Icon}

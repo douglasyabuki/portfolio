@@ -4,7 +4,7 @@ import { useOnMount } from '@/hooks/use-on-mount';
 import { useSectionsObserver } from '@/hooks/use-sections-observer';
 import { Icons } from '@/icons/Icons';
 import { initializeLocationId, scrollToCurrentLocationId } from '@/utils/dom-utils';
-import { useEffect } from 'react';
+import { useEffect, useMemo } from 'react';
 import { FloatingButton } from '../ui/buttons/floating-button/FloatingButton';
 import { About } from './about/About';
 import { Contact } from './contact/Contact';
@@ -24,30 +24,24 @@ export const MainView = () => {
 
   const { containerRef, isVisible: isPageTopVisible } = useIntersectionObserver();
 
-  const { activeId } = useSectionsObserver(
-    navigationList.map(({ id }) => id),
-    {},
-    syncViewAndUrl,
-  );
+  const sectionIds = useMemo(() => navigationList.map(({ id }) => id), []);
+
+  const { activeId } = useSectionsObserver(sectionIds, {}, syncViewAndUrl);
 
   return (
-    <div className="flex h-full w-screen flex-col items-center py-12" data-active={activeId ?? ''}>
-      <div className="absolute top-0 left-0 size-1 bg-transparent" ref={containerRef} />
+    <div className="flex w-full flex-col items-center" data-active={activeId ?? ''}>
+      <div className="absolute top-0 left-0 h-1 w-1 bg-transparent" ref={containerRef} />
       <Home />
-      <div className="bg-section-divider-primary" />
       <About />
-      <div className="bg-section-divider-secondary" />
       <Resume />
-      <div className="bg-section-divider-primary" />
       <Projects />
-      <div className="bg-section-divider-secondary" />
       <Contact />
       <FloatingButton
         isVisible={!isPageTopVisible}
-        className="group/scroll-to-top-button"
+        className="glass-panel group/scroll-to-top-button fixed right-8 bottom-8 z-[49] flex items-center justify-center rounded-full p-3 text-white opacity-50 shadow-lg transition-all hover:scale-110 hover:opacity-100"
         onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
       >
-        <Icons.ArrowUp className="duration-150 group-hover/scroll-to-top-button:animate-bounce group-focus/scroll-to-top-button:animate-bounce" />
+        <Icons.ArrowUp className="h-6 w-6 duration-150 group-hover/scroll-to-top-button:animate-bounce" />
       </FloatingButton>
     </div>
   );

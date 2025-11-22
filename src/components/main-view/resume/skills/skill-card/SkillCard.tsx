@@ -13,14 +13,14 @@ export const SkillCard = ({ href, iconName, skillName }: SkillCard) => {
     <a
       href={href}
       target="_blank"
-      className="bg-background-primary xs:size-24 group/skill-card relative flex size-20 flex-col items-center justify-center rounded-xl shadow-md shadow-black/10 duration-150 select-none hover:shadow-lg focus:shadow-lg active:scale-95 md:size-40"
+      className="glass-panel xs:size-24 group/skill-card relative flex size-20 flex-col items-center justify-center rounded-xl shadow-md shadow-black/10 duration-150 select-none hover:shadow-lg focus:shadow-lg active:scale-95 md:size-40"
       onContextMenu={(e) => e.preventDefault()}
     >
       <IconParser
         name={iconName}
         variant="original"
         className={twMerge(
-          'text-white-primary xs:size-12 z-[4] size-10 origin-center duration-150 md:size-20',
+          'clay-icon text-white-primary xs:size-12 z-[4] size-10 origin-center duration-150 md:size-20',
           'group-hover/skill-card:-translate-y-[20%] group-hover/skill-card:scale-75',
           'group-focus/skill-card:-translate-y-[20%] group-focus/skill-card:scale-75',
         )}

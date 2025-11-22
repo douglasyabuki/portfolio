@@ -22,7 +22,7 @@ export const WelcomeAnimation = () => {
         />
       )}
       <span className="size-8 animate-bounce lg:size-12">
-        <Icons.Exclamation />
+        <Icons.Exclamation className="clay-icon" />
       </span>
     </div>
   );

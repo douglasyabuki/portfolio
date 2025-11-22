@@ -35,11 +35,14 @@ export const Education = () => {
             />
           ))}
         </div>
-        <div className="grid-parent">
+        <div className="grid-parent h-auto w-full md:h-[30rem]">
           {imgList.map((item, id) => (
-            <div key={item.alt} className={`grid-div${id + 1} flex`}>
+            <div
+              key={item.alt}
+              className={`grid-div${id + 1} flex h-48 w-full overflow-hidden rounded-xl md:h-full`}
+            >
               <img
-                className="cover rounded-xl shadow-sm shadow-black/10 duration-150 hover:scale-105"
+                className="h-full w-full object-cover shadow-sm shadow-black/10 duration-150 hover:scale-105"
                 src={item.src}
                 alt={item.alt}
               />

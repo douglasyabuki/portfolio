@@ -42,7 +42,7 @@ export const ResumePicker = () => {
               onContextMenu={(e) => e.preventDefault()}
               tabIndex={resumeLanguage === language ? 0 : -1}
             >
-              <Icons.Pdf />
+              <Icons.Pdf className="clay-icon" />
             </a>
           </div>
         ))}

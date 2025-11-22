@@ -16,7 +16,7 @@ export const Skills = () => {
       <h1 className="text-center! text-3xl font-bold duration-150 md:text-4xl xl:text-5xl 2xl:text-6xl">
         Skills
       </h1>
-      <div className="m-auto grid w-fit grid-cols-3 gap-3 md:gap-5">
+      <div className="m-auto grid w-fit grid-cols-3 gap-3 md:gap-5 py-20">
         {learnedSkills.map((name) => (
           <SkillCard
             key={`skill-card-${name}`}

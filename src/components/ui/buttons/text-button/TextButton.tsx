@@ -17,7 +17,7 @@ export const TextButton = ({ className, children, variant = 'primary', ...props 
   return (
     <button
       className={twMerge(
-        'text-black-primary xs:text-lg border-white-primary/10 box-border flex h-auto w-auto min-w-[9.5rem] items-center justify-center gap-2 rounded-full border-[1px] px-2 py-1 font-semibold shadow-lg shadow-black/10 transition-all duration-150 md:text-xl xl:min-w-[11.5rem] 2xl:px-4 2xl:py-1 2xl:text-2xl',
+        'text-black-primary xs:text-lg border-white-primary/10 box-border flex h-auto w-auto min-w-[9.5rem] cursor-pointer items-center justify-center gap-2 rounded-full border-[1px] px-2 py-1 font-semibold shadow-lg shadow-black/10 transition-all duration-150 md:text-xl xl:min-w-[11.5rem] 2xl:px-4 2xl:py-1 2xl:text-2xl',
         variantStyle[variant],
         className,
       )}

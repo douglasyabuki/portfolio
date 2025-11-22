@@ -13,15 +13,16 @@ export const SubmitButton = ({ onClick, disabled, ...props }: SubmitButtonProps)
   const buttonRef = useRef<HTMLButtonElement>(null);
 
   return (
-    <div className="relative flex w-full justify-center overflow-hidden">
+    <div className="relative flex w-full justify-center overflow-hidden py-3">
       <div>
         <IconButton
           className={twMerge(
-            `bg-white-primary text-black-primary transition-transform duration-150 ease-out`,
+            `bg-white-primary text-black-primary transition-transform duration-150 ease-out enabled:cursor-pointer`,
             disabled && isEscaping ? 'md:translate-x-[200%]' : 'md:translate-x-0',
+            !disabled && 'clay-icon text-white',
           )}
           ref={buttonRef}
-          Icon={<Icons.PaperPlane />}
+          Icon={<Icons.PaperPlane className="size-6" />}
           onClick={onClick}
           disabled={disabled}
           onPointerEnter={(e: React.MouseEvent) => {

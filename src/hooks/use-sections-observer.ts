@@ -1,5 +1,5 @@
 import { syncActiveLocationId } from '@/utils/dom-utils';
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useState } from 'react';
 
 export const useSectionsObserver = (
   ids: string[],
@@ -9,15 +9,14 @@ export const useSectionsObserver = (
   const [ratios, setRatios] = useState<Record<string, number>>({});
   const [activeId, setActiveId] = useState<string | null>(null);
 
-  const elements = useMemo<HTMLElement[]>(() => {
-    if (typeof document === 'undefined') return [];
-    return ids
+  useEffect(() => {
+    if (typeof document === 'undefined' || typeof IntersectionObserver === 'undefined') return;
+
+    const elements = ids
       .map((id) => document.getElementById(id))
       .filter((el): el is HTMLElement => Boolean(el));
-  }, [ids]);
 
-  useEffect(() => {
-    if (!elements.length || typeof IntersectionObserver === 'undefined') return;
+    if (!elements.length) return;
 
     const defaultThresholds = Array.from({ length: 11 }, (_, i) => +(i / 10).toFixed(2));
     const obs = new IntersectionObserver(
@@ -40,7 +39,7 @@ export const useSectionsObserver = (
 
     elements.forEach((el) => obs.observe(el));
     return () => obs.disconnect();
-  }, [elements, options?.root, options?.rootMargin, options?.threshold]);
+  }, [ids, options?.root, options?.rootMargin, options?.threshold]);
 
   useEffect(() => {
     if (!ids.length) return;
