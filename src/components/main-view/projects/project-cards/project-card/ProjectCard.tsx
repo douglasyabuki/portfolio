@@ -1,10 +1,10 @@
-import { IconParser } from '@/components/ui/icon-parser/IconParser';
 import { Icons } from '@/icons/Icons';
 import type { ProjectItem } from '@/types/project';
 
 import { GridImage } from '@/components/ui/img/grid-image/GridImage';
 import { Portal } from '@/components/ui/portal/Portal';
 import { useState } from 'react';
+import { ProjectTechs } from './ProjectTechs';
 
 export const ProjectCard = ({
   description,
@@ -19,7 +19,7 @@ export const ProjectCard = ({
 
   return (
     <>
-      <div className="group glass-panel relative flex flex-col rounded-xl p-6 transition-all hover:border-white/20 hover:bg-white/10">
+      <div className="group glass-panel relative flex min-w-0 flex-col rounded-xl p-6 transition-all hover:border-white/20 hover:bg-white/10">
         <div className="mb-4 flex items-center justify-between">
           <div className="flex items-center gap-2">
             <Icons.Folder className="text-text-secondary h-9 w-9" />
@@ -60,17 +60,7 @@ export const ProjectCard = ({
 
         <p className="text-text-secondary mb-6 flex-1 text-sm leading-relaxed">{description}</p>
 
-        <div className="flex flex-wrap gap-2">
-          {techs.slice(0, 5).map((tech) => (
-            <div key={tech} className="text-text-secondary" title={tech}>
-              <IconParser
-                name={tech}
-                className="clay-icon h-8 w-8 opacity-60 transition-opacity group-hover:opacity-100"
-                variant="original"
-              />
-            </div>
-          ))}
-        </div>
+        <ProjectTechs techs={techs} />
       </div>
 
       <Portal
