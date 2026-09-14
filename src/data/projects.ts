@@ -2,6 +2,37 @@ import type { ProjectItem } from '@/types/project';
 
 export const projectList: ProjectItem[] = [
   {
+    name: 'Financy',
+    description:
+      'A full-stack personal finance management app for tracking users, transactions, and categories. The frontend uses React + TypeScript + Vite, while the backend uses Node.js, GraphQL, Prisma, and SQLite/PostgreSQL.',
+    imageSrc: '/proj-financy.jpg',
+    imageAlt: 'Screenshot of my financy project',
+    url: '',
+    gitUrl: 'https://github.com/douglasyabuki/financy',
+    techs: [
+      'html5',
+      'tailwindcss',
+      'typescript',
+      'react',
+      'vitejs',
+      'nodejs',
+      'graphql',
+      'prisma',
+      'sqlite',
+      'postgresql',
+    ],
+  },
+  {
+    name: 'Speed Reader',
+    description:
+      'A speed reading app that displays text one word at a time and lets you adjust the reading speed while reading.',
+    imageSrc: '/proj-speed-reader.jpg',
+    imageAlt: 'Screenshot of my speed reader project',
+    url: '',
+    gitUrl: 'https://github.com/douglasyabuki/speed-reading',
+    techs: ['html5', 'css3', 'typescript', 'react', 'vitejs'],
+  },
+  {
     name: 'Sudoku Solver',
     description:
       'Vite + React + TypeScript sudoku solver app. Has a step by step option that allows you to see the brute-force solution in action.',
