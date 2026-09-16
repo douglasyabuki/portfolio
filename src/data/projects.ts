@@ -28,7 +28,7 @@ export const projectList: ProjectItem[] = [
       'A speed reading app that displays text one word at a time and lets you adjust the reading speed while reading.',
     imageSrc: '/proj-speed-reader.jpg',
     imageAlt: 'Screenshot of my speed reader project',
-    url: '',
+    url: 'https://speed-reading-douglasyabuki.vercel.app/',
     gitUrl: 'https://github.com/douglasyabuki/speed-reading',
     techs: ['html5', 'css3', 'typescript', 'react', 'vitejs'],
   },
