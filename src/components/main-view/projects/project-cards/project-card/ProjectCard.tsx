@@ -58,7 +58,19 @@ export const ProjectCard = ({
           </div>
         </div>
 
-        <p className="text-text-secondary mb-6 flex-1 text-sm leading-relaxed">{description}</p>
+        <p className="text-text-secondary mb-6 flex-1 text-sm leading-relaxed">
+          {description.text}{' '}
+          {description.href && (
+            <a
+              href={description.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-400 underline hover:text-blue-300"
+            >
+              {description.href}
+            </a>
+          )}
+        </p>
 
         <ProjectTechs techs={techs} />
       </div>

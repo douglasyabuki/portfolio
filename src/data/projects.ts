@@ -3,8 +3,10 @@ import type { ProjectItem } from '@/types/project';
 export const projectList: ProjectItem[] = [
   {
     name: 'Apicultura Nagel',
-    description:
-      'A well-crafted landing page for a beekeeping business, with a focus on tradition, quality, and the work behind beekeeping. Visit https://www.apiculturanagel.com.br/games for a more interactive experience.',
+    description: {
+      text: 'A well-crafted landing page for a beekeeping business, with a focus on tradition, quality, and the work behind beekeeping. Enjoy the interactive experience on',
+      href: 'https://www.apiculturanagel.com.br/games',
+    },
     imageSrc: '/proj-apicultura-nagel.jpg',
     imageAlt: 'Screenshot of apicultura-nagel project',
     url: 'https://www.apiculturanagel.com.br/',
@@ -13,8 +15,9 @@ export const projectList: ProjectItem[] = [
   },
   {
     name: 'Speed Reader',
-    description:
-      'A speed reading app that displays text one word at a time and lets you adjust the reading speed while reading.',
+    description: {
+      text: 'A speed reading app that displays text one word at a time and lets you adjust the reading speed while reading.',
+    },
     imageSrc: '/proj-speed-reader.jpg',
     imageAlt: 'Screenshot of my speed reader project',
     url: 'https://speed-reading-douglasyabuki.vercel.app/',
@@ -23,8 +26,9 @@ export const projectList: ProjectItem[] = [
   },
   {
     name: 'Financy',
-    description:
-      'A full-stack personal finance management app for tracking users, transactions, and categories. The frontend uses React + TypeScript + Vite, while the backend uses Node.js, GraphQL, Prisma, and SQLite/PostgreSQL.',
+    description: {
+      text: 'A full-stack personal finance management app for tracking users, transactions, and categories. The frontend uses React + TypeScript + Vite, while the backend uses Node.js, GraphQL, Prisma, and SQLite/PostgreSQL.',
+    },
     imageSrc: '/proj-financy.jpg',
     imageAlt: 'Screenshot of my financy project',
     url: 'https://douglasyabuki-financy.vercel.app/login',
@@ -44,8 +48,9 @@ export const projectList: ProjectItem[] = [
   },
   {
     name: 'Sudoku Solver',
-    description:
-      'Vite + React + TypeScript sudoku solver app. Has a step by step option that allows you to see the brute-force solution in action.',
+    description: {
+      text: 'Vite + React + TypeScript sudoku solver app. Has a step by step option that allows you to see the brute-force solution in action.',
+    },
     imageSrc: '/proj-sudoku.jpg',
     imageAlt: 'Screenshot of my sudoku-solver project',
     url: 'https://douglas-yabuki-sudoku-solver.vercel.app/',
@@ -54,8 +59,9 @@ export const projectList: ProjectItem[] = [
   },
   {
     name: 'Brevly',
-    description:
-      'A full-stack URL shortener app with a PostgreSQL database hosted on Render. The backend uses Node.js, Drizzle, and Fastify, and is deployed on Render. The frontend is built with Vite, React, and TypeScript, and is deployed on Vercel.',
+    description: {
+      text: 'A full-stack URL shortener app with a PostgreSQL database hosted on Render. The backend uses Node.js, Drizzle, and Fastify, and is deployed on Render. The frontend is built with Vite, React, and TypeScript, and is deployed on Vercel.',
+    },
     imageSrc: '/proj-brevly.jpg',
     imageAlt: 'Screenshot of my brevly project',
     url: 'https://douglas-yabuki-brevly.vercel.app/',
@@ -73,7 +79,7 @@ export const projectList: ProjectItem[] = [
   },
   {
     name: '3D Tic-Tac-Toe',
-    description: 'A 3D tic-tac-toe game created with Solid.js.',
+    description: { text: 'A 3D tic-tac-toe game created with Solid.js.' },
     imageSrc: '/proj-3d-tic-tac-toe.jpg',
     imageAlt: 'Screenshot of my 3D tic-tac-toe project',
     url: 'https://solid-3d-tic-tac-toe.vercel.app/',
@@ -82,8 +88,9 @@ export const projectList: ProjectItem[] = [
   },
   {
     name: 'YujInsights',
-    description:
-      'A learning hub still under development. Vite (React + TypeScript) and Vercel PostgreSQL as database.',
+    description: {
+      text: 'A learning hub still under development. Vite (React + TypeScript) and Vercel PostgreSQL as database.',
+    },
     imageSrc: '/proj-yujinsights.jpg',
     imageAlt: 'Screenshot of my YujInsights project',
     url: 'https://yujinsights.vercel.app/',
@@ -92,8 +99,9 @@ export const projectList: ProjectItem[] = [
   },
   {
     name: 'Rest Countries API',
-    description:
-      'Front End Mentor challenge built in Next (AppRouter) and deployed on Vercel. Includes mock API response. There is a hidden game in this project.',
+    description: {
+      text: 'Front End Mentor challenge built in Next (AppRouter) and deployed on Vercel. Includes mock API response. There is a hidden game in this project.',
+    },
     imageSrc: '/proj-countries.jpg',
     imageAlt: 'Screenshot of my Rest Countries API project',
     url: 'https://rest-countries-api-douglasyabuki.vercel.app/',
@@ -102,8 +110,9 @@ export const projectList: ProjectItem[] = [
   },
   {
     name: 'Portfolio',
-    description:
-      'A portfolio website made with React + TypeScript + tailwindcss made with Vite and deployed on Vercel',
+    description: {
+      text: 'A portfolio website made with React + TypeScript + tailwindcss made with Vite and deployed on Vercel',
+    },
     imageSrc: '/proj-portfolio.jpg',
     imageAlt: 'Screenshot of my portfolio project',
     url: 'https://portfolio-douglasyabuki.vercel.app/',
@@ -112,8 +121,9 @@ export const projectList: ProjectItem[] = [
   },
   {
     name: 'Netflix Clone',
-    description:
-      "Legally cloning Netflix's website with React + TypeScript + tailwindcss on Vite. Consuming API from themoviedb.org.",
+    description: {
+      text: "Legally cloning Netflix's website with React + TypeScript + tailwindcss on Vite. Consuming API from themoviedb.org.",
+    },
     imageSrc: '/proj-netflix.jpg',
     imageAlt: 'Screenshot of my netflix cloning project',
     url: 'https://netflix-clone-pq9zd92oa-douglasyabuki.vercel.app/',
@@ -122,7 +132,7 @@ export const projectList: ProjectItem[] = [
   },
   {
     name: 'Memory Game',
-    description: 'A React + TypeScript memory game using Vite.',
+    description: { text: 'A React + TypeScript memory game using Vite.' },
     imageSrc: '/proj-memory.jpg',
     imageAlt: 'Screenshot of my memory game project',
     url: 'https://react-memory-game-douglasyabuki.vercel.app/',
@@ -131,7 +141,7 @@ export const projectList: ProjectItem[] = [
   },
   {
     name: 'Tic tac toe',
-    description: 'A simple React + TypeScript Tic-Tac-Toe game using Vite.',
+    description: { text: 'A simple React + TypeScript Tic-Tac-Toe game using Vite.' },
     imageSrc: '/proj-tic.jpg',
     imageAlt: 'Screenshot of my Tic Tac Toe project',
     url: 'https://react-tic-tac-toe-douglasyabuki.vercel.app/',
@@ -140,7 +150,7 @@ export const projectList: ProjectItem[] = [
   },
   {
     name: 'Todo list',
-    description: 'The classic todo list using React + TypeScript and Vite.',
+    description: { text: 'The classic todo list using React + TypeScript and Vite.' },
     imageSrc: '/proj-todo.jpg',
     imageAlt: 'Screenshot of my todo list project',
     url: 'https://todo-list-douglasyabuki.vercel.app/',
@@ -149,7 +159,7 @@ export const projectList: ProjectItem[] = [
   },
   {
     name: 'Rock Paper Scissors Lizard & Spock',
-    description: 'Game suggested by Sheldon (Big Bang Theory) built in Angular.',
+    description: { text: 'Game suggested by Sheldon (Big Bang Theory) built in Angular.' },
     imageSrc: '/proj-rock.jpg',
     imageAlt: 'Screenshot of my memory game project',
     url: 'https://douglasyabuki.github.io/rock-paper-scissors/',
