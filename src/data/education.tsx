@@ -6,7 +6,7 @@ export const educationList: EducationItem[] = [
     degree: 'Computer Software Engineering',
     category: 'Postgraduate degree',
     iconName: 'GraduationCap',
-    status: 'In progress',
+    status: 'Concluded',
   },
   {
     institution: 'UNINTER',

@@ -2,12 +2,32 @@ import type { ProjectItem } from '@/types/project';
 
 export const projectList: ProjectItem[] = [
   {
+    name: 'Apicultura Nagel',
+    description:
+      'A well-crafted landing page for a beekeeping business, with a focus on tradition, quality, and the work behind beekeeping. Visit https://www.apiculturanagel.com.br/games for a more interactive experience.',
+    imageSrc: '/proj-apicultura-nagel.jpg',
+    imageAlt: 'Screenshot of apicultura-nagel project',
+    url: 'https://www.apiculturanagel.com.br/',
+    gitUrl: '',
+    techs: ['html5', 'tailwindcss', 'typescript', 'react', 'vitejs'],
+  },
+  {
+    name: 'Speed Reader',
+    description:
+      'A speed reading app that displays text one word at a time and lets you adjust the reading speed while reading.',
+    imageSrc: '/proj-speed-reader.jpg',
+    imageAlt: 'Screenshot of my speed reader project',
+    url: 'https://speed-reading-douglasyabuki.vercel.app/',
+    gitUrl: 'https://github.com/douglasyabuki/speed-reading',
+    techs: ['html5', 'tailwindcss', 'typescript', 'react', 'vitejs'],
+  },
+  {
     name: 'Financy',
     description:
       'A full-stack personal finance management app for tracking users, transactions, and categories. The frontend uses React + TypeScript + Vite, while the backend uses Node.js, GraphQL, Prisma, and SQLite/PostgreSQL.',
     imageSrc: '/proj-financy.jpg',
     imageAlt: 'Screenshot of my financy project',
-    url: '',
+    url: 'https://douglasyabuki-financy.vercel.app/login',
     gitUrl: 'https://github.com/douglasyabuki/financy',
     techs: [
       'html5',
@@ -21,16 +41,6 @@ export const projectList: ProjectItem[] = [
       'sqlite',
       'postgresql',
     ],
-  },
-  {
-    name: 'Speed Reader',
-    description:
-      'A speed reading app that displays text one word at a time and lets you adjust the reading speed while reading.',
-    imageSrc: '/proj-speed-reader.jpg',
-    imageAlt: 'Screenshot of my speed reader project',
-    url: 'https://speed-reading-douglasyabuki.vercel.app/',
-    gitUrl: 'https://github.com/douglasyabuki/speed-reading',
-    techs: ['html5', 'css3', 'typescript', 'react', 'vitejs'],
   },
   {
     name: 'Sudoku Solver',
