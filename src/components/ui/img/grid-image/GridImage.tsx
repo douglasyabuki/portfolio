@@ -139,7 +139,7 @@ export const GridImage = ({
       <img
         src={src}
         alt=""
-        className="invisible relative z-0 h-auto max-h-full w-auto max-w-full object-cover opacity-0"
+        className="invisible relative z-0 h-auto max-h-full w-auto max-w-full object-contain opacity-0"
         aria-hidden="true"
       />
 
@@ -161,7 +161,7 @@ export const GridImage = ({
             src={src}
             alt={alt ? `${alt}-${idx}` : `Pixel piece ${idx + 1}`}
             className={twMerge(
-              'z-1 object-cover',
+              'z-1 h-full w-full object-contain',
               grayscaleAnimation && (showColor ? 'grayscale-0' : 'grayscale'),
             )}
             style={{
