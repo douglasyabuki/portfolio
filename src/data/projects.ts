@@ -2,6 +2,17 @@ import type { ProjectItem } from '@/types/project';
 
 export const projectList: ProjectItem[] = [
   {
+    name: 'Cost Wise Cursor',
+    description: {
+      text: 'A dashboard for comparing Cursor AI models across coding benchmarks, performance, and cost efficiency.',
+    },
+    imageSrc: '/proj-cost-wise-cursor.jpg',
+    imageAlt: 'Screenshot of my Cost Wise Cursor project',
+    url: 'https://cost-wise-cursor-douglasyabuki.vercel.app/',
+    gitUrl: 'https://github.com/douglasyabuki/cost-wise-cursor',
+    techs: ['html5', 'tailwindcss', 'typescript', 'react', 'vitejs'],
+  },
+  {
     name: 'Apicultura Nagel',
     description: {
       text: 'A well-crafted landing page for a beekeeping business, with a focus on tradition, quality, and the work behind beekeeping. Enjoy the interactive experience on',
@@ -56,6 +67,17 @@ export const projectList: ProjectItem[] = [
     url: 'https://douglas-yabuki-sudoku-solver.vercel.app/',
     gitUrl: 'https://github.com/douglasyabuki/sudoku-solver',
     techs: ['html5', 'tailwindcss', 'typescript', 'react', 'vitejs'],
+  },
+  {
+    name: 'Solid Memory Game',
+    description: {
+      text: 'A memory card game built with Solid.js, TypeScript, and Vite.',
+    },
+    imageSrc: '/proj-solid-memory-game.jpg',
+    imageAlt: 'Screenshot of my Solid Memory Game project',
+    url: 'https://solid-memory-game.vercel.app/',
+    gitUrl: 'https://github.com/douglasyabuki/memory-game',
+    techs: ['html5', 'css3', 'typescript', 'solidjs', 'vitejs'],
   },
   {
     name: 'Brevly',
@@ -117,17 +139,6 @@ export const projectList: ProjectItem[] = [
     imageAlt: 'Screenshot of my portfolio project',
     url: 'https://portfolio-douglasyabuki.vercel.app/',
     gitUrl: 'https://github.com/douglasyabuki/portfolio',
-    techs: ['html5', 'tailwindcss', 'typescript', 'react', 'vitejs'],
-  },
-  {
-    name: 'Netflix Clone',
-    description: {
-      text: "Legally cloning Netflix's website with React + TypeScript + tailwindcss on Vite. Consuming API from themoviedb.org.",
-    },
-    imageSrc: '/proj-netflix.jpg',
-    imageAlt: 'Screenshot of my netflix cloning project',
-    url: 'https://netflix-clone-pq9zd92oa-douglasyabuki.vercel.app/',
-    gitUrl: 'https://github.com/douglasyabuki/netflix-clone',
     techs: ['html5', 'tailwindcss', 'typescript', 'react', 'vitejs'],
   },
   {
