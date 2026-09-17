@@ -5,7 +5,7 @@ export const Home = () => {
   return (
     <section id="home" className="relative flex min-h-screen w-full flex-col justify-center">
       <ParticlesBackground className="h-full w-full" />
-      <div className="container-max flex min-h-screen flex-col justify-center pt-20 pb-32">
+      <div className="container-max flex min-h-screen flex-col justify-center pt-26 pb-26">
         <div className="glass-panel relative z-10 max-w-3xl rounded-3xl p-8 md:p-12">
           <h1 className="mb-6 text-5xl font-bold tracking-tight text-white md:text-7xl lg:text-8xl">
             Building the future <br />
