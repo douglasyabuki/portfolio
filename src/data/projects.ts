@@ -2,6 +2,17 @@ import type { ProjectItem } from '@/types/project';
 
 export const projectList: ProjectItem[] = [
   {
+    name: 'Chroma',
+    description: {
+      text: 'A color theme builder that turns a single source color into a complete Material 3 or shadcn color system.',
+    },
+    imageSrc: '/project-chroma.jpg',
+    imageAlt: 'Screenshot of my Chroma color theme builder',
+    url: 'https://douglasyabuki-chroma.vercel.app/',
+    gitUrl: 'https://github.com/douglasyabuki/chroma',
+    techs: ['html5', 'tailwindcss', 'typescript', 'react', 'vitejs'],
+  },
+  {
     name: 'Cost Wise Cursor',
     description: {
       text: 'A dashboard for comparing Cursor AI models across coding benchmarks, performance, and cost efficiency.',
