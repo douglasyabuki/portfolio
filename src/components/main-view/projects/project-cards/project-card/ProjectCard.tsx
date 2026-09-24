@@ -1,7 +1,6 @@
 import { Icons } from '@/icons/Icons';
 import type { ProjectItem } from '@/types/project';
 
-import { GridImage } from '@/components/ui/img/grid-image/GridImage';
 import { Portal } from '@/components/ui/portal/Portal';
 import { useState } from 'react';
 import { ProjectTechs } from './ProjectTechs';
@@ -92,12 +91,10 @@ export const ProjectCard = ({
           >
             <Icons.X className="h-8 w-8" />
           </button>
-          <GridImage
+          <img
             src={imageSrc}
             alt={imageAlt}
-            className="max-h-[80vh] max-w-[90vw] rounded-lg shadow-2xl"
-            rows={6}
-            cols={6}
+            className="block h-auto w-auto max-h-[80vh] max-w-[90vw] rounded-lg object-contain shadow-2xl"
           />
         </div>
       </Portal>
