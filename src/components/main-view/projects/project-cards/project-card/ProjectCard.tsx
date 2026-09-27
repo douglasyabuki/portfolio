@@ -82,7 +82,7 @@ export const ProjectCard = ({
         className="z-[60]"
       >
         <div
-          className="relative flex max-h-[90vh] max-w-[90vw] flex-col items-center justify-center outline-none"
+          className="relative flex flex-col items-center justify-center outline-none"
           onClick={(e) => e.stopPropagation()}
         >
           <button
@@ -95,9 +95,7 @@ export const ProjectCard = ({
           <GridImage
             src={imageSrc}
             alt={imageAlt}
-            className="max-h-[80vh] max-w-[90vw] rounded-lg shadow-2xl"
-            rows={6}
-            cols={6}
+            className="block h-auto w-auto max-h-[80vh] max-w-[90vw] rounded-lg object-contain"
           />
         </div>
       </Portal>
