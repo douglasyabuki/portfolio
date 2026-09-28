@@ -153,15 +153,6 @@ export const projectList: ProjectItem[] = [
     techs: ['html5', 'tailwindcss', 'typescript', 'react', 'vitejs'],
   },
   {
-    name: 'Todo list',
-    description: { text: 'The classic todo list using React + TypeScript and Vite.' },
-    imageSrc: '/proj-todo.jpg',
-    imageAlt: 'Screenshot of my todo list project',
-    url: 'https://todo-list-douglasyabuki.vercel.app/',
-    gitUrl: 'https://github.com/douglasyabuki/todo-list',
-    techs: ['html5', 'css3', 'typescript', 'react', 'vitejs'],
-  },
-  {
     name: 'Rock Paper Scissors Lizard & Spock',
     description: { text: 'Game suggested by Sheldon (Big Bang Theory) built in Angular.' },
     imageSrc: '/proj-rock.jpg',
