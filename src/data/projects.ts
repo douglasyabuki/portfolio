@@ -2,6 +2,26 @@ import type { ProjectItem } from '@/types/project';
 
 export const projectList: ProjectItem[] = [
   {
+    name: 'Dayplan',
+    description: {
+      text: 'A task planner with projects, recurring tasks, Kanban boards, and calendar scheduling.',
+    },
+    imageSrc: '/project-dayplan.jpg',
+    imageAlt: 'Screenshot of my Dayplan task planner',
+    url: 'https://douglasyabuki-dayplan.vercel.app/',
+    gitUrl: 'https://github.com/douglasyabuki/dayplan',
+    techs: [
+      'html5',
+      'tailwindcss',
+      'typescript',
+      'react',
+      'nextjs',
+      'prisma',
+      'postgresql',
+      'oauth',
+    ],
+  },
+  {
     name: 'Chroma',
     description: {
       text: 'A color theme builder that turns a single source color into a complete Material 3 or shadcn color system.',
