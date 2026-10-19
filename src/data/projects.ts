@@ -2,6 +2,17 @@ import type { ProjectItem } from '@/types/project';
 
 export const projectList: ProjectItem[] = [
   {
+    name: 'Flow Mapper',
+    description: {
+      text: 'An interactive architecture diagram tool for mapping system flows, connecting services, and presenting scenarios step by step.',
+    },
+    imageSrc: '/project-flow-mapper.jpg',
+    imageAlt: 'Screenshot of my Flow Mapper architecture diagram tool',
+    url: 'https://flow-mapper-douglasyabuki.vercel.app/',
+    gitUrl: 'https://github.com/douglasyabuki/flow-mapper',
+    techs: ['html5', 'tailwindcss', 'typescript', 'react', 'vitejs', 'threejs'],
+  },
+  {
     name: 'Dayplan',
     description: {
       text: 'A task planner with projects, recurring tasks, Kanban boards, and calendar scheduling.',
